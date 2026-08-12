@@ -13,12 +13,13 @@ Equi-cDFT library itself is maintained at
 - `evaluation/`: scripts that run the model tests and applications, analyze
   the outputs, and generate the figures; reference simulation inputs are kept
   beside the corresponding application scripts.
+- `reference_data/`: compressed held-out and reference datasets used for the
+  reported benchmarks and applications.
 - `source_data/`: numerical data underlying the paper figures.
 
-The full processed density fields and reference-simulation outputs will be
-deposited with the paper in a single archival data record. They are not stored
-in Git. Extracting that record into `data/` supplies the default input paths
-used by the evaluation scripts.
+The training and validation corpus is not included. The released model and the
+compressed evaluation datasets are sufficient to recompute the reported model
+benchmarks and applications.
 
 ## Environment
 
@@ -42,12 +43,22 @@ grid. Numerical values use reduced Lennard-Jones units with
 `epsilon = sigma = m = k_B = 1`; the pair potential is truncated and shifted
 at `r_c = 2.5 sigma`.
 
+The exact split is recorded in `manifests/split_manifest.json`. Only the 1,592
+held-out fields are distributed here; the training and validation fields are
+not part of this repository.
+
 ## Reproduction
 
-To train the released architecture, run `training/train.py` with the four
-processed-data directories and `manifests/split_manifest.json`. The production
-choices are `--max-power 3`, `--cutoff-grid 3`, `--free-energy-mode beta`, and
-200 epochs; all other settings are recorded in `model/run_config.json`.
+First extract the compressed reference datasets:
+
+```bash
+python unpack_reference_data.py
+```
+
+This creates the ignored working directory `data/` using the paths expected by
+the evaluation scripts. Training code and the exact production configuration
+are retained for transparency, but reproducing the fit itself requires the
+unreleased training corpus.
 
 The model tests are run by:
 
