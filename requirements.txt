@@ -1,0 +1,10 @@
+ase>=3.22
+matplotlib>=3.8
+numpy>=1.26
+pandas>=2.0
+pymupdf>=1.24
+pypdf>=4.0
+scipy>=1.11
+scikit-image>=0.22
+torch>=2.0
+git+https://github.com/BingqingCheng/equicdft.git@ba9419124a32cd39aedc52438be1a6b0535d78d8

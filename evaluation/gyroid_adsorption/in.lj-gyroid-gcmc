@@ -1,0 +1,127 @@
+# Hybrid MD/GCMC LJ fluid in the soft periodic gyroid pore.
+#
+# Reduced units: epsilon = sigma = mass = k_B = 1.
+
+variable T index 1.2
+variable mu index -3.4031878
+variable box_length index 16.0
+variable initial_particles index 205
+variable run_seed index 9082026
+
+variable g0 index 0.0
+variable wall_height index 8.0
+variable wall_width index 0.35
+variable q equal 2.0*PI/v_box_length
+
+variable nequil index 400000
+variable nsteps index 4000000
+variable density_sample_every index 20
+variable density_block_steps index 200000
+variable number_sample_every index 20
+variable dump_every index 10000
+variable grid_spacing index 0.5
+variable gcmc_every index 50
+variable gcmc_exchanges index 20
+
+variable density_block_samples equal v_density_block_steps/v_density_sample_every
+variable density_total_samples equal v_nsteps/v_density_sample_every
+variable placement_seed equal v_run_seed+1
+variable velocity_seed equal v_run_seed+2
+variable gcmc_seed_equil equal v_run_seed+3
+variable gcmc_seed_prod equal v_run_seed+4
+variable minimum_initial_separation index 0.60
+
+units lj
+dimension 3
+atom_style atomic
+boundary p p p
+
+region simbox block 0 ${box_length} 0 ${box_length} 0 ${box_length} units box
+create_box 1 simbox
+
+# Initial particles are placed on the accessible side. GCMC samples the full
+# box; no insertion region is imposed.
+variable xtrial internal 0.0
+variable ytrial internal 0.0
+variable ztrial internal 0.0
+variable gtrial equal sin(v_q*v_xtrial)*cos(v_q*v_ytrial)+sin(v_q*v_ytrial)*cos(v_q*v_ztrial)+sin(v_q*v_ztrial)*cos(v_q*v_xtrial)
+variable accept equal v_gtrial>v_g0+0.30
+create_atoms 1 random ${initial_particles} ${placement_seed} NULL var accept set x xtrial set y ytrial set z ztrial overlap ${minimum_initial_separation} maxtry 10000000 units box
+
+mass 1 1.0
+group fluid type 1
+
+pair_style lj/cut 2.5
+pair_coeff 1 1 1.0 1.0 2.5
+pair_modify shift yes
+neighbor 0.3 bin
+neigh_modify delay 0 every 1 check yes
+
+# Analytic gyroid potential and its negative gradient.
+variable g atom sin(v_q*x)*cos(v_q*y)+sin(v_q*y)*cos(v_q*z)+sin(v_q*z)*cos(v_q*x)
+variable eg atom exp((v_g-v_g0)/v_wall_width)
+variable Vext atom v_wall_height/(1.0+v_eg)
+variable Ag atom v_wall_height*v_eg/(v_wall_width*(1.0+v_eg)*(1.0+v_eg))
+variable dgdx atom v_q*(cos(v_q*x)*cos(v_q*y)-sin(v_q*z)*sin(v_q*x))
+variable dgdy atom v_q*(-sin(v_q*x)*sin(v_q*y)+cos(v_q*y)*cos(v_q*z))
+variable dgdz atom v_q*(-sin(v_q*y)*sin(v_q*z)+cos(v_q*z)*cos(v_q*x))
+variable Fx atom v_Ag*v_dgdx
+variable Fy atom v_Ag*v_dgdy
+variable Fz atom v_Ag*v_dgdz
+
+fix field fluid addforce v_Fx v_Fy v_Fz energy v_Vext
+fix_modify field energy yes
+
+min_style cg
+min_modify dmax 0.05
+minimize 1.0e-3 1.0e-2 100 1000
+
+velocity fluid create ${T} ${velocity_seed} mom yes rot no dist gaussian
+compute tfluid fluid temp
+compute_modify tfluid dynamic/dof yes
+fix dynamics fluid nve
+fix thermostat fluid langevin ${T} ${T} 0.5 ${velocity_seed}
+
+# full_energy includes the analytic external-field energy in exchange moves.
+fix reservoir fluid gcmc ${gcmc_every} ${gcmc_exchanges} 0 1 ${gcmc_seed_equil} ${T} ${mu} 0.5 full_energy
+
+variable nfluid equal count(fluid)
+variable rhobox equal v_nfluid/vol
+variable pore_mask atom v_g>v_g0
+compute pore_count fluid reduce sum v_pore_mask
+
+timestep 0.005
+thermo 1000
+thermo_style custom step atoms v_nfluid v_rhobox c_pore_count c_tfluid press pe ke etotal f_field f_reservoir[3] f_reservoir[4] f_reservoir[5] f_reservoir[6]
+thermo_modify norm no flush yes
+
+run ${nequil}
+
+# Start production with independent GCMC counters and random stream.
+unfix reservoir
+reset_timestep 0
+fix reservoir fluid gcmc ${gcmc_every} ${gcmc_exchanges} 0 1 ${gcmc_seed_prod} ${T} ${mu} 0.5 full_energy
+
+dump trajectory fluid custom ${dump_every} trajectory.lammpstrj id type x y z v_g v_Vext
+dump_modify trajectory sort id
+
+compute density_bins_blocks fluid chunk/atom bin/3d x lower ${grid_spacing} y lower ${grid_spacing} z lower ${grid_spacing} units box compress no
+compute density_bins_average fluid chunk/atom bin/3d x lower ${grid_spacing} y lower ${grid_spacing} z lower ${grid_spacing} units box compress no
+
+# Independent 200,000-step blocks for grid-level uncertainty estimates.
+fix density_blocks fluid ave/chunk ${density_sample_every} ${density_block_samples} ${density_block_steps} density_bins_blocks density/number norm sample ave one file density_grid_blocks.dat title1 "# Block-averaged density: gyroid GCMC" title2 "# Timestep Number-of-bins" title3 "# Bin x y z mean_count rho"
+
+# One density average over the full production trajectory.
+fix density_average fluid ave/chunk ${density_sample_every} ${density_total_samples} ${nsteps} density_bins_average density/number norm sample ave one file density_grid.dat title1 "# Production-averaged density: gyroid GCMC" title2 "# Timestep Number-of-bins" title3 "# Bin x y z mean_count rho"
+
+# Raw loading samples. Final columns are cumulative insertion attempts,
+# insertion successes, deletion attempts, and deletion successes.
+fix number_series all ave/time ${number_sample_every} 1 ${number_sample_every} v_nfluid c_pore_count f_reservoir[3] f_reservoir[4] f_reservoir[5] f_reservoir[6] ave one file particle_number_timeseries.dat title1 "# step N N_pore insertion_attempts insertion_successes deletion_attempts deletion_successes"
+
+run ${nsteps}
+
+undump trajectory
+unfix density_blocks
+unfix density_average
+unfix number_series
+write_data final.data

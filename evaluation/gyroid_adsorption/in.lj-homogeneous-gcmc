@@ -1,0 +1,77 @@
+# Hybrid MD/GCMC homogeneous LJTS fluid for reservoir validation.
+# There is no external potential or external force: V_ext(r) = 0.
+#
+# Reduced units: epsilon = sigma = mass = k_B = 1. In units lj, LAMMPS uses
+# a thermal wavelength of one in the chemical-potential convention.
+
+variable T index 1.2
+variable mu index -3.4031878
+variable box_length index 16.0
+variable initial_particles index 410
+variable run_seed index 9182026
+
+variable nequil index 400000
+variable nsteps index 4000000
+variable number_sample_every index 20
+variable dump_every index 10000
+variable gcmc_every index 50
+variable gcmc_exchanges index 20
+
+variable placement_seed equal v_run_seed+1
+variable velocity_seed equal v_run_seed+2
+variable gcmc_seed_equil equal v_run_seed+3
+variable gcmc_seed_prod equal v_run_seed+4
+variable minimum_initial_separation index 0.60
+
+units lj
+dimension 3
+atom_style atomic
+boundary p p p
+
+region simbox block 0 ${box_length} 0 ${box_length} 0 ${box_length} units box
+create_box 1 simbox
+create_atoms 1 random ${initial_particles} ${placement_seed} NULL overlap ${minimum_initial_separation} maxtry 10000000 units box
+
+mass 1 1.0
+group fluid type 1
+pair_style lj/cut 2.5
+pair_coeff 1 1 1.0 1.0 2.5
+pair_modify shift yes
+neighbor 0.3 bin
+neigh_modify delay 0 every 1 check yes
+
+min_style cg
+min_modify dmax 0.05
+minimize 1.0e-3 1.0e-2 100 1000
+
+velocity fluid create ${T} ${velocity_seed} mom yes rot no dist gaussian
+compute tfluid fluid temp
+compute_modify tfluid dynamic/dof yes
+fix dynamics fluid nve
+fix thermostat fluid langevin ${T} ${T} 0.5 ${velocity_seed}
+fix reservoir fluid gcmc ${gcmc_every} ${gcmc_exchanges} 0 1 ${gcmc_seed_equil} ${T} ${mu} 0.5
+
+variable nfluid equal count(fluid)
+variable rhofluid equal v_nfluid/vol
+
+timestep 0.005
+thermo 1000
+thermo_style custom step atoms v_nfluid v_rhofluid c_tfluid press pe ke etotal f_reservoir[3] f_reservoir[4] f_reservoir[5] f_reservoir[6]
+thermo_modify norm no flush yes
+
+run ${nequil}
+
+unfix reservoir
+reset_timestep 0
+fix reservoir fluid gcmc ${gcmc_every} ${gcmc_exchanges} 0 1 ${gcmc_seed_prod} ${T} ${mu} 0.5
+
+dump trajectory fluid custom ${dump_every} trajectory.lammpstrj id type x y z
+dump_modify trajectory sort id
+
+fix number_series all ave/time ${number_sample_every} 1 ${number_sample_every} v_nfluid v_rhofluid f_reservoir[3] f_reservoir[4] f_reservoir[5] f_reservoir[6] ave one file particle_number_timeseries.dat title1 "# step N rho insertion_attempts insertion_successes deletion_attempts deletion_successes"
+
+run ${nsteps}
+
+undump trajectory
+unfix number_series
+write_data final.data

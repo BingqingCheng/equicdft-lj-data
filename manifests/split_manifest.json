@@ -1,0 +1,2214 @@
+{
+  "name": "comprehensive_nvt_L8_grid0.5",
+  "held_out_temperatures": [
+    0.7,
+    1.1,
+    1.5
+  ],
+  "valid_fraction_within_source_file": 0.1,
+  "seed": 1,
+  "totals": {
+    "train": 8427,
+    "valid": 938,
+    "test": 1592
+  },
+  "sources": [
+    {
+      "collection": "general",
+      "filename": "nvt-T0.7-0.5sigma.extxyz",
+      "temperature": 0.7,
+      "field_family": "general_3D",
+      "frames": 222,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T0.8-0.5sigma.extxyz",
+      "temperature": 0.8,
+      "field_family": "general_3D",
+      "frames": 222,
+      "partition": "development",
+      "valid_frame_indices": [
+        19,
+        20,
+        22,
+        24,
+        28,
+        45,
+        50,
+        65,
+        68,
+        69,
+        94,
+        107,
+        108,
+        113,
+        121,
+        142,
+        161,
+        171,
+        192,
+        200,
+        206,
+        212
+      ]
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T0.9-0.5sigma.extxyz",
+      "temperature": 0.9,
+      "field_family": "general_3D",
+      "frames": 222,
+      "partition": "development",
+      "valid_frame_indices": [
+        13,
+        21,
+        39,
+        43,
+        49,
+        54,
+        70,
+        72,
+        84,
+        87,
+        103,
+        106,
+        121,
+        122,
+        127,
+        128,
+        155,
+        163,
+        187,
+        188,
+        193,
+        210
+      ]
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1-0.5sigma.extxyz",
+      "temperature": 1.0,
+      "field_family": "general_3D",
+      "frames": 222,
+      "partition": "development",
+      "valid_frame_indices": [
+        2,
+        6,
+        25,
+        34,
+        44,
+        50,
+        55,
+        60,
+        73,
+        75,
+        78,
+        97,
+        105,
+        115,
+        141,
+        143,
+        148,
+        159,
+        179,
+        194,
+        197,
+        219
+      ]
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1.1-0.5sigma.extxyz",
+      "temperature": 1.1,
+      "field_family": "general_3D",
+      "frames": 222,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1.2-0.5sigma.extxyz",
+      "temperature": 1.2,
+      "field_family": "general_3D",
+      "frames": 222,
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        14,
+        18,
+        29,
+        31,
+        36,
+        37,
+        50,
+        76,
+        80,
+        92,
+        99,
+        105,
+        114,
+        121,
+        128,
+        136,
+        159,
+        163,
+        171,
+        189,
+        191
+      ]
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1.3-0.5sigma.extxyz",
+      "temperature": 1.3,
+      "field_family": "general_3D",
+      "frames": 222,
+      "partition": "development",
+      "valid_frame_indices": [
+        5,
+        25,
+        36,
+        42,
+        66,
+        73,
+        92,
+        101,
+        105,
+        114,
+        121,
+        124,
+        140,
+        141,
+        144,
+        152,
+        154,
+        163,
+        170,
+        181,
+        206,
+        220
+      ]
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1.4-0.5sigma.extxyz",
+      "temperature": 1.4,
+      "field_family": "general_3D",
+      "frames": 222,
+      "partition": "development",
+      "valid_frame_indices": [
+        6,
+        11,
+        24,
+        25,
+        27,
+        34,
+        39,
+        81,
+        98,
+        106,
+        109,
+        110,
+        121,
+        151,
+        162,
+        168,
+        177,
+        191,
+        197,
+        199,
+        212,
+        215
+      ]
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1.5-0.5sigma.extxyz",
+      "temperature": 1.5,
+      "field_family": "general_3D",
+      "frames": 222,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1.6-0.5sigma.extxyz",
+      "temperature": 1.6,
+      "field_family": "general_3D",
+      "frames": 222,
+      "partition": "development",
+      "valid_frame_indices": [
+        5,
+        36,
+        49,
+        57,
+        58,
+        62,
+        66,
+        67,
+        71,
+        72,
+        84,
+        92,
+        94,
+        112,
+        120,
+        126,
+        133,
+        142,
+        147,
+        149,
+        175,
+        197
+      ]
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1.7-0.5sigma.extxyz",
+      "temperature": 1.7,
+      "field_family": "general_3D",
+      "frames": 222,
+      "partition": "development",
+      "valid_frame_indices": [
+        6,
+        7,
+        18,
+        24,
+        33,
+        38,
+        50,
+        58,
+        67,
+        85,
+        88,
+        91,
+        104,
+        106,
+        113,
+        120,
+        129,
+        170,
+        181,
+        190,
+        208,
+        213
+      ]
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1.8-0.5sigma.extxyz",
+      "temperature": 1.8,
+      "field_family": "general_3D",
+      "frames": 222,
+      "partition": "development",
+      "valid_frame_indices": [
+        10,
+        43,
+        48,
+        57,
+        64,
+        66,
+        67,
+        98,
+        116,
+        120,
+        125,
+        132,
+        136,
+        139,
+        158,
+        161,
+        163,
+        171,
+        173,
+        176,
+        179,
+        193
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T0.7-1D-0.5sigma.extxyz",
+      "temperature": 0.7,
+      "field_family": "1D",
+      "frames": 72,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T0.7-2D-0.5sigma.extxyz",
+      "temperature": 0.7,
+      "field_family": "2D",
+      "frames": 72,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T0.8-1D-0.5sigma.extxyz",
+      "temperature": 0.8,
+      "field_family": "1D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        2,
+        12,
+        22,
+        49,
+        59,
+        60,
+        65
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T0.8-2D-0.5sigma.extxyz",
+      "temperature": 0.8,
+      "field_family": "2D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        9,
+        19,
+        23,
+        28,
+        47,
+        59,
+        67
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T0.9-1D-0.5sigma.extxyz",
+      "temperature": 0.9,
+      "field_family": "1D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        20,
+        26,
+        41,
+        50,
+        58,
+        70
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T0.9-2D-0.5sigma.extxyz",
+      "temperature": 0.9,
+      "field_family": "2D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        12,
+        18,
+        20,
+        22,
+        35,
+        54,
+        56
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1-1D-0.5sigma.extxyz",
+      "temperature": 1.0,
+      "field_family": "1D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        23,
+        24,
+        28,
+        30,
+        31,
+        40,
+        61
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1-2D-0.5sigma.extxyz",
+      "temperature": 1.0,
+      "field_family": "2D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        11,
+        22,
+        39,
+        45,
+        51,
+        54,
+        60
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.1-1D-0.5sigma.extxyz",
+      "temperature": 1.1,
+      "field_family": "1D",
+      "frames": 72,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.1-2D-0.5sigma.extxyz",
+      "temperature": 1.1,
+      "field_family": "2D",
+      "frames": 72,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.2-1D-0.5sigma.extxyz",
+      "temperature": 1.2,
+      "field_family": "1D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        5,
+        11,
+        22,
+        27,
+        47,
+        60,
+        62
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.2-2D-0.5sigma.extxyz",
+      "temperature": 1.2,
+      "field_family": "2D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        9,
+        28,
+        30,
+        34,
+        44,
+        59,
+        64
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.3-1D-0.5sigma.extxyz",
+      "temperature": 1.3,
+      "field_family": "1D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        1,
+        3,
+        6,
+        16,
+        18,
+        54,
+        64
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.3-2D-0.5sigma.extxyz",
+      "temperature": 1.3,
+      "field_family": "2D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        10,
+        24,
+        30,
+        47,
+        49,
+        50,
+        62
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.4-1D-0.5sigma.extxyz",
+      "temperature": 1.4,
+      "field_family": "1D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        1,
+        23,
+        37,
+        38,
+        55,
+        56,
+        68
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.4-2D-0.5sigma.extxyz",
+      "temperature": 1.4,
+      "field_family": "2D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        33,
+        47,
+        49,
+        57,
+        58,
+        60,
+        61
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.5-1D-0.5sigma.extxyz",
+      "temperature": 1.5,
+      "field_family": "1D",
+      "frames": 72,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.5-2D-0.5sigma.extxyz",
+      "temperature": 1.5,
+      "field_family": "2D",
+      "frames": 72,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.6-1D-0.5sigma.extxyz",
+      "temperature": 1.6,
+      "field_family": "1D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        17,
+        20,
+        21,
+        25,
+        29,
+        33,
+        56
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.6-2D-0.5sigma.extxyz",
+      "temperature": 1.6,
+      "field_family": "2D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        6,
+        11,
+        44,
+        51,
+        58,
+        60,
+        66
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.7-1D-0.5sigma.extxyz",
+      "temperature": 1.7,
+      "field_family": "1D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        0,
+        9,
+        10,
+        18,
+        22,
+        28,
+        35
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.7-2D-0.5sigma.extxyz",
+      "temperature": 1.7,
+      "field_family": "2D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        13,
+        33,
+        34,
+        36,
+        47,
+        51,
+        67
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.8-1D-0.5sigma.extxyz",
+      "temperature": 1.8,
+      "field_family": "1D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        18,
+        30,
+        34,
+        42,
+        47,
+        50,
+        68
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.8-2D-0.5sigma.extxyz",
+      "temperature": 1.8,
+      "field_family": "2D",
+      "frames": 72,
+      "partition": "development",
+      "valid_frame_indices": [
+        6,
+        23,
+        25,
+        34,
+        44,
+        51,
+        64
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T0.7-mixed-0.5sigma.extxyz",
+      "temperature": 0.7,
+      "field_family": "mixed",
+      "frames": 144,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T0.8-mixed-0.5sigma.extxyz",
+      "temperature": 0.8,
+      "field_family": "mixed",
+      "frames": 144,
+      "partition": "development",
+      "valid_frame_indices": [
+        13,
+        41,
+        48,
+        56,
+        62,
+        63,
+        67,
+        73,
+        75,
+        84,
+        114,
+        121,
+        136,
+        139
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T0.9-mixed-0.5sigma.extxyz",
+      "temperature": 0.9,
+      "field_family": "mixed",
+      "frames": 144,
+      "partition": "development",
+      "valid_frame_indices": [
+        3,
+        5,
+        33,
+        34,
+        58,
+        70,
+        78,
+        82,
+        90,
+        99,
+        102,
+        132,
+        137,
+        139
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1-mixed-0.5sigma.extxyz",
+      "temperature": 1.0,
+      "field_family": "mixed",
+      "frames": 144,
+      "partition": "development",
+      "valid_frame_indices": [
+        8,
+        17,
+        26,
+        44,
+        67,
+        82,
+        90,
+        102,
+        106,
+        114,
+        123,
+        128,
+        140,
+        141
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1.1-mixed-0.5sigma.extxyz",
+      "temperature": 1.1,
+      "field_family": "mixed",
+      "frames": 144,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1.2-mixed-0.5sigma.extxyz",
+      "temperature": 1.2,
+      "field_family": "mixed",
+      "frames": 144,
+      "partition": "development",
+      "valid_frame_indices": [
+        31,
+        36,
+        47,
+        52,
+        56,
+        72,
+        98,
+        107,
+        122,
+        124,
+        130,
+        134,
+        135,
+        142
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1.3-mixed-0.5sigma.extxyz",
+      "temperature": 1.3,
+      "field_family": "mixed",
+      "frames": 144,
+      "partition": "development",
+      "valid_frame_indices": [
+        10,
+        21,
+        34,
+        42,
+        73,
+        74,
+        88,
+        89,
+        91,
+        95,
+        106,
+        109,
+        115,
+        131
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1.4-mixed-0.5sigma.extxyz",
+      "temperature": 1.4,
+      "field_family": "mixed",
+      "frames": 144,
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        6,
+        7,
+        31,
+        37,
+        50,
+        64,
+        69,
+        86,
+        92,
+        99,
+        127,
+        128,
+        140
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1.5-mixed-0.5sigma.extxyz",
+      "temperature": 1.5,
+      "field_family": "mixed",
+      "frames": 144,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1.6-mixed-0.5sigma.extxyz",
+      "temperature": 1.6,
+      "field_family": "mixed",
+      "frames": 144,
+      "partition": "development",
+      "valid_frame_indices": [
+        6,
+        20,
+        22,
+        32,
+        33,
+        35,
+        38,
+        45,
+        55,
+        63,
+        75,
+        96,
+        100,
+        108
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1.7-mixed-0.5sigma.extxyz",
+      "temperature": 1.7,
+      "field_family": "mixed",
+      "frames": 144,
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        8,
+        17,
+        37,
+        41,
+        61,
+        67,
+        81,
+        84,
+        89,
+        95,
+        107,
+        116,
+        125
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1.8-mixed-0.5sigma.extxyz",
+      "temperature": 1.8,
+      "field_family": "mixed",
+      "frames": 144,
+      "partition": "development",
+      "valid_frame_indices": [
+        10,
+        28,
+        52,
+        56,
+        60,
+        67,
+        69,
+        80,
+        93,
+        94,
+        95,
+        98,
+        127,
+        136
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.625-1D-0.5sigma.extxyz",
+      "temperature": 0.625,
+      "field_family": "1D",
+      "frames": 80,
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        9,
+        19,
+        23,
+        36,
+        41,
+        48,
+        50
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.625-2D-0.5sigma.extxyz",
+      "temperature": 0.625,
+      "field_family": "2D",
+      "frames": 80,
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        14,
+        16,
+        26,
+        35,
+        48,
+        68,
+        77
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.625-3D-0.5sigma.extxyz",
+      "temperature": 0.625,
+      "field_family": "3D",
+      "frames": 111,
+      "partition": "development",
+      "valid_frame_indices": [
+        0,
+        2,
+        12,
+        24,
+        35,
+        39,
+        44,
+        48,
+        51,
+        80,
+        83
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.625-mixed-0.5sigma.extxyz",
+      "temperature": 0.625,
+      "field_family": "mixed",
+      "frames": 147,
+      "partition": "development",
+      "valid_frame_indices": [
+        0,
+        35,
+        43,
+        51,
+        64,
+        67,
+        81,
+        87,
+        101,
+        104,
+        114,
+        122,
+        139,
+        144,
+        146
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.65-1D-0.5sigma.extxyz",
+      "temperature": 0.65,
+      "field_family": "1D",
+      "frames": 80,
+      "partition": "development",
+      "valid_frame_indices": [
+        1,
+        2,
+        9,
+        21,
+        31,
+        56,
+        57,
+        64
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.65-2D-0.5sigma.extxyz",
+      "temperature": 0.65,
+      "field_family": "2D",
+      "frames": 80,
+      "partition": "development",
+      "valid_frame_indices": [
+        10,
+        50,
+        59,
+        60,
+        66,
+        68,
+        72,
+        73
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.65-3D-0.5sigma.extxyz",
+      "temperature": 0.65,
+      "field_family": "3D",
+      "frames": 111,
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        8,
+        25,
+        27,
+        51,
+        58,
+        62,
+        65,
+        73,
+        75,
+        94
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.65-mixed-0.5sigma.extxyz",
+      "temperature": 0.65,
+      "field_family": "mixed",
+      "frames": 151,
+      "partition": "development",
+      "valid_frame_indices": [
+        5,
+        11,
+        47,
+        56,
+        65,
+        78,
+        82,
+        85,
+        104,
+        105,
+        115,
+        123,
+        129,
+        143,
+        145
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.675-1D-0.5sigma.extxyz",
+      "temperature": 0.675,
+      "field_family": "1D",
+      "frames": 79,
+      "partition": "development",
+      "valid_frame_indices": [
+        18,
+        30,
+        31,
+        41,
+        56,
+        59,
+        64,
+        75
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.675-2D-0.5sigma.extxyz",
+      "temperature": 0.675,
+      "field_family": "2D",
+      "frames": 79,
+      "partition": "development",
+      "valid_frame_indices": [
+        5,
+        23,
+        26,
+        34,
+        49,
+        56,
+        60,
+        78
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.675-3D-0.5sigma.extxyz",
+      "temperature": 0.675,
+      "field_family": "3D",
+      "frames": 111,
+      "partition": "development",
+      "valid_frame_indices": [
+        27,
+        29,
+        31,
+        32,
+        48,
+        68,
+        88,
+        97,
+        99,
+        101,
+        109
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.675-mixed-0.5sigma.extxyz",
+      "temperature": 0.675,
+      "field_family": "mixed",
+      "frames": 148,
+      "partition": "development",
+      "valid_frame_indices": [
+        27,
+        30,
+        36,
+        39,
+        49,
+        70,
+        71,
+        73,
+        79,
+        83,
+        87,
+        95,
+        99,
+        126,
+        128
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.7-1D-0.5sigma.extxyz",
+      "temperature": 0.7,
+      "field_family": "1D",
+      "frames": 8,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.7-2D-0.5sigma.extxyz",
+      "temperature": 0.7,
+      "field_family": "2D",
+      "frames": 8,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.7-mixed-0.5sigma.extxyz",
+      "temperature": 0.7,
+      "field_family": "mixed",
+      "frames": 7,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.725-1D-0.5sigma.extxyz",
+      "temperature": 0.725,
+      "field_family": "1D",
+      "frames": 80,
+      "partition": "development",
+      "valid_frame_indices": [
+        10,
+        17,
+        19,
+        47,
+        57,
+        59,
+        64,
+        69
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.725-2D-0.5sigma.extxyz",
+      "temperature": 0.725,
+      "field_family": "2D",
+      "frames": 80,
+      "partition": "development",
+      "valid_frame_indices": [
+        5,
+        23,
+        29,
+        31,
+        39,
+        47,
+        55,
+        68
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.725-3D-0.5sigma.extxyz",
+      "temperature": 0.725,
+      "field_family": "3D",
+      "frames": 111,
+      "partition": "development",
+      "valid_frame_indices": [
+        0,
+        19,
+        24,
+        30,
+        41,
+        43,
+        53,
+        55,
+        78,
+        100,
+        105
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.725-mixed-0.5sigma.extxyz",
+      "temperature": 0.725,
+      "field_family": "mixed",
+      "frames": 150,
+      "partition": "development",
+      "valid_frame_indices": [
+        27,
+        38,
+        52,
+        57,
+        74,
+        81,
+        98,
+        108,
+        130,
+        131,
+        139,
+        141,
+        142,
+        144,
+        149
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.75-1D-0.5sigma.extxyz",
+      "temperature": 0.75,
+      "field_family": "1D",
+      "frames": 79,
+      "partition": "development",
+      "valid_frame_indices": [
+        1,
+        17,
+        42,
+        45,
+        50,
+        54,
+        58,
+        66
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.75-2D-0.5sigma.extxyz",
+      "temperature": 0.75,
+      "field_family": "2D",
+      "frames": 80,
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        28,
+        30,
+        39,
+        52,
+        56,
+        76,
+        77
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.75-3D-0.5sigma.extxyz",
+      "temperature": 0.75,
+      "field_family": "3D",
+      "frames": 111,
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        10,
+        20,
+        28,
+        29,
+        36,
+        58,
+        64,
+        67,
+        85,
+        97
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.75-mixed-0.5sigma.extxyz",
+      "temperature": 0.75,
+      "field_family": "mixed",
+      "frames": 152,
+      "partition": "development",
+      "valid_frame_indices": [
+        8,
+        21,
+        24,
+        35,
+        40,
+        54,
+        76,
+        85,
+        86,
+        103,
+        106,
+        120,
+        123,
+        126,
+        131
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.775-1D-0.5sigma.extxyz",
+      "temperature": 0.775,
+      "field_family": "1D",
+      "frames": 80,
+      "partition": "development",
+      "valid_frame_indices": [
+        8,
+        17,
+        28,
+        33,
+        39,
+        42,
+        71,
+        77
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.775-2D-0.5sigma.extxyz",
+      "temperature": 0.775,
+      "field_family": "2D",
+      "frames": 78,
+      "partition": "development",
+      "valid_frame_indices": [
+        25,
+        30,
+        37,
+        40,
+        44,
+        46,
+        63,
+        69
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.775-3D-0.5sigma.extxyz",
+      "temperature": 0.775,
+      "field_family": "3D",
+      "frames": 111,
+      "partition": "development",
+      "valid_frame_indices": [
+        1,
+        4,
+        7,
+        18,
+        49,
+        51,
+        60,
+        67,
+        97,
+        103,
+        107
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.775-mixed-0.5sigma.extxyz",
+      "temperature": 0.775,
+      "field_family": "mixed",
+      "frames": 147,
+      "partition": "development",
+      "valid_frame_indices": [
+        5,
+        6,
+        8,
+        24,
+        29,
+        33,
+        47,
+        91,
+        94,
+        102,
+        103,
+        113,
+        124,
+        129,
+        131
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.8-1D-0.5sigma.extxyz",
+      "temperature": 0.8,
+      "field_family": "1D",
+      "frames": 8,
+      "partition": "development",
+      "valid_frame_indices": [
+        7
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.8-2D-0.5sigma.extxyz",
+      "temperature": 0.8,
+      "field_family": "2D",
+      "frames": 8,
+      "partition": "development",
+      "valid_frame_indices": [
+        2
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.8-mixed-0.5sigma.extxyz",
+      "temperature": 0.8,
+      "field_family": "mixed",
+      "frames": 3,
+      "partition": "development",
+      "valid_frame_indices": [
+        1
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.85-1D-0.5sigma.extxyz",
+      "temperature": 0.85,
+      "field_family": "1D",
+      "frames": 80,
+      "partition": "development",
+      "valid_frame_indices": [
+        0,
+        2,
+        8,
+        11,
+        13,
+        22,
+        54,
+        55
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.85-2D-0.5sigma.extxyz",
+      "temperature": 0.85,
+      "field_family": "2D",
+      "frames": 78,
+      "partition": "development",
+      "valid_frame_indices": [
+        26,
+        27,
+        29,
+        31,
+        59,
+        60,
+        73,
+        74
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.85-3D-0.5sigma.extxyz",
+      "temperature": 0.85,
+      "field_family": "3D",
+      "frames": 111,
+      "partition": "development",
+      "valid_frame_indices": [
+        1,
+        4,
+        29,
+        34,
+        35,
+        38,
+        51,
+        64,
+        70,
+        72,
+        82
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.85-mixed-0.5sigma.extxyz",
+      "temperature": 0.85,
+      "field_family": "mixed",
+      "frames": 145,
+      "partition": "development",
+      "valid_frame_indices": [
+        23,
+        42,
+        55,
+        57,
+        93,
+        103,
+        108,
+        114,
+        123,
+        124,
+        131,
+        138,
+        141,
+        143
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.9-1D-0.5sigma.extxyz",
+      "temperature": 0.9,
+      "field_family": "1D",
+      "frames": 8,
+      "partition": "development",
+      "valid_frame_indices": [
+        0
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.9-2D-0.5sigma.extxyz",
+      "temperature": 0.9,
+      "field_family": "2D",
+      "frames": 8,
+      "partition": "development",
+      "valid_frame_indices": [
+        5
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.9-mixed-0.5sigma.extxyz",
+      "temperature": 0.9,
+      "field_family": "mixed",
+      "frames": 4,
+      "partition": "development",
+      "valid_frame_indices": [
+        3
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.95-1D-0.5sigma.extxyz",
+      "temperature": 0.95,
+      "field_family": "1D",
+      "frames": 80,
+      "partition": "development",
+      "valid_frame_indices": [
+        13,
+        28,
+        34,
+        36,
+        48,
+        61,
+        63,
+        67
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.95-2D-0.5sigma.extxyz",
+      "temperature": 0.95,
+      "field_family": "2D",
+      "frames": 79,
+      "partition": "development",
+      "valid_frame_indices": [
+        27,
+        32,
+        41,
+        44,
+        56,
+        58,
+        59,
+        65
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.95-3D-0.5sigma.extxyz",
+      "temperature": 0.95,
+      "field_family": "3D",
+      "frames": 111,
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        8,
+        11,
+        34,
+        40,
+        54,
+        73,
+        95,
+        96,
+        102,
+        107
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.95-mixed-0.5sigma.extxyz",
+      "temperature": 0.95,
+      "field_family": "mixed",
+      "frames": 150,
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        18,
+        33,
+        56,
+        61,
+        63,
+        66,
+        69,
+        70,
+        72,
+        89,
+        91,
+        97,
+        102,
+        121
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1-1D-0.5sigma.extxyz",
+      "temperature": 1.0,
+      "field_family": "1D",
+      "frames": 8,
+      "partition": "development",
+      "valid_frame_indices": [
+        1
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1-2D-0.5sigma.extxyz",
+      "temperature": 1.0,
+      "field_family": "2D",
+      "frames": 6,
+      "partition": "development",
+      "valid_frame_indices": [
+        1
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1-mixed-0.5sigma.extxyz",
+      "temperature": 1.0,
+      "field_family": "mixed",
+      "frames": 4,
+      "partition": "development",
+      "valid_frame_indices": [
+        2
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.05-1D-0.5sigma.extxyz",
+      "temperature": 1.05,
+      "field_family": "1D",
+      "frames": 80,
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        26,
+        38,
+        49,
+        54,
+        55,
+        61,
+        75
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.05-2D-0.5sigma.extxyz",
+      "temperature": 1.05,
+      "field_family": "2D",
+      "frames": 79,
+      "partition": "development",
+      "valid_frame_indices": [
+        11,
+        30,
+        35,
+        49,
+        59,
+        60,
+        62,
+        75
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.05-3D-0.5sigma.extxyz",
+      "temperature": 1.05,
+      "field_family": "3D",
+      "frames": 111,
+      "partition": "development",
+      "valid_frame_indices": [
+        3,
+        12,
+        38,
+        40,
+        52,
+        56,
+        71,
+        75,
+        85,
+        101,
+        109
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.05-mixed-0.5sigma.extxyz",
+      "temperature": 1.05,
+      "field_family": "mixed",
+      "frames": 148,
+      "partition": "development",
+      "valid_frame_indices": [
+        17,
+        29,
+        45,
+        58,
+        62,
+        75,
+        98,
+        101,
+        102,
+        125,
+        126,
+        133,
+        139,
+        142,
+        147
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.1-1D-0.5sigma.extxyz",
+      "temperature": 1.1,
+      "field_family": "1D",
+      "frames": 8,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.1-2D-0.5sigma.extxyz",
+      "temperature": 1.1,
+      "field_family": "2D",
+      "frames": 8,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.1-mixed-0.5sigma.extxyz",
+      "temperature": 1.1,
+      "field_family": "mixed",
+      "frames": 3,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.15-1D-0.5sigma.extxyz",
+      "temperature": 1.15,
+      "field_family": "1D",
+      "frames": 80,
+      "partition": "development",
+      "valid_frame_indices": [
+        2,
+        14,
+        18,
+        26,
+        44,
+        49,
+        57,
+        74
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.15-2D-0.5sigma.extxyz",
+      "temperature": 1.15,
+      "field_family": "2D",
+      "frames": 78,
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        9,
+        18,
+        19,
+        22,
+        24,
+        31,
+        69
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.15-3D-0.5sigma.extxyz",
+      "temperature": 1.15,
+      "field_family": "3D",
+      "frames": 111,
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        12,
+        17,
+        22,
+        41,
+        42,
+        46,
+        47,
+        51,
+        62,
+        63
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.15-mixed-0.5sigma.extxyz",
+      "temperature": 1.15,
+      "field_family": "mixed",
+      "frames": 146,
+      "partition": "development",
+      "valid_frame_indices": [
+        13,
+        21,
+        32,
+        33,
+        34,
+        46,
+        51,
+        52,
+        69,
+        71,
+        82,
+        93,
+        94,
+        113,
+        140
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.2-1D-0.5sigma.extxyz",
+      "temperature": 1.2,
+      "field_family": "1D",
+      "frames": 8,
+      "partition": "development",
+      "valid_frame_indices": [
+        5
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.2-2D-0.5sigma.extxyz",
+      "temperature": 1.2,
+      "field_family": "2D",
+      "frames": 5,
+      "partition": "development",
+      "valid_frame_indices": [
+        1
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.2-mixed-0.5sigma.extxyz",
+      "temperature": 1.2,
+      "field_family": "mixed",
+      "frames": 5,
+      "partition": "development",
+      "valid_frame_indices": [
+        2
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.25-1D-0.5sigma.extxyz",
+      "temperature": 1.25,
+      "field_family": "1D",
+      "frames": 80,
+      "partition": "development",
+      "valid_frame_indices": [
+        0,
+        10,
+        18,
+        20,
+        44,
+        45,
+        71,
+        76
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.25-2D-0.5sigma.extxyz",
+      "temperature": 1.25,
+      "field_family": "2D",
+      "frames": 80,
+      "partition": "development",
+      "valid_frame_indices": [
+        16,
+        28,
+        31,
+        36,
+        40,
+        47,
+        53,
+        57
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.25-3D-0.5sigma.extxyz",
+      "temperature": 1.25,
+      "field_family": "3D",
+      "frames": 111,
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        16,
+        20,
+        22,
+        24,
+        42,
+        60,
+        65,
+        81,
+        90,
+        95
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.25-mixed-0.5sigma.extxyz",
+      "temperature": 1.25,
+      "field_family": "mixed",
+      "frames": 147,
+      "partition": "development",
+      "valid_frame_indices": [
+        8,
+        12,
+        20,
+        35,
+        39,
+        53,
+        103,
+        107,
+        113,
+        118,
+        123,
+        125,
+        126,
+        128,
+        142
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.3-1D-0.5sigma.extxyz",
+      "temperature": 1.3,
+      "field_family": "1D",
+      "frames": 8,
+      "partition": "development",
+      "valid_frame_indices": [
+        5
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.3-2D-0.5sigma.extxyz",
+      "temperature": 1.3,
+      "field_family": "2D",
+      "frames": 7,
+      "partition": "development",
+      "valid_frame_indices": [
+        6
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.3-mixed-0.5sigma.extxyz",
+      "temperature": 1.3,
+      "field_family": "mixed",
+      "frames": 4,
+      "partition": "development",
+      "valid_frame_indices": [
+        2
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.4-1D-0.5sigma.extxyz",
+      "temperature": 1.4,
+      "field_family": "1D",
+      "frames": 8,
+      "partition": "development",
+      "valid_frame_indices": [
+        5
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.4-2D-0.5sigma.extxyz",
+      "temperature": 1.4,
+      "field_family": "2D",
+      "frames": 8,
+      "partition": "development",
+      "valid_frame_indices": [
+        7
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.4-mixed-0.5sigma.extxyz",
+      "temperature": 1.4,
+      "field_family": "mixed",
+      "frames": 6,
+      "partition": "development",
+      "valid_frame_indices": [
+        0
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.5-1D-0.5sigma.extxyz",
+      "temperature": 1.5,
+      "field_family": "1D",
+      "frames": 8,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.5-2D-0.5sigma.extxyz",
+      "temperature": 1.5,
+      "field_family": "2D",
+      "frames": 7,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.5-mixed-0.5sigma.extxyz",
+      "temperature": 1.5,
+      "field_family": "mixed",
+      "frames": 5,
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.6-1D-0.5sigma.extxyz",
+      "temperature": 1.6,
+      "field_family": "1D",
+      "frames": 8,
+      "partition": "development",
+      "valid_frame_indices": [
+        5
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.6-2D-0.5sigma.extxyz",
+      "temperature": 1.6,
+      "field_family": "2D",
+      "frames": 8,
+      "partition": "development",
+      "valid_frame_indices": [
+        4
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.6-mixed-0.5sigma.extxyz",
+      "temperature": 1.6,
+      "field_family": "mixed",
+      "frames": 4,
+      "partition": "development",
+      "valid_frame_indices": [
+        0
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.7-1D-0.5sigma.extxyz",
+      "temperature": 1.7,
+      "field_family": "1D",
+      "frames": 8,
+      "partition": "development",
+      "valid_frame_indices": [
+        0
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.7-2D-0.5sigma.extxyz",
+      "temperature": 1.7,
+      "field_family": "2D",
+      "frames": 6,
+      "partition": "development",
+      "valid_frame_indices": [
+        3
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.7-mixed-0.5sigma.extxyz",
+      "temperature": 1.7,
+      "field_family": "mixed",
+      "frames": 3,
+      "partition": "development",
+      "valid_frame_indices": [
+        1
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.8-1D-0.5sigma.extxyz",
+      "temperature": 1.8,
+      "field_family": "1D",
+      "frames": 8,
+      "partition": "development",
+      "valid_frame_indices": [
+        1
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.8-2D-0.5sigma.extxyz",
+      "temperature": 1.8,
+      "field_family": "2D",
+      "frames": 8,
+      "partition": "development",
+      "valid_frame_indices": [
+        2
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.8-mixed-0.5sigma.extxyz",
+      "temperature": 1.8,
+      "field_family": "mixed",
+      "frames": 5,
+      "partition": "development",
+      "valid_frame_indices": [
+        0
+      ]
+    }
+  ]
+}

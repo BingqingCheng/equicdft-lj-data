@@ -1,0 +1,85 @@
+# NVT LJ fluid in one connected phase of a periodic gyroid level set.
+# Accessible space has g(r)>g0.  A smooth logistic field excludes g(r)<g0.
+
+variable T index 1.2
+variable box_length index 16.0
+variable particle_count index 1200
+variable g0 index 0.0
+variable wall_height index 8.0
+variable wall_width index 0.35
+variable q equal 2.0*PI/v_box_length
+
+variable nequil index 400000
+variable nsteps index 4000000
+variable sample_every index 10
+variable dump_every index 10000
+variable grid_spacing index 0.5
+variable nsamples equal v_nsteps/v_sample_every
+variable placement_seed index 8120501
+variable velocity_seed index 8120502
+variable minimum_initial_separation index 0.60
+variable python_executable index python3
+variable scripts_dir index ..
+variable output_potential_cap index 20.0
+
+units lj
+dimension 3
+atom_style atomic
+boundary p p p
+region simbox block 0 ${box_length} 0 ${box_length} 0 ${box_length} units box
+create_box 1 simbox
+
+# Trial coordinates supplied by ``create_atoms ... set``. Explicit
+# declarations keep the input compatible with older LAMMPS builds.
+variable xtrial internal 0.0
+variable ytrial internal 0.0
+variable ztrial internal 0.0
+variable gtrial equal sin(v_q*v_xtrial)*cos(v_q*v_ytrial)+sin(v_q*v_ytrial)*cos(v_q*v_ztrial)+sin(v_q*v_ztrial)*cos(v_q*v_xtrial)
+variable accept equal v_gtrial>v_g0+0.30
+create_atoms 1 random ${particle_count} ${placement_seed} NULL var accept set x xtrial set y ytrial set z ztrial overlap ${minimum_initial_separation} maxtry 10000000 units box
+
+mass 1 1.0
+group fluid type 1
+pair_style lj/cut 2.5
+pair_coeff 1 1 1.0 1.0 2.5
+pair_modify shift yes
+neighbor 0.3 bin
+neigh_modify delay 0 every 1 check yes
+
+variable g atom sin(v_q*x)*cos(v_q*y)+sin(v_q*y)*cos(v_q*z)+sin(v_q*z)*cos(v_q*x)
+variable eg atom exp((v_g-v_g0)/v_wall_width)
+variable Vext atom v_wall_height/(1.0+v_eg)
+variable Ag atom v_wall_height*v_eg/(v_wall_width*(1.0+v_eg)*(1.0+v_eg))
+variable dgdx atom v_q*(cos(v_q*x)*cos(v_q*y)-sin(v_q*z)*sin(v_q*x))
+variable dgdy atom v_q*(-sin(v_q*x)*sin(v_q*y)+cos(v_q*y)*cos(v_q*z))
+variable dgdz atom v_q*(-sin(v_q*y)*sin(v_q*z)+cos(v_q*z)*cos(v_q*x))
+variable Fx atom v_Ag*v_dgdx
+variable Fy atom v_Ag*v_dgdy
+variable Fz atom v_Ag*v_dgdz
+
+fix field fluid addforce v_Fx v_Fy v_Fz energy v_Vext
+fix_modify field energy yes
+min_style cg
+min_modify dmax 0.05
+minimize 1.0e-3 1.0e-2 100 1000
+velocity fluid create ${T} ${velocity_seed} mom yes rot no dist gaussian
+compute tfluid fluid temp
+fix thermostat fluid nvt temp ${T} ${T} 0.5
+
+timestep 0.005
+thermo 1000
+thermo_style custom step atoms c_tfluid pe ke etotal f_field
+thermo_modify flush yes
+run ${nequil}
+reset_timestep 0
+
+dump trajectory fluid custom ${dump_every} trajectory.lammpstrj id type x y z v_Vext
+dump_modify trajectory sort id
+compute density_bins fluid chunk/atom bin/3d x lower ${grid_spacing} y lower ${grid_spacing} z lower ${grid_spacing} units box compress no
+fix density_average fluid ave/chunk ${sample_every} ${nsamples} ${nsteps} density_bins density/number norm sample ave one file density_grid.dat title1 "# Production-averaged density: gyroid pore" title2 "# Timestep Number-of-bins" title3 "# Bin x y z mean_count rho"
+run ${nsteps}
+
+undump trajectory
+unfix density_average
+shell ${python_executable} ${scripts_dir}/collect_density_external.py density_grid.dat --application gyroid-pore --temperature ${T} --particle-count ${particle_count} --potential-cap ${output_potential_cap} --parameter g0=${g0} --parameter wall_height=${wall_height} --parameter wall_width=${wall_width}
+write_data final.data
