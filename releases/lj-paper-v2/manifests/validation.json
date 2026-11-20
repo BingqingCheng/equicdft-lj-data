@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "corpus_sources_hash_checked": 174,
+  "split_totals": {
+    "train": 11219,
+    "valid": 1255,
+    "test": 2055
+  },
+  "snapshot_members_hash_checked": 1013,
+  "fine_grid_reference": {
+    "fields": 80,
+    "MD_density_fields": 240,
+    "retained_files": 645,
+    "all_240_density_hashes_match_BRC_aggregation_records": true
+  },
+  "native_example": {
+    "checkpoint_sha256": "6edbebb18192ca7f6a311a88c3236d61c3c5d285c739b9f533b4dc1b6e7137ca",
+    "beta_F_exc": -604.7519242625531,
+    "particle_number": 208.0,
+    "gauge_aligned_beta_V_RMSE": 0.026188112132846143,
+    "note": "One native h=0.5 field; this is not the old C3 regression model."
+  },
+  "original_training_driver_hash_verified_on_BRC": true,
+  "plot_commands_passed": {
+    "benchmark-plot": "evaluation/plot_benchmark.py",
+    "bulk-panels": "data/study/cDFT/NatComm-review/2026-11-19-c4-production-update/plot_bulk_panels.py",
+    "bulk-assembly": "data/study/cDFT/NatComm-review/2026-11-19-c4-production-update/assemble_bulk_figure.py",
+    "colloid-plot": "data/study/cDFT/NatComm-review/2026-11-19-c4-production-update/dimer/plot_dimer.py",
+    "grid-plot": "data/study/cDFT/NatComm-review/2026-11-19-c4-production-update/grid-transfer/plot_figure.py",
+    "learning-plot": "data/study/cDFT/benchmark-plot-scripts/cace_cubic_data_efficiency.py"
+  },
+  "gyroid_composition_passed": true,
+  "all_91_clean_evaluation_source_hashes_match_retained_BRC_run": true,
+  "training_help_passed_at_original_commit": true,
+  "parent_peak_RSS_bytes_macos": 72122368,
+  "maximum_child_peak_RSS_bytes_macos": 515997696,
+  "new_training_MD_or_large_solves": false
+}

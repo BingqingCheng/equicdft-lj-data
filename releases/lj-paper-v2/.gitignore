@@ -1,0 +1,6 @@
+reference_data/*.zip
+reference_data/*.tar.gz
+code/evaluation/
+code/training/
+data/
+output/

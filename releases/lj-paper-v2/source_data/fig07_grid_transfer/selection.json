@@ -1,0 +1,341 @@
+{
+  "status": "derived paired-field selection; no endpoint changed",
+  "selection_rule": "retain a field at every evaluated spacing when its maximum reference density across h=0.125, 0.25, and 0.5 sigma is <= threshold",
+  "maximum_reference_density_sigma_minus_3": 0.95,
+  "selected_field_count": 69,
+  "excluded_field_count": 11,
+  "selected_by_temperature": {
+    "T0.8": 16,
+    "T1": 16,
+    "T1.2": 19,
+    "T1.5": 18
+  },
+  "selected_fields": [
+    {
+      "field": "field-T0.8-N111-F01",
+      "maximum_reference_density": 0.92768
+    },
+    {
+      "field": "field-T0.8-N111-F02",
+      "maximum_reference_density": 0.93632
+    },
+    {
+      "field": "field-T0.8-N111-F04",
+      "maximum_reference_density": 0.94096
+    },
+    {
+      "field": "field-T0.8-N129-F01",
+      "maximum_reference_density": 0.8956799999999999
+    },
+    {
+      "field": "field-T0.8-N129-F02",
+      "maximum_reference_density": 0.84736
+    },
+    {
+      "field": "field-T0.8-N129-F04",
+      "maximum_reference_density": 0.78288
+    },
+    {
+      "field": "field-T0.8-N43-F01",
+      "maximum_reference_density": 0.76272
+    },
+    {
+      "field": "field-T0.8-N43-F03",
+      "maximum_reference_density": 0.7859200000000001
+    },
+    {
+      "field": "field-T0.8-N43-F04",
+      "maximum_reference_density": 0.6766399999999999
+    },
+    {
+      "field": "field-T0.8-N67-F01",
+      "maximum_reference_density": 0.8622400000000001
+    },
+    {
+      "field": "field-T0.8-N67-F02",
+      "maximum_reference_density": 0.8483200000000001
+    },
+    {
+      "field": "field-T0.8-N67-F03",
+      "maximum_reference_density": 0.70864
+    },
+    {
+      "field": "field-T0.8-N67-F04",
+      "maximum_reference_density": 0.72704
+    },
+    {
+      "field": "field-T0.8-N87-F01",
+      "maximum_reference_density": 0.8806400000000001
+    },
+    {
+      "field": "field-T0.8-N87-F02",
+      "maximum_reference_density": 0.84256
+    },
+    {
+      "field": "field-T0.8-N87-F04",
+      "maximum_reference_density": 0.8472
+    },
+    {
+      "field": "field-T1-N109-F01",
+      "maximum_reference_density": 0.78224
+    },
+    {
+      "field": "field-T1-N109-F02",
+      "maximum_reference_density": 0.86848
+    },
+    {
+      "field": "field-T1-N109-F03",
+      "maximum_reference_density": 0.7664000000000001
+    },
+    {
+      "field": "field-T1-N127-F01",
+      "maximum_reference_density": 0.7966400000000001
+    },
+    {
+      "field": "field-T1-N127-F03",
+      "maximum_reference_density": 0.78144
+    },
+    {
+      "field": "field-T1-N46-F01",
+      "maximum_reference_density": 0.61232
+    },
+    {
+      "field": "field-T1-N46-F02",
+      "maximum_reference_density": 0.8198399999999999
+    },
+    {
+      "field": "field-T1-N46-F03",
+      "maximum_reference_density": 0.7679999999999999
+    },
+    {
+      "field": "field-T1-N46-F04",
+      "maximum_reference_density": 0.70528
+    },
+    {
+      "field": "field-T1-N65-F01",
+      "maximum_reference_density": 0.76672
+    },
+    {
+      "field": "field-T1-N65-F02",
+      "maximum_reference_density": 0.6692800000000001
+    },
+    {
+      "field": "field-T1-N65-F03",
+      "maximum_reference_density": 0.57712
+    },
+    {
+      "field": "field-T1-N65-F04",
+      "maximum_reference_density": 0.8759999999999999
+    },
+    {
+      "field": "field-T1-N89-F01",
+      "maximum_reference_density": 0.6785599999999999
+    },
+    {
+      "field": "field-T1-N89-F03",
+      "maximum_reference_density": 0.80768
+    },
+    {
+      "field": "field-T1-N89-F04",
+      "maximum_reference_density": 0.71712
+    },
+    {
+      "field": "field-T1.2-N110-F01",
+      "maximum_reference_density": 0.80784
+    },
+    {
+      "field": "field-T1.2-N110-F02",
+      "maximum_reference_density": 0.77264
+    },
+    {
+      "field": "field-T1.2-N110-F03",
+      "maximum_reference_density": 0.90672
+    },
+    {
+      "field": "field-T1.2-N110-F04",
+      "maximum_reference_density": 0.93312
+    },
+    {
+      "field": "field-T1.2-N130-F01",
+      "maximum_reference_density": 0.73584
+    },
+    {
+      "field": "field-T1.2-N130-F02",
+      "maximum_reference_density": 0.7542399999999999
+    },
+    {
+      "field": "field-T1.2-N130-F04",
+      "maximum_reference_density": 0.8404800000000001
+    },
+    {
+      "field": "field-T1.2-N44-F01",
+      "maximum_reference_density": 0.4448
+    },
+    {
+      "field": "field-T1.2-N44-F02",
+      "maximum_reference_density": 0.36352
+    },
+    {
+      "field": "field-T1.2-N44-F03",
+      "maximum_reference_density": 0.71968
+    },
+    {
+      "field": "field-T1.2-N44-F04",
+      "maximum_reference_density": 0.51504
+    },
+    {
+      "field": "field-T1.2-N68-F01",
+      "maximum_reference_density": 0.7089599999999999
+    },
+    {
+      "field": "field-T1.2-N68-F02",
+      "maximum_reference_density": 0.78304
+    },
+    {
+      "field": "field-T1.2-N68-F03",
+      "maximum_reference_density": 0.6248
+    },
+    {
+      "field": "field-T1.2-N68-F04",
+      "maximum_reference_density": 0.66368
+    },
+    {
+      "field": "field-T1.2-N86-F01",
+      "maximum_reference_density": 0.7545600000000001
+    },
+    {
+      "field": "field-T1.2-N86-F02",
+      "maximum_reference_density": 0.9070400000000001
+    },
+    {
+      "field": "field-T1.2-N86-F03",
+      "maximum_reference_density": 0.66928
+    },
+    {
+      "field": "field-T1.2-N86-F04",
+      "maximum_reference_density": 0.67584
+    },
+    {
+      "field": "field-T1.5-N108-F01",
+      "maximum_reference_density": 0.908
+    },
+    {
+      "field": "field-T1.5-N108-F02",
+      "maximum_reference_density": 0.7278399999999999
+    },
+    {
+      "field": "field-T1.5-N108-F03",
+      "maximum_reference_density": 0.8334400000000001
+    },
+    {
+      "field": "field-T1.5-N128-F01",
+      "maximum_reference_density": 0.74064
+    },
+    {
+      "field": "field-T1.5-N128-F03",
+      "maximum_reference_density": 0.7959999999999999
+    },
+    {
+      "field": "field-T1.5-N128-F04",
+      "maximum_reference_density": 0.84768
+    },
+    {
+      "field": "field-T1.5-N45-F01",
+      "maximum_reference_density": 0.40128
+    },
+    {
+      "field": "field-T1.5-N45-F02",
+      "maximum_reference_density": 0.4432
+    },
+    {
+      "field": "field-T1.5-N45-F03",
+      "maximum_reference_density": 0.5176000000000001
+    },
+    {
+      "field": "field-T1.5-N45-F04",
+      "maximum_reference_density": 0.55328
+    },
+    {
+      "field": "field-T1.5-N66-F01",
+      "maximum_reference_density": 0.73728
+    },
+    {
+      "field": "field-T1.5-N66-F02",
+      "maximum_reference_density": 0.6574399999999999
+    },
+    {
+      "field": "field-T1.5-N66-F03",
+      "maximum_reference_density": 0.6552000000000001
+    },
+    {
+      "field": "field-T1.5-N66-F04",
+      "maximum_reference_density": 0.59248
+    },
+    {
+      "field": "field-T1.5-N88-F01",
+      "maximum_reference_density": 0.71136
+    },
+    {
+      "field": "field-T1.5-N88-F02",
+      "maximum_reference_density": 0.7289599999999998
+    },
+    {
+      "field": "field-T1.5-N88-F03",
+      "maximum_reference_density": 0.7128000000000001
+    },
+    {
+      "field": "field-T1.5-N88-F04",
+      "maximum_reference_density": 0.7555200000000001
+    }
+  ],
+  "excluded_fields": [
+    {
+      "field": "field-T0.8-N111-F03",
+      "maximum_reference_density": 1.04304
+    },
+    {
+      "field": "field-T0.8-N129-F03",
+      "maximum_reference_density": 1.38144
+    },
+    {
+      "field": "field-T0.8-N43-F02",
+      "maximum_reference_density": 1.03904
+    },
+    {
+      "field": "field-T0.8-N87-F03",
+      "maximum_reference_density": 1.22512
+    },
+    {
+      "field": "field-T1-N109-F04",
+      "maximum_reference_density": 1.088
+    },
+    {
+      "field": "field-T1-N127-F02",
+      "maximum_reference_density": 1.06336
+    },
+    {
+      "field": "field-T1-N127-F04",
+      "maximum_reference_density": 1.33712
+    },
+    {
+      "field": "field-T1-N89-F02",
+      "maximum_reference_density": 1.02704
+    },
+    {
+      "field": "field-T1.2-N130-F03",
+      "maximum_reference_density": 0.95648
+    },
+    {
+      "field": "field-T1.5-N108-F04",
+      "maximum_reference_density": 1.1976
+    },
+    {
+      "field": "field-T1.5-N128-F02",
+      "maximum_reference_density": 1.13984
+    }
+  ],
+  "source_hashes": {
+    "field_metrics": "5a87f23d38cf56171cbb4378cec77074dafc358348b3e5ccdcebe06ce41544be",
+    "script": "fae977168d503857995f9bda191a4947279f2dad5e997926424ec683bf0ea002"
+  }
+}

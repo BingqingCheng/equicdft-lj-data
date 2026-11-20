@@ -1,5 +1,19 @@
 # Equi-cDFT Lennard-Jones study
 
+## Current revised-paper release
+
+Use **[releases/lj-paper-v2](releases/lj-paper-v2/README.md)** for the revised
+paper: the normalized-radial **C4 model without stability training**, the full
+11,219/1,255/2,055 training/validation/held-out corpus, fine-grid MD reference
+fields, and updated paired-grid figure data and scripts. Large datasets are
+available as [versioned release assets](https://github.com/BingqingCheng/equicdft-lj-data/releases/tag/lj-paper-v2).
+
+The material below and the original root-level model, scripts and archives
+are the **historical C3 release**. They are preserved for reproducibility;
+its configurations and field counts do not describe the revised C4 fit.
+
+## Historical C3 release
+
 This repository contains the files needed to reproduce the paper
 **Equivariant learning of classical density functionals for fluids**. The
 Equi-cDFT library itself is maintained at

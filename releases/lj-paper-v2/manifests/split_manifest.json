@@ -1,0 +1,3186 @@
+{
+  "name": "morecomprehensive_nvt_L8_grid0.5",
+  "held_out_temperatures": [
+    0.7,
+    1.1,
+    1.5
+  ],
+  "valid_fraction_within_source_file": 0.1,
+  "seed": 1,
+  "totals": {
+    "train": 11219,
+    "valid": 1255,
+    "test": 2055
+  },
+  "counts_by_collection": {
+    "general": {
+      "train": 1800,
+      "valid": 198,
+      "test": 666
+    },
+    "dimensional": {
+      "train": 1170,
+      "valid": 126,
+      "test": 432
+    },
+    "mixed": {
+      "train": 1170,
+      "valid": 126,
+      "test": 432
+    },
+    "extended": {
+      "train": 4287,
+      "valid": 488,
+      "test": 62
+    },
+    "mixed_more": {
+      "train": 2792,
+      "valid": 317,
+      "test": 463
+    }
+  },
+  "sources": [
+    {
+      "collection": "general",
+      "filename": "nvt-T0.7-0.5sigma.extxyz",
+      "temperature": 0.7,
+      "field_family": "general_3D",
+      "frames": 222,
+      "sha256": "5bc00dced47cac95400b23a87f46cb5cafb40f7a0cda0f357a391292690850ad",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T0.8-0.5sigma.extxyz",
+      "temperature": 0.8,
+      "field_family": "general_3D",
+      "frames": 222,
+      "sha256": "3ccceb47519ebaebee6f4fe7c9d951639fe91b750bf44523217cd0d17f389232",
+      "partition": "development",
+      "valid_frame_indices": [
+        19,
+        20,
+        22,
+        24,
+        28,
+        45,
+        50,
+        65,
+        68,
+        69,
+        94,
+        107,
+        108,
+        113,
+        121,
+        142,
+        161,
+        171,
+        192,
+        200,
+        206,
+        212
+      ]
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T0.9-0.5sigma.extxyz",
+      "temperature": 0.9,
+      "field_family": "general_3D",
+      "frames": 222,
+      "sha256": "0293f345c881e05c62b62862834c2aba91da0c3520c33dbb8e3fe09f035581b0",
+      "partition": "development",
+      "valid_frame_indices": [
+        13,
+        21,
+        39,
+        43,
+        49,
+        54,
+        70,
+        72,
+        84,
+        87,
+        103,
+        106,
+        121,
+        122,
+        127,
+        128,
+        155,
+        163,
+        187,
+        188,
+        193,
+        210
+      ]
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1-0.5sigma.extxyz",
+      "temperature": 1.0,
+      "field_family": "general_3D",
+      "frames": 222,
+      "sha256": "2e99cc2a0f0223134bfb6ee3c29c59d67a192b63628ef9968e9db0e2d96d8ba3",
+      "partition": "development",
+      "valid_frame_indices": [
+        2,
+        6,
+        25,
+        34,
+        44,
+        50,
+        55,
+        60,
+        73,
+        75,
+        78,
+        97,
+        105,
+        115,
+        141,
+        143,
+        148,
+        159,
+        179,
+        194,
+        197,
+        219
+      ]
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1.1-0.5sigma.extxyz",
+      "temperature": 1.1,
+      "field_family": "general_3D",
+      "frames": 222,
+      "sha256": "9d25ca1ab2bd65d385db4512a238b9c45f7400ac82fe544fd7bf75e7636f796b",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1.2-0.5sigma.extxyz",
+      "temperature": 1.2,
+      "field_family": "general_3D",
+      "frames": 222,
+      "sha256": "74c62f46db27e1704bb0cfc5408cfaa55cb29f1113d8ecca9bf7143267c54dfd",
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        14,
+        18,
+        29,
+        31,
+        36,
+        37,
+        50,
+        76,
+        80,
+        92,
+        99,
+        105,
+        114,
+        121,
+        128,
+        136,
+        159,
+        163,
+        171,
+        189,
+        191
+      ]
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1.3-0.5sigma.extxyz",
+      "temperature": 1.3,
+      "field_family": "general_3D",
+      "frames": 222,
+      "sha256": "d7600f7b5c827ffdd7416aaf5a4a6fffb48ca3267aaa4c93965156eb2806f90a",
+      "partition": "development",
+      "valid_frame_indices": [
+        5,
+        25,
+        36,
+        42,
+        66,
+        73,
+        92,
+        101,
+        105,
+        114,
+        121,
+        124,
+        140,
+        141,
+        144,
+        152,
+        154,
+        163,
+        170,
+        181,
+        206,
+        220
+      ]
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1.4-0.5sigma.extxyz",
+      "temperature": 1.4,
+      "field_family": "general_3D",
+      "frames": 222,
+      "sha256": "23dfa2c5000522e9266c77c1e2d8f1a25081201b2418c618f0d1a5624b11ad75",
+      "partition": "development",
+      "valid_frame_indices": [
+        6,
+        11,
+        24,
+        25,
+        27,
+        34,
+        39,
+        81,
+        98,
+        106,
+        109,
+        110,
+        121,
+        151,
+        162,
+        168,
+        177,
+        191,
+        197,
+        199,
+        212,
+        215
+      ]
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1.5-0.5sigma.extxyz",
+      "temperature": 1.5,
+      "field_family": "general_3D",
+      "frames": 222,
+      "sha256": "62843d2c80cf8d8622343f9846f0113b7e06e891147090169a180c2e5e66c8ac",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1.6-0.5sigma.extxyz",
+      "temperature": 1.6,
+      "field_family": "general_3D",
+      "frames": 222,
+      "sha256": "60b18e5fbab375deeac824631047605a7c5453a61e2abca35cf0ced9bf94d317",
+      "partition": "development",
+      "valid_frame_indices": [
+        5,
+        36,
+        49,
+        57,
+        58,
+        62,
+        66,
+        67,
+        71,
+        72,
+        84,
+        92,
+        94,
+        112,
+        120,
+        126,
+        133,
+        142,
+        147,
+        149,
+        175,
+        197
+      ]
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1.7-0.5sigma.extxyz",
+      "temperature": 1.7,
+      "field_family": "general_3D",
+      "frames": 222,
+      "sha256": "ecac54e79e126b3d4f7e3966e4f78208693bbd7c4a309737047eaa43c4806aa8",
+      "partition": "development",
+      "valid_frame_indices": [
+        6,
+        7,
+        18,
+        24,
+        33,
+        38,
+        50,
+        58,
+        67,
+        85,
+        88,
+        91,
+        104,
+        106,
+        113,
+        120,
+        129,
+        170,
+        181,
+        190,
+        208,
+        213
+      ]
+    },
+    {
+      "collection": "general",
+      "filename": "nvt-T1.8-0.5sigma.extxyz",
+      "temperature": 1.8,
+      "field_family": "general_3D",
+      "frames": 222,
+      "sha256": "040bd43fcc17fef1ef52b32b614227dcf8eb754198dc89dd185a2dae3fb4ba34",
+      "partition": "development",
+      "valid_frame_indices": [
+        10,
+        43,
+        48,
+        57,
+        64,
+        66,
+        67,
+        98,
+        116,
+        120,
+        125,
+        132,
+        136,
+        139,
+        158,
+        161,
+        163,
+        171,
+        173,
+        176,
+        179,
+        193
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T0.7-1D-0.5sigma.extxyz",
+      "temperature": 0.7,
+      "field_family": "1D",
+      "frames": 72,
+      "sha256": "25f9a042d45d1d813c20f02aeff132d22e3058420951bc7ea52f4a5d342e6009",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T0.7-2D-0.5sigma.extxyz",
+      "temperature": 0.7,
+      "field_family": "2D",
+      "frames": 72,
+      "sha256": "2303e19adb4ce4a03100a66888371c1bc7a25e4e993ca0242ef4db332b52ed20",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T0.8-1D-0.5sigma.extxyz",
+      "temperature": 0.8,
+      "field_family": "1D",
+      "frames": 72,
+      "sha256": "d6d448cb987c93c8a285a7751409ed635c77809e4a0f1be62086ff5297b16aa4",
+      "partition": "development",
+      "valid_frame_indices": [
+        2,
+        12,
+        22,
+        49,
+        59,
+        60,
+        65
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T0.8-2D-0.5sigma.extxyz",
+      "temperature": 0.8,
+      "field_family": "2D",
+      "frames": 72,
+      "sha256": "81e114b8b8cf3951808fc9c720f32d04a68287e5c36bc4f8ad9a04af9a33149e",
+      "partition": "development",
+      "valid_frame_indices": [
+        9,
+        19,
+        23,
+        28,
+        47,
+        59,
+        67
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T0.9-1D-0.5sigma.extxyz",
+      "temperature": 0.9,
+      "field_family": "1D",
+      "frames": 72,
+      "sha256": "299f6a0b4e809afcf1a7bc82873475e8f933613b2ea82ecfb6da0e9edc20d127",
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        20,
+        26,
+        41,
+        50,
+        58,
+        70
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T0.9-2D-0.5sigma.extxyz",
+      "temperature": 0.9,
+      "field_family": "2D",
+      "frames": 72,
+      "sha256": "486e4ca9bfc316142776e847294d6db1c412c9b561c66610ebeabfff596dff41",
+      "partition": "development",
+      "valid_frame_indices": [
+        12,
+        18,
+        20,
+        22,
+        35,
+        54,
+        56
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1-1D-0.5sigma.extxyz",
+      "temperature": 1.0,
+      "field_family": "1D",
+      "frames": 72,
+      "sha256": "088b4ecc2251ccd98cd72f248f8f9ca8ab7919893d8726eff72a48e83c0fd5fb",
+      "partition": "development",
+      "valid_frame_indices": [
+        23,
+        24,
+        28,
+        30,
+        31,
+        40,
+        61
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1-2D-0.5sigma.extxyz",
+      "temperature": 1.0,
+      "field_family": "2D",
+      "frames": 72,
+      "sha256": "9e595975147f516cbd2f7a6cd0b90ddaa6a97dd4b297029ab51d724327a10345",
+      "partition": "development",
+      "valid_frame_indices": [
+        11,
+        22,
+        39,
+        45,
+        51,
+        54,
+        60
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.1-1D-0.5sigma.extxyz",
+      "temperature": 1.1,
+      "field_family": "1D",
+      "frames": 72,
+      "sha256": "ed3dc73a635e53ef1a03cc753307fd02f53d2a70af3e8a5734f67b43fd571942",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.1-2D-0.5sigma.extxyz",
+      "temperature": 1.1,
+      "field_family": "2D",
+      "frames": 72,
+      "sha256": "6347f67430889b896418ddba5fae98488cff21962db1d7d2efbf44ed3d306e8e",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.2-1D-0.5sigma.extxyz",
+      "temperature": 1.2,
+      "field_family": "1D",
+      "frames": 72,
+      "sha256": "780800379d451f83490a0e4efed324f4d6165bcf5714b3e5b3ac6084e9d2a76b",
+      "partition": "development",
+      "valid_frame_indices": [
+        5,
+        11,
+        22,
+        27,
+        47,
+        60,
+        62
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.2-2D-0.5sigma.extxyz",
+      "temperature": 1.2,
+      "field_family": "2D",
+      "frames": 72,
+      "sha256": "e056c70d0b9a3a5c507dca6a90035c7683a226340008ec54f469dc9fd2241107",
+      "partition": "development",
+      "valid_frame_indices": [
+        9,
+        28,
+        30,
+        34,
+        44,
+        59,
+        64
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.3-1D-0.5sigma.extxyz",
+      "temperature": 1.3,
+      "field_family": "1D",
+      "frames": 72,
+      "sha256": "0f570cee9da494759422ff37fc1c9b61dd3239def8a07666079a606057b24685",
+      "partition": "development",
+      "valid_frame_indices": [
+        1,
+        3,
+        6,
+        16,
+        18,
+        54,
+        64
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.3-2D-0.5sigma.extxyz",
+      "temperature": 1.3,
+      "field_family": "2D",
+      "frames": 72,
+      "sha256": "87839d0f21129e8b3227a94d0ac0994375bcc9cbd8808d33472a3a722c7f4167",
+      "partition": "development",
+      "valid_frame_indices": [
+        10,
+        24,
+        30,
+        47,
+        49,
+        50,
+        62
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.4-1D-0.5sigma.extxyz",
+      "temperature": 1.4,
+      "field_family": "1D",
+      "frames": 72,
+      "sha256": "96eacd208e3092d05a9b40d264d205de75376f0fcde54c1cd6f82cf8b1f6bde5",
+      "partition": "development",
+      "valid_frame_indices": [
+        1,
+        23,
+        37,
+        38,
+        55,
+        56,
+        68
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.4-2D-0.5sigma.extxyz",
+      "temperature": 1.4,
+      "field_family": "2D",
+      "frames": 72,
+      "sha256": "7e7901d8fb921871ca7c8c1ce1fdb47f9fe7d3341c3d7f511af5760fa9f7e971",
+      "partition": "development",
+      "valid_frame_indices": [
+        33,
+        47,
+        49,
+        57,
+        58,
+        60,
+        61
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.5-1D-0.5sigma.extxyz",
+      "temperature": 1.5,
+      "field_family": "1D",
+      "frames": 72,
+      "sha256": "24d5a404806f3de6b6774f20e29fdfd3593182e1874ccfa19962bd7e697f974a",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.5-2D-0.5sigma.extxyz",
+      "temperature": 1.5,
+      "field_family": "2D",
+      "frames": 72,
+      "sha256": "838d1ac340b1b0b889a7ef29042885fb93481e77381b05233096136d50184774",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.6-1D-0.5sigma.extxyz",
+      "temperature": 1.6,
+      "field_family": "1D",
+      "frames": 72,
+      "sha256": "53449489a394a40521e731da3fc54a5ac8d6d7b4b9ee3db443e3f786a3f2e714",
+      "partition": "development",
+      "valid_frame_indices": [
+        17,
+        20,
+        21,
+        25,
+        29,
+        33,
+        56
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.6-2D-0.5sigma.extxyz",
+      "temperature": 1.6,
+      "field_family": "2D",
+      "frames": 72,
+      "sha256": "247635ae7710f29fffa50526ad1ffdf975d1e68546166d6c235bd95e67c9c069",
+      "partition": "development",
+      "valid_frame_indices": [
+        6,
+        11,
+        44,
+        51,
+        58,
+        60,
+        66
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.7-1D-0.5sigma.extxyz",
+      "temperature": 1.7,
+      "field_family": "1D",
+      "frames": 72,
+      "sha256": "75da1bbbd0fe8405c1565479971900ff7e45b6807814ebb82641a1da033da287",
+      "partition": "development",
+      "valid_frame_indices": [
+        0,
+        9,
+        10,
+        18,
+        22,
+        28,
+        35
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.7-2D-0.5sigma.extxyz",
+      "temperature": 1.7,
+      "field_family": "2D",
+      "frames": 72,
+      "sha256": "3a30d93ae084b76d0238f40c3f45f9626db44440bc984864d7e3bbeb4a98438d",
+      "partition": "development",
+      "valid_frame_indices": [
+        13,
+        33,
+        34,
+        36,
+        47,
+        51,
+        67
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.8-1D-0.5sigma.extxyz",
+      "temperature": 1.8,
+      "field_family": "1D",
+      "frames": 72,
+      "sha256": "a5176bb7fde4721db587dfd1996dc6794034088c258743ab1b66156dba5cac2d",
+      "partition": "development",
+      "valid_frame_indices": [
+        18,
+        30,
+        34,
+        42,
+        47,
+        50,
+        68
+      ]
+    },
+    {
+      "collection": "dimensional",
+      "filename": "nvt-T1.8-2D-0.5sigma.extxyz",
+      "temperature": 1.8,
+      "field_family": "2D",
+      "frames": 72,
+      "sha256": "252c5a1c5f8353e7b88f99ebb182c8f1ba8276811aff313925d2be55ce214bfb",
+      "partition": "development",
+      "valid_frame_indices": [
+        6,
+        23,
+        25,
+        34,
+        44,
+        51,
+        64
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T0.7-mixed-0.5sigma.extxyz",
+      "temperature": 0.7,
+      "field_family": "mixed",
+      "frames": 144,
+      "sha256": "89245e2ae5e35be7f72c9c06aa997b37c0db6fdfd12e8309a95d8378fdb27a94",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T0.8-mixed-0.5sigma.extxyz",
+      "temperature": 0.8,
+      "field_family": "mixed",
+      "frames": 144,
+      "sha256": "04acc38b6211e7dcca2f46a75419b0a2b1fcb7777d677aae49cd17841b29204e",
+      "partition": "development",
+      "valid_frame_indices": [
+        13,
+        41,
+        48,
+        56,
+        62,
+        63,
+        67,
+        73,
+        75,
+        84,
+        114,
+        121,
+        136,
+        139
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T0.9-mixed-0.5sigma.extxyz",
+      "temperature": 0.9,
+      "field_family": "mixed",
+      "frames": 144,
+      "sha256": "3ea20a87404f916ceb9316a84ff0520f635b22ab6f688b722b283cdf06dc3955",
+      "partition": "development",
+      "valid_frame_indices": [
+        3,
+        5,
+        33,
+        34,
+        58,
+        70,
+        78,
+        82,
+        90,
+        99,
+        102,
+        132,
+        137,
+        139
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1-mixed-0.5sigma.extxyz",
+      "temperature": 1.0,
+      "field_family": "mixed",
+      "frames": 144,
+      "sha256": "58c0880f4cfc5f9a88201c2c4643d3470dd8a2f4ebd954dbbfaea80e849163b7",
+      "partition": "development",
+      "valid_frame_indices": [
+        8,
+        17,
+        26,
+        44,
+        67,
+        82,
+        90,
+        102,
+        106,
+        114,
+        123,
+        128,
+        140,
+        141
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1.1-mixed-0.5sigma.extxyz",
+      "temperature": 1.1,
+      "field_family": "mixed",
+      "frames": 144,
+      "sha256": "35033487a3d5a3a82dd464b999d4f775f4e83b2cbc9d68e5d9fd3d5d9bf8717d",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1.2-mixed-0.5sigma.extxyz",
+      "temperature": 1.2,
+      "field_family": "mixed",
+      "frames": 144,
+      "sha256": "6c966d4a90439d0529f2fb90753afd4e09f2e5e848be72cc30f71dcfe4cb3d51",
+      "partition": "development",
+      "valid_frame_indices": [
+        31,
+        36,
+        47,
+        52,
+        56,
+        72,
+        98,
+        107,
+        122,
+        124,
+        130,
+        134,
+        135,
+        142
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1.3-mixed-0.5sigma.extxyz",
+      "temperature": 1.3,
+      "field_family": "mixed",
+      "frames": 144,
+      "sha256": "cdad6c088432ede1841a94a146639f28fbd8c6dd16cdc9d4f808d307770dc16c",
+      "partition": "development",
+      "valid_frame_indices": [
+        10,
+        21,
+        34,
+        42,
+        73,
+        74,
+        88,
+        89,
+        91,
+        95,
+        106,
+        109,
+        115,
+        131
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1.4-mixed-0.5sigma.extxyz",
+      "temperature": 1.4,
+      "field_family": "mixed",
+      "frames": 144,
+      "sha256": "b2f4e59ff11c81dbdb48457143556e31f84ee4bbb56a229a929f86834bc7e66a",
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        6,
+        7,
+        31,
+        37,
+        50,
+        64,
+        69,
+        86,
+        92,
+        99,
+        127,
+        128,
+        140
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1.5-mixed-0.5sigma.extxyz",
+      "temperature": 1.5,
+      "field_family": "mixed",
+      "frames": 144,
+      "sha256": "3fcd57596da628163a68ade0724fd29de0e3cf4a6b65307099a9627ef90cc252",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1.6-mixed-0.5sigma.extxyz",
+      "temperature": 1.6,
+      "field_family": "mixed",
+      "frames": 144,
+      "sha256": "afaeec1ed68d56797a216fd58cb23278646aeec7e59a085c6ea3af4d1f55627e",
+      "partition": "development",
+      "valid_frame_indices": [
+        6,
+        20,
+        22,
+        32,
+        33,
+        35,
+        38,
+        45,
+        55,
+        63,
+        75,
+        96,
+        100,
+        108
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1.7-mixed-0.5sigma.extxyz",
+      "temperature": 1.7,
+      "field_family": "mixed",
+      "frames": 144,
+      "sha256": "92a904e63f4da219bc29e718e9a7fd558cbd7d6d87f85930dc6765cbf28eaa49",
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        8,
+        17,
+        37,
+        41,
+        61,
+        67,
+        81,
+        84,
+        89,
+        95,
+        107,
+        116,
+        125
+      ]
+    },
+    {
+      "collection": "mixed",
+      "filename": "nvt-T1.8-mixed-0.5sigma.extxyz",
+      "temperature": 1.8,
+      "field_family": "mixed",
+      "frames": 144,
+      "sha256": "fcd53c40775602d9e3cc4cd0da1f2d6964b9dc0f7bff93f2fe6cd161102bfdb4",
+      "partition": "development",
+      "valid_frame_indices": [
+        10,
+        28,
+        52,
+        56,
+        60,
+        67,
+        69,
+        80,
+        93,
+        94,
+        95,
+        98,
+        127,
+        136
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.625-1D-0.5sigma.extxyz",
+      "temperature": 0.625,
+      "field_family": "1D",
+      "frames": 80,
+      "sha256": "a1185ddfc40bc2c197cbc464604b573fe0f819c4c16d53fce34553fd2141462d",
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        9,
+        19,
+        23,
+        36,
+        41,
+        48,
+        50
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.625-2D-0.5sigma.extxyz",
+      "temperature": 0.625,
+      "field_family": "2D",
+      "frames": 80,
+      "sha256": "cf39d82a8019c7a7fda6cfb6b70cdf883ec2ba1fe8ae6443c9281bf1cdfa7ad7",
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        14,
+        16,
+        26,
+        35,
+        48,
+        68,
+        77
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.625-3D-0.5sigma.extxyz",
+      "temperature": 0.625,
+      "field_family": "3D",
+      "frames": 111,
+      "sha256": "a5db9fd2135a841c815208b2a82809fde1c531ca07fb174addd17dc1a7d2b011",
+      "partition": "development",
+      "valid_frame_indices": [
+        0,
+        2,
+        12,
+        24,
+        35,
+        39,
+        44,
+        48,
+        51,
+        80,
+        83
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.625-mixed-0.5sigma.extxyz",
+      "temperature": 0.625,
+      "field_family": "mixed",
+      "frames": 147,
+      "sha256": "038aa5df5240afb0f0fa3499bfcc399286280c584cb54bcf0d67d3d35d6af17d",
+      "partition": "development",
+      "valid_frame_indices": [
+        0,
+        35,
+        43,
+        51,
+        64,
+        67,
+        81,
+        87,
+        101,
+        104,
+        114,
+        122,
+        139,
+        144,
+        146
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.65-1D-0.5sigma.extxyz",
+      "temperature": 0.65,
+      "field_family": "1D",
+      "frames": 80,
+      "sha256": "58d5452e30ceccdc283b5801fa49f7c93ace132a0126c16977865f3e2cea3037",
+      "partition": "development",
+      "valid_frame_indices": [
+        1,
+        2,
+        9,
+        21,
+        31,
+        56,
+        57,
+        64
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.65-2D-0.5sigma.extxyz",
+      "temperature": 0.65,
+      "field_family": "2D",
+      "frames": 80,
+      "sha256": "b26226130da69e6b65c3abeb3a1912bd02d2e4f018dcb38931a2e1a81539a5a0",
+      "partition": "development",
+      "valid_frame_indices": [
+        10,
+        50,
+        59,
+        60,
+        66,
+        68,
+        72,
+        73
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.65-3D-0.5sigma.extxyz",
+      "temperature": 0.65,
+      "field_family": "3D",
+      "frames": 111,
+      "sha256": "4ecab291c33377035e58961ec162b21f41ce649bd1dca08eb79f0525fe0e2214",
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        8,
+        25,
+        27,
+        51,
+        58,
+        62,
+        65,
+        73,
+        75,
+        94
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.65-mixed-0.5sigma.extxyz",
+      "temperature": 0.65,
+      "field_family": "mixed",
+      "frames": 151,
+      "sha256": "2c224cfa3815b0e617b2ab37113c28fac1b4bd57916f749a3ec8e64bb9a3a660",
+      "partition": "development",
+      "valid_frame_indices": [
+        5,
+        11,
+        47,
+        56,
+        65,
+        78,
+        82,
+        85,
+        104,
+        105,
+        115,
+        123,
+        129,
+        143,
+        145
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.675-1D-0.5sigma.extxyz",
+      "temperature": 0.675,
+      "field_family": "1D",
+      "frames": 79,
+      "sha256": "c70265e5643e0094bf4297cba4f99babe6cdd02812a3e1b8213d89c3c1a39915",
+      "partition": "development",
+      "valid_frame_indices": [
+        18,
+        30,
+        31,
+        41,
+        56,
+        59,
+        64,
+        75
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.675-2D-0.5sigma.extxyz",
+      "temperature": 0.675,
+      "field_family": "2D",
+      "frames": 79,
+      "sha256": "a451eba230c7f5f967691ded692f6f9fe341fac7dfc33cd93fbdc3c4fd069bff",
+      "partition": "development",
+      "valid_frame_indices": [
+        5,
+        23,
+        26,
+        34,
+        49,
+        56,
+        60,
+        78
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.675-3D-0.5sigma.extxyz",
+      "temperature": 0.675,
+      "field_family": "3D",
+      "frames": 111,
+      "sha256": "142bcc767283825eba64cc1f870a9e0fb923959aa13da9b450a57e6866c18f33",
+      "partition": "development",
+      "valid_frame_indices": [
+        27,
+        29,
+        31,
+        32,
+        48,
+        68,
+        88,
+        97,
+        99,
+        101,
+        109
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.675-mixed-0.5sigma.extxyz",
+      "temperature": 0.675,
+      "field_family": "mixed",
+      "frames": 148,
+      "sha256": "b234f4be1b3fc7a277ea6abcfde22b5b0f0e6e2568cf63484d66797f57b92570",
+      "partition": "development",
+      "valid_frame_indices": [
+        27,
+        30,
+        36,
+        39,
+        49,
+        70,
+        71,
+        73,
+        79,
+        83,
+        87,
+        95,
+        99,
+        126,
+        128
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.7-1D-0.5sigma.extxyz",
+      "temperature": 0.7,
+      "field_family": "1D",
+      "frames": 8,
+      "sha256": "bbd3161ad66bc7674e15da3ec004126512a208a8bdd0dd4f0c5507f297fff27f",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.7-2D-0.5sigma.extxyz",
+      "temperature": 0.7,
+      "field_family": "2D",
+      "frames": 8,
+      "sha256": "6b4284e212da3fbe811ed58d908ae40e6676d962d4ea7708c25bc8b477845959",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.7-mixed-0.5sigma.extxyz",
+      "temperature": 0.7,
+      "field_family": "mixed",
+      "frames": 7,
+      "sha256": "0e4618fc668dbd9078a8bde57f7278398b2436ba5cdc4bf46555d2219a3898d4",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.725-1D-0.5sigma.extxyz",
+      "temperature": 0.725,
+      "field_family": "1D",
+      "frames": 80,
+      "sha256": "34c4c54f51e47dcaf067316da8b3672a349d5346b743d7513fd23385b40cc9ad",
+      "partition": "development",
+      "valid_frame_indices": [
+        10,
+        17,
+        19,
+        47,
+        57,
+        59,
+        64,
+        69
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.725-2D-0.5sigma.extxyz",
+      "temperature": 0.725,
+      "field_family": "2D",
+      "frames": 80,
+      "sha256": "ffa99d80e010f1c4aff2778842ef07b9d602a5000afc2376f700e16af0ccd04e",
+      "partition": "development",
+      "valid_frame_indices": [
+        5,
+        23,
+        29,
+        31,
+        39,
+        47,
+        55,
+        68
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.725-3D-0.5sigma.extxyz",
+      "temperature": 0.725,
+      "field_family": "3D",
+      "frames": 111,
+      "sha256": "f67a2412b0b7b0c205878c87ded5b17109e0bb5a90e07d09d07f3a03fcb4c4b8",
+      "partition": "development",
+      "valid_frame_indices": [
+        0,
+        19,
+        24,
+        30,
+        41,
+        43,
+        53,
+        55,
+        78,
+        100,
+        105
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.725-mixed-0.5sigma.extxyz",
+      "temperature": 0.725,
+      "field_family": "mixed",
+      "frames": 150,
+      "sha256": "52b57aab2b9c195f6e15290a3a60f5e3d71855710f08a1a08d39264fee93961d",
+      "partition": "development",
+      "valid_frame_indices": [
+        27,
+        38,
+        52,
+        57,
+        74,
+        81,
+        98,
+        108,
+        130,
+        131,
+        139,
+        141,
+        142,
+        144,
+        149
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.75-1D-0.5sigma.extxyz",
+      "temperature": 0.75,
+      "field_family": "1D",
+      "frames": 79,
+      "sha256": "c82dbfdd3618a329f61248c8b0387212cd0fa4e13b7186216a794892f0474ce2",
+      "partition": "development",
+      "valid_frame_indices": [
+        1,
+        17,
+        42,
+        45,
+        50,
+        54,
+        58,
+        66
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.75-2D-0.5sigma.extxyz",
+      "temperature": 0.75,
+      "field_family": "2D",
+      "frames": 80,
+      "sha256": "bdc0a589aad5b1230507ea242dfb780e79c6672df7b92158448cd172e7379c4e",
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        28,
+        30,
+        39,
+        52,
+        56,
+        76,
+        77
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.75-3D-0.5sigma.extxyz",
+      "temperature": 0.75,
+      "field_family": "3D",
+      "frames": 111,
+      "sha256": "2ddcc3504c47852fbc6db4b14b56ff91652cb1bbfcad0480195067d947fcecc8",
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        10,
+        20,
+        28,
+        29,
+        36,
+        58,
+        64,
+        67,
+        85,
+        97
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.75-mixed-0.5sigma.extxyz",
+      "temperature": 0.75,
+      "field_family": "mixed",
+      "frames": 152,
+      "sha256": "5b241f7faacd51d8f535ecd4ce1149a19f9292c633e9f99458dcec065725d829",
+      "partition": "development",
+      "valid_frame_indices": [
+        8,
+        21,
+        24,
+        35,
+        40,
+        54,
+        76,
+        85,
+        86,
+        103,
+        106,
+        120,
+        123,
+        126,
+        131
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.775-1D-0.5sigma.extxyz",
+      "temperature": 0.775,
+      "field_family": "1D",
+      "frames": 80,
+      "sha256": "10d41b36ecac997c9e1059fc15da9085784d004466e2d74b59bc1381a53baeb4",
+      "partition": "development",
+      "valid_frame_indices": [
+        8,
+        17,
+        28,
+        33,
+        39,
+        42,
+        71,
+        77
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.775-2D-0.5sigma.extxyz",
+      "temperature": 0.775,
+      "field_family": "2D",
+      "frames": 78,
+      "sha256": "0dc69130a87f096742cf9938798edb4f3cc26e585cb199bf6c30938e9cabff81",
+      "partition": "development",
+      "valid_frame_indices": [
+        25,
+        30,
+        37,
+        40,
+        44,
+        46,
+        63,
+        69
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.775-3D-0.5sigma.extxyz",
+      "temperature": 0.775,
+      "field_family": "3D",
+      "frames": 111,
+      "sha256": "27db6f9f4f8a88b9016da29350ec0a32be99b13414e87ae929a2e8d068c2f90a",
+      "partition": "development",
+      "valid_frame_indices": [
+        1,
+        4,
+        7,
+        18,
+        49,
+        51,
+        60,
+        67,
+        97,
+        103,
+        107
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.775-mixed-0.5sigma.extxyz",
+      "temperature": 0.775,
+      "field_family": "mixed",
+      "frames": 147,
+      "sha256": "99a826eb94bd99b581e47f0b838017b094516df50a939e6d471854b60f05970f",
+      "partition": "development",
+      "valid_frame_indices": [
+        5,
+        6,
+        8,
+        24,
+        29,
+        33,
+        47,
+        91,
+        94,
+        102,
+        103,
+        113,
+        124,
+        129,
+        131
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.8-1D-0.5sigma.extxyz",
+      "temperature": 0.8,
+      "field_family": "1D",
+      "frames": 8,
+      "sha256": "022df573c84b0218475d90c2811d139f205b4e8e94dae4caf7dc6835c4e0b540",
+      "partition": "development",
+      "valid_frame_indices": [
+        7
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.8-2D-0.5sigma.extxyz",
+      "temperature": 0.8,
+      "field_family": "2D",
+      "frames": 8,
+      "sha256": "b130f688dd0537a194978c00c44b569312da641c15e816b913ebd3b9c065366c",
+      "partition": "development",
+      "valid_frame_indices": [
+        2
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.8-mixed-0.5sigma.extxyz",
+      "temperature": 0.8,
+      "field_family": "mixed",
+      "frames": 3,
+      "sha256": "fb3c813205a72cddc0344c3711ff0f3f0885aed7973a2670b245031e531baae4",
+      "partition": "development",
+      "valid_frame_indices": [
+        1
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.85-1D-0.5sigma.extxyz",
+      "temperature": 0.85,
+      "field_family": "1D",
+      "frames": 80,
+      "sha256": "1bfb8d69e518246016e33ccde873cf565ff9addcd07f1f5a9c93bc6c21fdec3a",
+      "partition": "development",
+      "valid_frame_indices": [
+        0,
+        2,
+        8,
+        11,
+        13,
+        22,
+        54,
+        55
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.85-2D-0.5sigma.extxyz",
+      "temperature": 0.85,
+      "field_family": "2D",
+      "frames": 78,
+      "sha256": "6a691224e6427e54d4b1148d005674609ac15eebd694f54c53b2f7e32b4cc3b2",
+      "partition": "development",
+      "valid_frame_indices": [
+        26,
+        27,
+        29,
+        31,
+        59,
+        60,
+        73,
+        74
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.85-3D-0.5sigma.extxyz",
+      "temperature": 0.85,
+      "field_family": "3D",
+      "frames": 111,
+      "sha256": "ff9dd5fd05bd827a6a443dc761e65cb043ab8b109d1bea7ebe36dc25da5c2c94",
+      "partition": "development",
+      "valid_frame_indices": [
+        1,
+        4,
+        29,
+        34,
+        35,
+        38,
+        51,
+        64,
+        70,
+        72,
+        82
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.85-mixed-0.5sigma.extxyz",
+      "temperature": 0.85,
+      "field_family": "mixed",
+      "frames": 145,
+      "sha256": "8b89e1f15408b75ccb6fdbec7533dbe7debd032a23959afad0e6814aed02531b",
+      "partition": "development",
+      "valid_frame_indices": [
+        23,
+        42,
+        55,
+        57,
+        93,
+        103,
+        108,
+        114,
+        123,
+        124,
+        131,
+        138,
+        141,
+        143
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.9-1D-0.5sigma.extxyz",
+      "temperature": 0.9,
+      "field_family": "1D",
+      "frames": 8,
+      "sha256": "191568ed56f85e99b0764789bf0d92eb9b04b498259a742fec04dd858550fc4e",
+      "partition": "development",
+      "valid_frame_indices": [
+        0
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.9-2D-0.5sigma.extxyz",
+      "temperature": 0.9,
+      "field_family": "2D",
+      "frames": 8,
+      "sha256": "be6125c69091167904537257ebe8ec72bb3c2a60788affa764e032b1e561ddad",
+      "partition": "development",
+      "valid_frame_indices": [
+        5
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.9-mixed-0.5sigma.extxyz",
+      "temperature": 0.9,
+      "field_family": "mixed",
+      "frames": 4,
+      "sha256": "0a583e96c70e8580b6e6b08b9acf5fc63b43c7dbfb43fce90f21d4e03d526f5b",
+      "partition": "development",
+      "valid_frame_indices": [
+        3
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.95-1D-0.5sigma.extxyz",
+      "temperature": 0.95,
+      "field_family": "1D",
+      "frames": 80,
+      "sha256": "c681cc11f57559097bb7245fd019d96250ade8d674bd35e9cbdfbf76cee8dd3e",
+      "partition": "development",
+      "valid_frame_indices": [
+        13,
+        28,
+        34,
+        36,
+        48,
+        61,
+        63,
+        67
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.95-2D-0.5sigma.extxyz",
+      "temperature": 0.95,
+      "field_family": "2D",
+      "frames": 79,
+      "sha256": "9837d7700d98afae1beb0d38d51c1a9aeb1621aa3d90ffd83fd4995ab84471c2",
+      "partition": "development",
+      "valid_frame_indices": [
+        27,
+        32,
+        41,
+        44,
+        56,
+        58,
+        59,
+        65
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.95-3D-0.5sigma.extxyz",
+      "temperature": 0.95,
+      "field_family": "3D",
+      "frames": 111,
+      "sha256": "ca275aac3482df23f68170d1e8be3bb09798a3717bb14e935d4e3396d7af5761",
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        8,
+        11,
+        34,
+        40,
+        54,
+        73,
+        95,
+        96,
+        102,
+        107
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T0.95-mixed-0.5sigma.extxyz",
+      "temperature": 0.95,
+      "field_family": "mixed",
+      "frames": 150,
+      "sha256": "b9935d82ec23538ea3ef06d2cb347ceb65bb9b55dc69abec037ee51abb2c7ad6",
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        18,
+        33,
+        56,
+        61,
+        63,
+        66,
+        69,
+        70,
+        72,
+        89,
+        91,
+        97,
+        102,
+        121
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1-1D-0.5sigma.extxyz",
+      "temperature": 1.0,
+      "field_family": "1D",
+      "frames": 8,
+      "sha256": "97b8bbd8646d1fbe86c56389f04ea643c2557ad50e8a7c2ddaaebdf0f9ff0627",
+      "partition": "development",
+      "valid_frame_indices": [
+        1
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1-2D-0.5sigma.extxyz",
+      "temperature": 1.0,
+      "field_family": "2D",
+      "frames": 6,
+      "sha256": "6305dff92189c437e3b31b43d13c60ae32eca263f5787f19a9549edc8dab30e3",
+      "partition": "development",
+      "valid_frame_indices": [
+        1
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1-mixed-0.5sigma.extxyz",
+      "temperature": 1.0,
+      "field_family": "mixed",
+      "frames": 4,
+      "sha256": "d167e96ba24cc79d6d8c7bcccf82445a16d200a862cb395840eef268a93ef892",
+      "partition": "development",
+      "valid_frame_indices": [
+        2
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.05-1D-0.5sigma.extxyz",
+      "temperature": 1.05,
+      "field_family": "1D",
+      "frames": 80,
+      "sha256": "727c57589ad3c1b416ac5b210459e5ab2cfaff7cf426227a833f182324cfb6f0",
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        26,
+        38,
+        49,
+        54,
+        55,
+        61,
+        75
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.05-2D-0.5sigma.extxyz",
+      "temperature": 1.05,
+      "field_family": "2D",
+      "frames": 79,
+      "sha256": "16c8bbe0af11d58c98720673808ea3fb9f6557bbaab653a092188835cd2bcbad",
+      "partition": "development",
+      "valid_frame_indices": [
+        11,
+        30,
+        35,
+        49,
+        59,
+        60,
+        62,
+        75
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.05-3D-0.5sigma.extxyz",
+      "temperature": 1.05,
+      "field_family": "3D",
+      "frames": 111,
+      "sha256": "b7865814501ce1f10de286e9869b8baf6b3784299eee2cdffd9ec63ff9b63a2f",
+      "partition": "development",
+      "valid_frame_indices": [
+        3,
+        12,
+        38,
+        40,
+        52,
+        56,
+        71,
+        75,
+        85,
+        101,
+        109
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.05-mixed-0.5sigma.extxyz",
+      "temperature": 1.05,
+      "field_family": "mixed",
+      "frames": 148,
+      "sha256": "f60b3626c0a21a82a134fbe0ef96f2290f4174ad8436e9aab9893398e280a4ac",
+      "partition": "development",
+      "valid_frame_indices": [
+        17,
+        29,
+        45,
+        58,
+        62,
+        75,
+        98,
+        101,
+        102,
+        125,
+        126,
+        133,
+        139,
+        142,
+        147
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.1-1D-0.5sigma.extxyz",
+      "temperature": 1.1,
+      "field_family": "1D",
+      "frames": 8,
+      "sha256": "d19f97b3aa1e52e8086d7e7ddaacff8eb79c6ec613859d398812ee4d7ce78adf",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.1-2D-0.5sigma.extxyz",
+      "temperature": 1.1,
+      "field_family": "2D",
+      "frames": 8,
+      "sha256": "35c2ec11b506ba9d0b2a1ac901b606bcb3c38cc217e04b7e5c6d1f3cf79fd837",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.1-mixed-0.5sigma.extxyz",
+      "temperature": 1.1,
+      "field_family": "mixed",
+      "frames": 3,
+      "sha256": "dfda33c134d8a12fdc0022fba3767fb11d92a0f60d80f466baf9ff76d20782a0",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.15-1D-0.5sigma.extxyz",
+      "temperature": 1.15,
+      "field_family": "1D",
+      "frames": 80,
+      "sha256": "bc363bbbd8df196facc6586ed127efac01f802b4540860d9e6a11724c60a7edb",
+      "partition": "development",
+      "valid_frame_indices": [
+        2,
+        14,
+        18,
+        26,
+        44,
+        49,
+        57,
+        74
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.15-2D-0.5sigma.extxyz",
+      "temperature": 1.15,
+      "field_family": "2D",
+      "frames": 78,
+      "sha256": "a95afa9069f575c994377e00387fbcfb824a0ebac68cb1dc1e4fee146a4ee5e6",
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        9,
+        18,
+        19,
+        22,
+        24,
+        31,
+        69
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.15-3D-0.5sigma.extxyz",
+      "temperature": 1.15,
+      "field_family": "3D",
+      "frames": 111,
+      "sha256": "cd018028a1b7264a9019b6865a2bbcd06b503aaf766addd9c18abf3fb39bb79c",
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        12,
+        17,
+        22,
+        41,
+        42,
+        46,
+        47,
+        51,
+        62,
+        63
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.15-mixed-0.5sigma.extxyz",
+      "temperature": 1.15,
+      "field_family": "mixed",
+      "frames": 146,
+      "sha256": "2bdcf1cdea31d378b30d56bafc20e1808f8ded7ac09f0e48562488c3ed2efd93",
+      "partition": "development",
+      "valid_frame_indices": [
+        13,
+        21,
+        32,
+        33,
+        34,
+        46,
+        51,
+        52,
+        69,
+        71,
+        82,
+        93,
+        94,
+        113,
+        140
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.2-1D-0.5sigma.extxyz",
+      "temperature": 1.2,
+      "field_family": "1D",
+      "frames": 8,
+      "sha256": "1c00227c57d265c3c0eef3b5c15cdacb29bf781fb7a04016d97628002c8b2b22",
+      "partition": "development",
+      "valid_frame_indices": [
+        5
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.2-2D-0.5sigma.extxyz",
+      "temperature": 1.2,
+      "field_family": "2D",
+      "frames": 5,
+      "sha256": "86e41cfdb66c4a55628f40e85f8e05f6b27593736ec13a863de3d634f49bb90d",
+      "partition": "development",
+      "valid_frame_indices": [
+        1
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.2-mixed-0.5sigma.extxyz",
+      "temperature": 1.2,
+      "field_family": "mixed",
+      "frames": 5,
+      "sha256": "3f9c9ea647799a5b882ea2f30fb562c3a760779394e4a1e40024d65e483b750d",
+      "partition": "development",
+      "valid_frame_indices": [
+        2
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.25-1D-0.5sigma.extxyz",
+      "temperature": 1.25,
+      "field_family": "1D",
+      "frames": 80,
+      "sha256": "cf68da940176bdbaa74d18e6c52639c6c92117f40527ce9364de8b59c55f3b68",
+      "partition": "development",
+      "valid_frame_indices": [
+        0,
+        10,
+        18,
+        20,
+        44,
+        45,
+        71,
+        76
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.25-2D-0.5sigma.extxyz",
+      "temperature": 1.25,
+      "field_family": "2D",
+      "frames": 80,
+      "sha256": "61dd7944d7fbb427a9002c876e29abeae1bb9dfb8fd59867c978b1e5e4e15e7d",
+      "partition": "development",
+      "valid_frame_indices": [
+        16,
+        28,
+        31,
+        36,
+        40,
+        47,
+        53,
+        57
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.25-3D-0.5sigma.extxyz",
+      "temperature": 1.25,
+      "field_family": "3D",
+      "frames": 111,
+      "sha256": "e109a98525f36f2ebeba738330e13d047ef843e2d63c343eaef38c112624c1f6",
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        16,
+        20,
+        22,
+        24,
+        42,
+        60,
+        65,
+        81,
+        90,
+        95
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.25-mixed-0.5sigma.extxyz",
+      "temperature": 1.25,
+      "field_family": "mixed",
+      "frames": 147,
+      "sha256": "522ec33470a2ce83a4e0fc8c678ed3f4e69a368984adb509927e753114ee40f5",
+      "partition": "development",
+      "valid_frame_indices": [
+        8,
+        12,
+        20,
+        35,
+        39,
+        53,
+        103,
+        107,
+        113,
+        118,
+        123,
+        125,
+        126,
+        128,
+        142
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.3-1D-0.5sigma.extxyz",
+      "temperature": 1.3,
+      "field_family": "1D",
+      "frames": 8,
+      "sha256": "85865b678ee4436ade6f3c367d74d38645108053d43706b9473b8202659dad41",
+      "partition": "development",
+      "valid_frame_indices": [
+        5
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.3-2D-0.5sigma.extxyz",
+      "temperature": 1.3,
+      "field_family": "2D",
+      "frames": 7,
+      "sha256": "e95183f37a8f02bb41f306500fc3839203be3da15c8f9a774929769154e6e6e0",
+      "partition": "development",
+      "valid_frame_indices": [
+        6
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.3-mixed-0.5sigma.extxyz",
+      "temperature": 1.3,
+      "field_family": "mixed",
+      "frames": 4,
+      "sha256": "64222b0ff7ea4be9abf66b468cf5e65d3b405b8eaf128aaaeaf15b69cc76d1fb",
+      "partition": "development",
+      "valid_frame_indices": [
+        2
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.4-1D-0.5sigma.extxyz",
+      "temperature": 1.4,
+      "field_family": "1D",
+      "frames": 8,
+      "sha256": "e295d7446f3a636e3083a93fb305d00d74680dc70bd8dca1df4a4915fea25017",
+      "partition": "development",
+      "valid_frame_indices": [
+        5
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.4-2D-0.5sigma.extxyz",
+      "temperature": 1.4,
+      "field_family": "2D",
+      "frames": 8,
+      "sha256": "5f72ffd86330c407fa2dc371139a5706565bd03f0accd39fdf1471d0c1016319",
+      "partition": "development",
+      "valid_frame_indices": [
+        7
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.4-mixed-0.5sigma.extxyz",
+      "temperature": 1.4,
+      "field_family": "mixed",
+      "frames": 6,
+      "sha256": "af72275d349c811de4b82350ab8fce8f976ee2ed631ac5bd5feef2a523213833",
+      "partition": "development",
+      "valid_frame_indices": [
+        0
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.5-1D-0.5sigma.extxyz",
+      "temperature": 1.5,
+      "field_family": "1D",
+      "frames": 8,
+      "sha256": "73cbf6064a697b8f9378b2923229f6ba392019a3a44c0e1deeb8706b4c3c2979",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.5-2D-0.5sigma.extxyz",
+      "temperature": 1.5,
+      "field_family": "2D",
+      "frames": 7,
+      "sha256": "6bc0d9dcb09a81f738aa136f197a3bd9ab0363dd755aafa74015dfebaabdacf8",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.5-mixed-0.5sigma.extxyz",
+      "temperature": 1.5,
+      "field_family": "mixed",
+      "frames": 5,
+      "sha256": "29f1bea4878469ecd5307796684610803a7bf39a60b0b0fda15c3919d2353e67",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.6-1D-0.5sigma.extxyz",
+      "temperature": 1.6,
+      "field_family": "1D",
+      "frames": 8,
+      "sha256": "5fa9763d9c8643837d77f1ad01a55ddf911cf9b7b7d527476f4152f1b6b8093e",
+      "partition": "development",
+      "valid_frame_indices": [
+        5
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.6-2D-0.5sigma.extxyz",
+      "temperature": 1.6,
+      "field_family": "2D",
+      "frames": 8,
+      "sha256": "ba21c9deb4e4b9ddb1f259593f5a0df3edb40502fec455a558a5637c0a1932b7",
+      "partition": "development",
+      "valid_frame_indices": [
+        4
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.6-mixed-0.5sigma.extxyz",
+      "temperature": 1.6,
+      "field_family": "mixed",
+      "frames": 4,
+      "sha256": "e8c2507c91e3d8e565b027b3321f1d5de40873e0c5d26ae82fae6e60771972a5",
+      "partition": "development",
+      "valid_frame_indices": [
+        0
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.7-1D-0.5sigma.extxyz",
+      "temperature": 1.7,
+      "field_family": "1D",
+      "frames": 8,
+      "sha256": "ce445a8fb269de557b66033efa7390fc378fdc0295c0fae3c2fdae6bdf2a9add",
+      "partition": "development",
+      "valid_frame_indices": [
+        0
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.7-2D-0.5sigma.extxyz",
+      "temperature": 1.7,
+      "field_family": "2D",
+      "frames": 6,
+      "sha256": "fef8abcaf1705b6876d5b19e700177b8ff0b6fdd5c3946068acaedbe8434c6f6",
+      "partition": "development",
+      "valid_frame_indices": [
+        3
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.7-mixed-0.5sigma.extxyz",
+      "temperature": 1.7,
+      "field_family": "mixed",
+      "frames": 3,
+      "sha256": "5d91e3d6f472cc94e968c8a5a182efcea922cc0919fbae1a94a7b75066cbed8b",
+      "partition": "development",
+      "valid_frame_indices": [
+        1
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.8-1D-0.5sigma.extxyz",
+      "temperature": 1.8,
+      "field_family": "1D",
+      "frames": 8,
+      "sha256": "801c3c39b7b222e0b2bd5bf2f914c8cdaa45c5f0ed311ea72196fb931d41bd5b",
+      "partition": "development",
+      "valid_frame_indices": [
+        1
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.8-2D-0.5sigma.extxyz",
+      "temperature": 1.8,
+      "field_family": "2D",
+      "frames": 8,
+      "sha256": "42b3973fd11f53328ff7633d7cf6aae929d6c51b1b35a9ebb3fcb351afac455b",
+      "partition": "development",
+      "valid_frame_indices": [
+        2
+      ]
+    },
+    {
+      "collection": "extended",
+      "filename": "nvt-T1.8-mixed-0.5sigma.extxyz",
+      "temperature": 1.8,
+      "field_family": "mixed",
+      "frames": 5,
+      "sha256": "7b28ecaa98192a456868e4ca5de4d09eaa7abe42967963821d7e5c9f97b9454c",
+      "partition": "development",
+      "valid_frame_indices": [
+        0
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.625-mixed-2x-0.5sigma.extxyz",
+      "temperature": 0.625,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "b642c5779bcb5fc35df10b7f932e5f35b6e5873aaa5c66ac1c825f032138e309",
+      "partition": "development",
+      "valid_frame_indices": [
+        6,
+        21,
+        25,
+        34,
+        39,
+        49,
+        50,
+        75
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.625-mixed-3x-0.5sigma.extxyz",
+      "temperature": 0.625,
+      "field_family": "mixed_3x",
+      "frames": 75,
+      "sha256": "6ead02c6292b8e1ca23c759159d4dcc1ea93b9293fbe1939117e21611dc7e200",
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        8,
+        15,
+        16,
+        26,
+        39,
+        69,
+        71
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.65-mixed-2x-0.5sigma.extxyz",
+      "temperature": 0.65,
+      "field_family": "mixed_2x",
+      "frames": 79,
+      "sha256": "0a7d189d0dd3b6ec2a52fc69c0bcce01215fe7a7a97484f3669d1c8ce6880619",
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        14,
+        19,
+        42,
+        62,
+        73,
+        74,
+        77
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.65-mixed-3x-0.5sigma.extxyz",
+      "temperature": 0.65,
+      "field_family": "mixed_3x",
+      "frames": 74,
+      "sha256": "09239ed59b977a6538d4e95c3254096c4330057f409ec241b9e745d9fb9dba03",
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        10,
+        30,
+        33,
+        48,
+        51,
+        70
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.675-mixed-2x-0.5sigma.extxyz",
+      "temperature": 0.675,
+      "field_family": "mixed_2x",
+      "frames": 79,
+      "sha256": "548046af0b07ad227fcc8e2126860da8f4041854d96fda365c956f731ce1ea49",
+      "partition": "development",
+      "valid_frame_indices": [
+        15,
+        30,
+        31,
+        32,
+        36,
+        39,
+        62,
+        64
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.675-mixed-3x-0.5sigma.extxyz",
+      "temperature": 0.675,
+      "field_family": "mixed_3x",
+      "frames": 74,
+      "sha256": "fb1f67eeaffcaf75a2248fd22b4d98d0c8a834f57cd2fa67be1e1bf86c693e76",
+      "partition": "development",
+      "valid_frame_indices": [
+        1,
+        12,
+        28,
+        41,
+        44,
+        50,
+        63
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.7-mixed-2x-0.5sigma.extxyz",
+      "temperature": 0.7,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "cb01d51b4132f60fe295274f333b3d0e251329891154ee3138cbc9a1845e108a",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.7-mixed-3x-0.5sigma.extxyz",
+      "temperature": 0.7,
+      "field_family": "mixed_3x",
+      "frames": 71,
+      "sha256": "a05ef5f991593fc5d3f7725d18e1f6787f29de32e2c1c6709e613cd3184b83d0",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.725-mixed-2x-0.5sigma.extxyz",
+      "temperature": 0.725,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "73ec81970f7815f673dca9bf4fbf04bdbdbe0d7dd37961d87dabbb64a8d206b2",
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        23,
+        24,
+        28,
+        38,
+        45,
+        51,
+        77
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.725-mixed-3x-0.5sigma.extxyz",
+      "temperature": 0.725,
+      "field_family": "mixed_3x",
+      "frames": 76,
+      "sha256": "47e56b6ed14c1072e9418ae5bcbd56974046a754aeffa59f5f397fadb89711a3",
+      "partition": "development",
+      "valid_frame_indices": [
+        1,
+        16,
+        27,
+        36,
+        44,
+        48,
+        59,
+        74
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.75-mixed-2x-0.5sigma.extxyz",
+      "temperature": 0.75,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "1fd714e4d8d95d691976af0e18be7ea8bd35bc53999d87c9d0f7b1e7d3ef16dc",
+      "partition": "development",
+      "valid_frame_indices": [
+        11,
+        14,
+        39,
+        42,
+        44,
+        60,
+        64,
+        74
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.75-mixed-3x-0.5sigma.extxyz",
+      "temperature": 0.75,
+      "field_family": "mixed_3x",
+      "frames": 74,
+      "sha256": "03e1ca960e6305346fe9b141cb1c4d5858268968bd6001b2e34a17100d6e8cce",
+      "partition": "development",
+      "valid_frame_indices": [
+        14,
+        16,
+        27,
+        30,
+        36,
+        45,
+        70
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.775-mixed-2x-0.5sigma.extxyz",
+      "temperature": 0.775,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "062eb8aabb6953bdc5330916a2eebd55ff27bbd2181db8c55e0bcec36be5bc07",
+      "partition": "development",
+      "valid_frame_indices": [
+        0,
+        18,
+        26,
+        28,
+        37,
+        41,
+        42,
+        58
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.775-mixed-3x-0.5sigma.extxyz",
+      "temperature": 0.775,
+      "field_family": "mixed_3x",
+      "frames": 77,
+      "sha256": "8b778cf752fb6e36e230de8d9d3b11f94f94d95030d36ed76c4f9216c4fbcc09",
+      "partition": "development",
+      "valid_frame_indices": [
+        15,
+        16,
+        28,
+        41,
+        47,
+        48,
+        52,
+        63
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.8-mixed-2x-0.5sigma.extxyz",
+      "temperature": 0.8,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "cb028d9bb4e12d7160e737170e14a134de454332cb517588e071e2ea9349ea8c",
+      "partition": "development",
+      "valid_frame_indices": [
+        21,
+        24,
+        38,
+        41,
+        58,
+        63,
+        64,
+        66
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.8-mixed-3x-0.5sigma.extxyz",
+      "temperature": 0.8,
+      "field_family": "mixed_3x",
+      "frames": 76,
+      "sha256": "8a3b598312a08e7020779bd0a87e6d736a939711c2b77ab61148dba534b0d1aa",
+      "partition": "development",
+      "valid_frame_indices": [
+        0,
+        26,
+        44,
+        48,
+        49,
+        57,
+        58,
+        69
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.85-mixed-2x-0.5sigma.extxyz",
+      "temperature": 0.85,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "eaa07b7f61d70876a341921c5dce3d911a41b20ec8797836088409c325187959",
+      "partition": "development",
+      "valid_frame_indices": [
+        6,
+        8,
+        26,
+        40,
+        53,
+        54,
+        66,
+        73
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.85-mixed-3x-0.5sigma.extxyz",
+      "temperature": 0.85,
+      "field_family": "mixed_3x",
+      "frames": 76,
+      "sha256": "e039afc4b75e8a089fba54ca53f8da820a876f46f3580dbda1ca3ed49afdaf9c",
+      "partition": "development",
+      "valid_frame_indices": [
+        3,
+        24,
+        29,
+        37,
+        53,
+        63,
+        64,
+        70
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.9-mixed-2x-0.5sigma.extxyz",
+      "temperature": 0.9,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "d041f09b1756835e48463fd3bf3fccae76f9991d01d6094baf322e3f055c23a7",
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        26,
+        33,
+        34,
+        44,
+        46,
+        59,
+        76
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.9-mixed-3x-0.5sigma.extxyz",
+      "temperature": 0.9,
+      "field_family": "mixed_3x",
+      "frames": 77,
+      "sha256": "de8892848c727d2def621ebadce39d6eb4f1c27f86ea35de14b6fb47dbd1e761",
+      "partition": "development",
+      "valid_frame_indices": [
+        11,
+        15,
+        20,
+        22,
+        23,
+        63,
+        64,
+        71
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.95-mixed-2x-0.5sigma.extxyz",
+      "temperature": 0.95,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "89906f5c84dd727d856f4be1d27c3fca4026680d5e19683e86a919ce829e94fc",
+      "partition": "development",
+      "valid_frame_indices": [
+        14,
+        15,
+        18,
+        21,
+        32,
+        34,
+        61,
+        63
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T0.95-mixed-3x-0.5sigma.extxyz",
+      "temperature": 0.95,
+      "field_family": "mixed_3x",
+      "frames": 76,
+      "sha256": "0f70a01d6a4f957af800b306458425f4d2afa252d00ca0d8a95f016180b72c37",
+      "partition": "development",
+      "valid_frame_indices": [
+        3,
+        5,
+        18,
+        22,
+        24,
+        42,
+        43,
+        45
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1-mixed-2x-0.5sigma.extxyz",
+      "temperature": 1.0,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "41ad477ae696d27e6e6d8ec96143d79ee08ecb2eaf3579a8817f446fe687eddf",
+      "partition": "development",
+      "valid_frame_indices": [
+        8,
+        32,
+        44,
+        47,
+        52,
+        57,
+        60,
+        75
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1-mixed-3x-0.5sigma.extxyz",
+      "temperature": 1.0,
+      "field_family": "mixed_3x",
+      "frames": 75,
+      "sha256": "71bb66908a81a485e0528d04c7153acb1d74c20a1530b2cb70e4cddb3eafb6ac",
+      "partition": "development",
+      "valid_frame_indices": [
+        1,
+        23,
+        28,
+        34,
+        36,
+        44,
+        55,
+        66
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.05-mixed-2x-0.5sigma.extxyz",
+      "temperature": 1.05,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "ada90e2b07676c334cfbb129ff21c8d1110d15f75c60f1ff237dd3316441773e",
+      "partition": "development",
+      "valid_frame_indices": [
+        6,
+        8,
+        29,
+        38,
+        40,
+        45,
+        47,
+        52
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.05-mixed-3x-0.5sigma.extxyz",
+      "temperature": 1.05,
+      "field_family": "mixed_3x",
+      "frames": 77,
+      "sha256": "52c945e2cadbc2ba46ebf23f04aeaf7bbec6fd58c7e1c5e5866884c5aac7bb7a",
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        14,
+        27,
+        30,
+        34,
+        40,
+        66,
+        69
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.1-mixed-2x-0.5sigma.extxyz",
+      "temperature": 1.1,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "cd3bab4a8c9a77d832503c3d0c570417a9ef143a00d00d41e268dbacbf8853e8",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.1-mixed-3x-0.5sigma.extxyz",
+      "temperature": 1.1,
+      "field_family": "mixed_3x",
+      "frames": 75,
+      "sha256": "05a0169b9cfd4a3d179aa6c7f636fe21ef16b06d9374c175ecb2814d52cd847e",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.15-mixed-2x-0.5sigma.extxyz",
+      "temperature": 1.15,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "26ca5b7b6160408cbe17bcc42e46540fba178b16a7d16e29ea0bb61cd2391719",
+      "partition": "development",
+      "valid_frame_indices": [
+        13,
+        15,
+        20,
+        21,
+        26,
+        33,
+        42,
+        54
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.15-mixed-3x-0.5sigma.extxyz",
+      "temperature": 1.15,
+      "field_family": "mixed_3x",
+      "frames": 75,
+      "sha256": "3bb630ad85ab1f4ea60316c04b482744e6b65e8ccba970563d8f6cd4fa897ccf",
+      "partition": "development",
+      "valid_frame_indices": [
+        9,
+        12,
+        13,
+        32,
+        42,
+        48,
+        54,
+        55
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.2-mixed-2x-0.5sigma.extxyz",
+      "temperature": 1.2,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "b28725fe6cb2889894900fa968cb6605b21c920f6298993d5819a5ec136da6b4",
+      "partition": "development",
+      "valid_frame_indices": [
+        7,
+        9,
+        28,
+        31,
+        32,
+        44,
+        47,
+        53
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.2-mixed-3x-0.5sigma.extxyz",
+      "temperature": 1.2,
+      "field_family": "mixed_3x",
+      "frames": 76,
+      "sha256": "dfe2bda3a9b3effa81d162063ef778fe12d778061a66cfd42fb81a5827a3c2ae",
+      "partition": "development",
+      "valid_frame_indices": [
+        5,
+        9,
+        19,
+        29,
+        35,
+        41,
+        67,
+        69
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.25-mixed-2x-0.5sigma.extxyz",
+      "temperature": 1.25,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "c953c3fc2cc45806d68e8a114dd00b36677c16a5dc0bef7a7b7a19f8f4274763",
+      "partition": "development",
+      "valid_frame_indices": [
+        12,
+        29,
+        33,
+        39,
+        51,
+        60,
+        72,
+        79
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.25-mixed-3x-0.5sigma.extxyz",
+      "temperature": 1.25,
+      "field_family": "mixed_3x",
+      "frames": 76,
+      "sha256": "104f129cfdd2c9887ea8c34d85e4c49df7e32c943178a050170cc7d08dcdb29a",
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        7,
+        11,
+        12,
+        26,
+        37,
+        62,
+        65
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.3-mixed-2x-0.5sigma.extxyz",
+      "temperature": 1.3,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "d4c0e508f70a980b5d089115caf40a54d0c20fc907f66fd29167ad9a7d22c4f9",
+      "partition": "development",
+      "valid_frame_indices": [
+        1,
+        19,
+        24,
+        36,
+        40,
+        46,
+        58,
+        69
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.3-mixed-3x-0.5sigma.extxyz",
+      "temperature": 1.3,
+      "field_family": "mixed_3x",
+      "frames": 75,
+      "sha256": "29ce1ac11ee2bab25e03d466538101b21c5d81d0626cd0a7a78b2d56814cea03",
+      "partition": "development",
+      "valid_frame_indices": [
+        11,
+        20,
+        24,
+        28,
+        34,
+        57,
+        62,
+        69
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.4-mixed-2x-0.5sigma.extxyz",
+      "temperature": 1.4,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "20ab1312dea2f31f7acfb3fa6035cb0a31d8543e8e3b6395db73a8e2eb06ab7d",
+      "partition": "development",
+      "valid_frame_indices": [
+        0,
+        3,
+        7,
+        11,
+        32,
+        33,
+        46,
+        59
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.4-mixed-3x-0.5sigma.extxyz",
+      "temperature": 1.4,
+      "field_family": "mixed_3x",
+      "frames": 75,
+      "sha256": "bdd62c628b557a78f74383c815dbe57dd3583e7ea9cfa1092fa708a66988396b",
+      "partition": "development",
+      "valid_frame_indices": [
+        4,
+        6,
+        21,
+        33,
+        44,
+        50,
+        62,
+        68
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.5-mixed-2x-0.5sigma.extxyz",
+      "temperature": 1.5,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "4cbc4b28fca2e5077b445fdc72aa287bc17ced29498d9dbf125097fda9eddc2f",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.5-mixed-3x-0.5sigma.extxyz",
+      "temperature": 1.5,
+      "field_family": "mixed_3x",
+      "frames": 77,
+      "sha256": "1f39e204225f3d70f7d3eb36c3d1202b943dffec24479bb3e629fda91d8dda89",
+      "partition": "test",
+      "valid_frame_indices": []
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.6-mixed-2x-0.5sigma.extxyz",
+      "temperature": 1.6,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "a53ead73a0675699e90a6c6800d7274283e1974523f8fd218564e8ac431972a3",
+      "partition": "development",
+      "valid_frame_indices": [
+        2,
+        4,
+        7,
+        31,
+        49,
+        63,
+        65,
+        74
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.6-mixed-3x-0.5sigma.extxyz",
+      "temperature": 1.6,
+      "field_family": "mixed_3x",
+      "frames": 76,
+      "sha256": "4bce257d6141cff968f0b21908b3fb22cac835c49ef237e1c4bb6898bf7993b7",
+      "partition": "development",
+      "valid_frame_indices": [
+        25,
+        34,
+        36,
+        42,
+        43,
+        44,
+        59,
+        71
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.7-mixed-2x-0.5sigma.extxyz",
+      "temperature": 1.7,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "7124e443a525ad449b1f84c1ec6f6454c5cf6006f9d8a9a64a83294e90683d9c",
+      "partition": "development",
+      "valid_frame_indices": [
+        10,
+        32,
+        37,
+        49,
+        50,
+        52,
+        60,
+        77
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.7-mixed-3x-0.5sigma.extxyz",
+      "temperature": 1.7,
+      "field_family": "mixed_3x",
+      "frames": 76,
+      "sha256": "f27bcab8954b79f131032c29aa9053e208d377306a5597942f2568754da0a132",
+      "partition": "development",
+      "valid_frame_indices": [
+        18,
+        31,
+        35,
+        37,
+        55,
+        56,
+        57,
+        68
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.8-mixed-2x-0.5sigma.extxyz",
+      "temperature": 1.8,
+      "field_family": "mixed_2x",
+      "frames": 80,
+      "sha256": "1d05fd532c925708a6b43ff154e356cfe1f1bf1a77cc9d265e3f5757ec995f7b",
+      "partition": "development",
+      "valid_frame_indices": [
+        12,
+        15,
+        23,
+        26,
+        38,
+        58,
+        67,
+        79
+      ]
+    },
+    {
+      "collection": "mixed_more",
+      "filename": "nvt-T1.8-mixed-3x-0.5sigma.extxyz",
+      "temperature": 1.8,
+      "field_family": "mixed_3x",
+      "frames": 75,
+      "sha256": "3f01c2227c8513a79eda2c075285bf06fa39d49e0713213e979531717df8c9be",
+      "partition": "development",
+      "valid_frame_indices": [
+        2,
+        5,
+        19,
+        32,
+        40,
+        53,
+        55,
+        64
+      ]
+    }
+  ]
+}

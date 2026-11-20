@@ -1,0 +1,31 @@
+{
+  "seed": 1,
+  "epoch_budget": 200,
+  "completed_epochs": 200,
+  "best_epoch": 200,
+  "best_valid_loss": 0.009091212322626567,
+  "batch_size": 2,
+  "cutoff_grid": 4,
+  "max_power": 3,
+  "max_product_order": 2,
+  "free_energy_mode": "beta",
+  "rho_min": 0.001,
+  "radial_basis": "gaussian",
+  "radial_exponents": [
+    0.125
+  ],
+  "trainable_radial_exponents": true,
+  "coordinate_scaling": "none",
+  "separate_center": true,
+  "use_lda": true,
+  "long_range_kernel": null,
+  "mean_density": 0.4056662858721711,
+  "mean_temperature": 1.076966085499136,
+  "training_target": "spatially constant local chemical potential",
+  "train_frames": 11219,
+  "valid_frames": 1255,
+  "test_frames": 2055,
+  "split_manifest": "/global/scratch/users/bingqingcheng/equicdft_nvt_morecomprehensive/split_manifest.json",
+  "code_commit": "8832a1b",
+  "device": "cuda"
+}

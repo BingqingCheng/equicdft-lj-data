@@ -1,0 +1,26 @@
+{
+  "2": {
+    "snapshot_member": "study/cDFT/NatComm-review/2026-11-19-c4-production-update/figure_bulk_response/figure_bulk_response_c4_two_grid.pdf",
+    "sha256": "51c2af81ae9566b47c0e075614c57292ca4f279e0d09b163afb523bc7e322e27"
+  },
+  "3": {
+    "snapshot_member": "study/cDFT/NatComm-review/2026-11-19-c4-production-update/dimer/two_colloid_C4_wc025_paired_grids.pdf",
+    "sha256": "3e11138941dc8f83ee0cf436b845e49e98e71122b0e05258ddb698b1ad5c5d91"
+  },
+  "4": {
+    "snapshot_member": "study/cDFT/NatComm-review/2026-11-19-c4-production-update/gyroid/fine-grid-main-parity-v3/output/pdf/gyroid_application_C4_w020_fine025_parity.pdf",
+    "sha256": "a71090d9b56396338a55812017c866d1fda81040a3a13d67f66c01063473dfdd"
+  },
+  "6": {
+    "snapshot_member": "study/cDFT/NatComm-review/2026-11-19-c4-production-update/benchmark/three-case-exclusion-small-euler-recovered-v2/figure5_three_excluded_small_euler_recovered_notitle_r2_3dp.pdf",
+    "sha256": "274f28a4769a9252d60c19d50f7239fd8c279a89fdc59a34540fb7043d11e3f5"
+  },
+  "7": {
+    "snapshot_member": "study/cDFT/NatComm-review/2026-11-19-c4-production-update/grid-transfer/output/pdf/equicdft_c4_grid_transfer.pdf",
+    "sha256": "3a1e0b3a4f6ae285407672d552a5a0860245a32ab539027f01fdf42765086a88"
+  },
+  "5": {
+    "snapshot_member": "study/cDFT/train-nvt-morecomprehensive-brc/data_efficiency_c4_comparison_20261119/cace_cubic_data_efficiency.pdf",
+    "sha256": "2315af11940fcd115f4154993dc56019775d74466357e539fc005b24651b646e"
+  }
+}

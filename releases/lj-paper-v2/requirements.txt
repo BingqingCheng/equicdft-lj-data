@@ -1,0 +1,8 @@
+# Install in a separate environment from the historical repository-root release.
+equicdft @ git+https://github.com/BingqingCheng/equicdft.git@45d0b47b40b74f6a5e3190b5d81b4fb55bee0134
+numpy
+scipy
+matplotlib
+ase
+Pillow
+PyMuPDF==1.26.7

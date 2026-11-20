@@ -1,0 +1,6 @@
+# Preserve retained scientific data bytes, including original CSV line endings.
+*.csv -text
+*.extxyz -text
+*.npz -text -diff
+*.pt -text -diff
+*.tar.gz -text -diff

@@ -1,0 +1,72 @@
+{
+  "native": {
+    "status": "exploratory signed-kernel normalization control",
+    "h": 0.5,
+    "training_h": 0.5,
+    "layers": [
+      {
+        "layer": "base",
+        "carrier": "rho/mean_density",
+        "gamma": 1.0,
+        "p0": 0.03379838497547684,
+        "native_p0": 0.03379838497547684,
+        "radial_basis": "gaussian",
+        "alpha_grid": 0.3247145506440213,
+        "alpha_physical": 1.2988582025760853,
+        "noncentral_neighbors": 256,
+        "max_active_radius": 2.0,
+        "native_max_active_radius": 2.0,
+        "scalar_weight_sum": 1.0000000000000004,
+        "center_scalar_coefficient": 0.0,
+        "minimum_scalar_weight": 0.0,
+        "primitive_reconstruction_max_abs_error": 3.469446951953614e-18,
+        "native_exact_identity": true
+      }
+    ],
+    "learned_parameters_changed": false,
+    "serialized_input_normalizations_changed": false,
+    "physical_width_changed": false,
+    "cutoff_mask_changed": false,
+    "state_dict_does_not_serialize_control": true,
+    "alias": "rbf-c4",
+    "grid_spacing": 0.5,
+    "checkpoint_sha256": "6edbebb18192ca7f6a311a88c3236d61c3c5d285c739b9f533b4dc1b6e7137ca",
+    "applied": false,
+    "variant": "native"
+  },
+  "compensated": {
+    "status": "exploratory signed-kernel normalization control",
+    "h": 0.25,
+    "training_h": 0.5,
+    "layers": [
+      {
+        "layer": "base",
+        "carrier": "rho/mean_density",
+        "gamma": 1.0306103789406786,
+        "p0": 0.004222587406480454,
+        "native_p0": 0.03379838497547684,
+        "radial_basis": "gaussian",
+        "alpha_grid": 0.08117863766100532,
+        "alpha_physical": 1.298858202576085,
+        "noncentral_neighbors": 2108,
+        "max_active_radius": 2.0,
+        "native_max_active_radius": 2.0,
+        "scalar_weight_sum": 1.0000000000000002,
+        "center_scalar_coefficient": -0.03061037894067864,
+        "minimum_scalar_weight": -0.03061037894067864,
+        "primitive_reconstruction_max_abs_error": 1.734723475976807e-18,
+        "native_exact_identity": false
+      }
+    ],
+    "learned_parameters_changed": false,
+    "serialized_input_normalizations_changed": false,
+    "physical_width_changed": false,
+    "cutoff_mask_changed": false,
+    "state_dict_does_not_serialize_control": true,
+    "alias": "rbf-c4",
+    "grid_spacing": 0.25,
+    "checkpoint_sha256": "6edbebb18192ca7f6a311a88c3236d61c3c5d285c739b9f533b4dc1b6e7137ca",
+    "applied": true,
+    "variant": "compensated"
+  }
+}

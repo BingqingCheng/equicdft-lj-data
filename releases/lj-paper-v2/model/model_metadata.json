@@ -1,0 +1,237 @@
+{
+  "record_date": "2026-11-19",
+  "scientific_status": "reference choice for the revised LJTS paper; system-specific",
+  "selection_note": "Selected explicitly for the revised production study. This record does not claim that the architecture or parameters are universally optimal.",
+  "checkpoint": {
+    "alias": "Gaussian-radial C4 without stability training",
+    "local_path": "train-nvt-morecomprehensive-brc/fit-beta-p3nu2-rbf1normtrain-c4/model.pt",
+    "brc_path": "/global/scratch/users/bingqingcheng/equicdft_nvt_morecomprehensive/fit-beta-p3nu2-rbf1normtrain-c4/model.pt",
+    "sha256": "6edbebb18192ca7f6a311a88c3236d61c3c5d285c739b9f533b4dc1b6e7137ca",
+    "selected_checkpoint": "checkpoints/best.pt",
+    "selected_epoch": 200,
+    "selection_metric": "strict minimum of validation total loss",
+    "validation_total_loss": 0.009091212322626567
+  },
+  "code": {
+    "repository": "https://github.com/BingqingCheng/equicdft.git",
+    "recorded_commit": "8832a1b",
+    "locally_resolved_full_commit": "8832a1b41d28f6da839ecf4cde12fd128edea08d",
+    "brc_snapshot": "/global/scratch/users/bingqingcheng/equicdft_nvt_morecomprehensive/equicdft-8832a1b",
+    "note": "The run artifacts record the short commit. The full hash is resolved from the retained local Git object rather than from run_config.json."
+  },
+  "functional": {
+    "learned_quantity": "beta_F_exc",
+    "free_energy_mode": "beta",
+    "additive_readouts": [
+      "LDAReadout",
+      "LocalReadout"
+    ],
+    "long_range_readout": false,
+    "stability_regularizer": false,
+    "quadrature": "beta_F_exc = DeltaV * sum_g rho_g * (beta_a_point_g + beta_a_CACE_g)",
+    "first_direct_correlation": "c1_g = -(1/DeltaV) * partial(beta_F_exc)/partial(rho_g)"
+  },
+  "local_representation": {
+    "grid_spacing_sigma": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "cutoff_grid": 4,
+    "physical_cutoff_sigma": 2.0,
+    "stencil_shape": "inclusive integer sphere |q|^2 <= 16",
+    "stencil_offsets_including_center": 257,
+    "noncentral_offsets_in_radial_channel": 256,
+    "separate_center": true,
+    "coordinate_scaling": "none; Cartesian monomials use raw integer offsets",
+    "density_components": 1,
+    "density_channel_mixing": false,
+    "mean_density_scale": 0.4056662858721711,
+    "density_normalization": "scale only: rho/mean_density; no mean subtraction",
+    "mean_temperature_scale": 1.076966085499136,
+    "temperature_normalization": "T/mean_temperature"
+  },
+  "radial_channel": {
+    "basis": "one Gaussian channel",
+    "initial_exponent_inverse_grid_squared": 0.125,
+    "learned_exponent_inverse_grid_squared": 0.3247145414352417,
+    "checkpoint_log_exponent": -1.1248087882995605,
+    "trainable": true,
+    "weight": "exp(-alpha * |q|^2)",
+    "normalization": "unit discrete sum over the 256 noncentral stencil offsets",
+    "center_weight": 0.0
+  },
+  "cartesian_cace": {
+    "maximum_cartesian_degree_p": 3,
+    "cartesian_monomials": 20,
+    "maximum_product_order_nu": 2,
+    "point_group": "O_h represented by all 48 signed axis permutations",
+    "invariants_by_order": {
+      "nu_1": 2,
+      "nu_2": 13
+    },
+    "total_invariants_per_radial_and_type_channel": 15,
+    "A_shape_per_grid": [
+      1,
+      20,
+      1
+    ],
+    "B_shape_per_grid": [
+      1,
+      15,
+      1
+    ]
+  },
+  "readouts": {
+    "activation": "SiLU",
+    "pointwise": {
+      "class": "LDAReadout",
+      "inputs": [
+        "rho_g/mean_density",
+        "T/mean_temperature"
+      ],
+      "network_widths": [
+        2,
+        32,
+        16,
+        1
+      ],
+      "trainable_parameters": 641
+    },
+    "CACE": {
+      "class": "LocalReadout",
+      "inputs": [
+        "rho_g/mean_density",
+        "15 flattened B_g invariants",
+        "T/mean_temperature"
+      ],
+      "input_dimension": 17,
+      "network_widths": [
+        17,
+        32,
+        16,
+        1
+      ],
+      "trainable_parameters": 1121
+    },
+    "trainable_radial_parameters": 1,
+    "total_trainable_parameters": 1763,
+    "total_parameters": 1763
+  },
+  "training_data": {
+    "physical_cell_side_sigma": 8.0,
+    "physical_cell_volume_sigma_cubed": 512.0,
+    "particle_number_range_all_partitions": [
+      8,
+      464
+    ],
+    "nominal_mean_density_range_sigma_minus_3_all_partitions": [
+      0.015625,
+      0.90625
+    ],
+    "range_note": "The particle-number and nominal mean-density ranges are identical globally in train, validation, and test. They are not pointwise-density bounds.",
+    "temperature_range_all_fields": [
+      0.625,
+      1.8
+    ],
+    "split_manifest_local": "train-nvt-morecomprehensive-brc/split_manifest.json",
+    "split_manifest_brc": "/global/scratch/users/bingqingcheng/equicdft_nvt_morecomprehensive/split_manifest.json",
+    "split_manifest_sha256": "f2cc095f606ae45bb5a80337dbce5244a5c19633f0711ba68d0c7d29cca714db",
+    "split_seed": 1,
+    "validation_rule": "10 percent within every development source file",
+    "held_out_reduced_temperatures": [
+      0.7,
+      1.1,
+      1.5
+    ],
+    "frames": {
+      "train": 11219,
+      "validation": 1255,
+      "full_held_out_audit_pool": 2055,
+      "total": 14529
+    },
+    "paper_benchmark": {
+      "small_system_test_fields": 1592,
+      "paper_used_corpus_fields": 14066,
+      "paper_used_corpus_definition": "11219 training + 1255 validation + 1592 small-system test fields",
+      "distinction": "The 1592-field small-system benchmark used in Figure 5 is a subset distinct from the full 2055-field held-out audit pool recorded by split_manifest.json."
+    },
+    "frames_by_collection": {
+      "general": {
+        "train": 1800,
+        "validation": 198,
+        "test": 666
+      },
+      "dimensional": {
+        "train": 1170,
+        "validation": 126,
+        "test": 432
+      },
+      "mixed": {
+        "train": 1170,
+        "validation": 126,
+        "test": 432
+      },
+      "extended": {
+        "train": 4287,
+        "validation": 488,
+        "test": 62
+      },
+      "mixed_more": {
+        "train": 2792,
+        "validation": 317,
+        "test": 463
+      }
+    }
+  },
+  "training": {
+    "epochs_completed": 200,
+    "batch_size_fields": 2,
+    "seed": 1,
+    "optimizer": "Adam",
+    "initial_learning_rate": 0.0001,
+    "scheduler": "ReduceLROnPlateau",
+    "scheduler_factor": 0.5,
+    "scheduler_patience_epochs": 3,
+    "minimum_learning_rate": 0.000001,
+    "checkpoint_interval_epochs": 5,
+    "early_stopping_patience_epochs": 200,
+    "final_learning_rate": 0.000001,
+    "objective": "single masked weighted-mean MSE between local beta*mu and its mask-weighted spatial average",
+    "prediction_key": "local_chemical_potential",
+    "target_key": "average_chemical_potential",
+    "weights_key": "chemical_potential_weights",
+    "hard_mask": "rho > 0.001",
+    "stability_or_perturbation_loss": false
+  },
+  "timing": {
+    "slurm_job": "37783011_1",
+    "slurm_start": "2026-08-19T21:41:46-07:00",
+    "slurm_end": "2026-08-20T00:24:34-07:00",
+    "complete_job_wall_time_seconds": 9768,
+    "complete_job_wall_time": "02:42:48",
+    "wall_time_seconds_per_completed_epoch_including_setup_and_save": 48.84,
+    "resources": "one NVIDIA L40 GPU, eight CPUs, 64 GB requested memory",
+    "epoch_1_completion_timestamp": "2026-08-19T21:44:52-07:00",
+    "epoch_200_completion_timestamp": "2026-08-20T00:24:33-07:00",
+    "logged_intervals": 199,
+    "logged_interval_span_seconds": 9581,
+    "mean_seconds_per_epoch_interval": 48.14572864321608,
+    "median_seconds_per_epoch_interval": 48.0,
+    "minimum_seconds_per_epoch_interval": 46.0,
+    "maximum_seconds_per_epoch_interval": 51.0,
+    "reporting_note": "The exact Slurm wall time was 02:42:48 and includes startup, data loading, 200 epochs, and final saving. Pure optimizer time was not separately instrumented. Post-epoch timestamps give a mean interval of 48.15 seconds."
+  },
+  "evidence": {
+    "local_run_config": "train-nvt-morecomprehensive-brc/fit-beta-p3nu2-rbf1normtrain-c4/run_config.json",
+    "local_history": "train-nvt-morecomprehensive-brc/fit-beta-p3nu2-rbf1normtrain-c4/logs/history.csv",
+    "local_campaign_record": "train-nvt-morecomprehensive-brc/radial_current_campaign.json",
+    "campaign_record_sha256": "d5a88bbe7741d0a9b2236319e9da2162a8f4f3fba8c8f6e105735a6c2e84fa38",
+    "checkpoint_inspection": "Full local model loaded on CPU under source commit 8832a1b; BRC best.pt independently inspected with weights_only=True.",
+    "unrecorded_environment_details": [
+      "exact Python version used by the BRC training job",
+      "exact PyTorch version used by the BRC training job",
+      "exact CUDA version used by the BRC training job"
+    ]
+  }
+}

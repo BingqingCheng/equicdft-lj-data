@@ -1,0 +1,27 @@
+{
+  "tag": "lj-paper-v2",
+  "date": "2026-11-20",
+  "assets": [
+    {
+      "path": "reference_data/training-corpus_001.zip",
+      "bytes": 1029689911,
+      "sha256": "0bcc9cd7183f8385b3a51155f167bb2d931b890bab38977b0b0336905780b02d",
+      "role": "174 unchanged native-grid NVT sources: training, validation and complete held-out pool",
+      "url": "https://github.com/BingqingCheng/equicdft-lj-data/releases/download/lj-paper-v2/training-corpus_001.zip"
+    },
+    {
+      "path": "reference_data/l6-paired-reference.tar.gz",
+      "bytes": 425854486,
+      "sha256": "868ed88fc49060ed3fa56964dd8916c84198e333b856cf80fc6d8709e2f47ccb",
+      "role": "80 eight-replica MD references at h=0.125,0.25,0.5, with uncertainties and field parameters",
+      "url": "https://github.com/BingqingCheng/equicdft-lj-data/releases/download/lj-paper-v2/l6-paired-reference.tar.gz"
+    },
+    {
+      "path": "reference_data/paper-snapshot_001.zip",
+      "bytes": 37971298,
+      "sha256": "977ca7b6dfe06bb873209060b98127773f39e82c529c83d901c88f38d22ac5c0",
+      "role": "Current main/SI figure source data, frozen plotting/evaluation scripts, provenance and failure records",
+      "url": "https://github.com/BingqingCheng/equicdft-lj-data/releases/download/lj-paper-v2/paper-snapshot_001.zip"
+    }
+  ]
+}

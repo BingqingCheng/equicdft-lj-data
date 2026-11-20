@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-20",
+  "status": "Revised-paper reference release; LJTS-specific choices, not universal defaults",
+  "model": "fit-beta-p3nu2-rbf1normtrain-c4",
+  "checkpoint_sha256": "6edbebb18192ca7f6a311a88c3236d61c3c5d285c739b9f533b4dc1b6e7137ca",
+  "training_code_commit": "8832a1b41d28f6da839ecf4cde12fd128edea08d",
+  "evaluation_code_commit": "45d0b47b40b74f6a5e3190b5d81b4fb55bee0134",
+  "training_driver_sha256": "d1929bebc1b5d5cd46cdb807941170c781ab892c97387ca9a2cbbcecc49c8f31",
+  "training_driver_origin": "Unchanged bytes copied from completed BRC fit's training.py",
+  "split": {
+    "train": 11219,
+    "valid": 1255,
+    "held_out_pool": 2055
+  },
+  "paper_original_small_test_pool": 1592,
+  "selected_paper_benchmark_fields": {
+    "small": 1590,
+    "large": 89,
+    "gcmc": 66
+  },
+  "grid_reference": {
+    "all_fields": 80,
+    "paper_post_hoc_density_domain": 69,
+    "native_md_h_sigma": 0.125,
+    "paired_h_sigma": [
+      0.125,
+      0.25,
+      0.5
+    ],
+    "replicas_per_field": 8
+  },
+  "paired_application_grids_sigma": [
+    0.5,
+    0.25
+  ],
+  "colloid_repulsive_core_width_sigma": 0.25,
+  "gyroid_logistic_width_in_g": 0.2,
+  "preservation": "Original C3 root checkpoint/configuration/data/scripts and user edits are unchanged",
+  "limitations": [
+    "No new training, MD, or large application solves were run for this release",
+    "Exact historical training Python/PyTorch/CUDA versions are unrecorded",
+    "Colloid plotted slices are included, not all full-volume endpoint fields or raw trajectories",
+    "Unchanged original large-NVT/GCMC inputs remain in repository-root reference archives",
+    "Grid-transfer density-domain selection is post hoc; complete 80-field evidence and failed solves are retained"
+  ]
+}

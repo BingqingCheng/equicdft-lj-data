@@ -1,0 +1,1582 @@
+{
+  "group": "training-corpus",
+  "archives": [
+    {
+      "path": "reference_data/training-corpus_001.zip",
+      "members": [
+        {
+          "source": "training_data_nvt/nvt-T0.7-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt/nvt-T0.7-0.5sigma.extxyz",
+          "sha256": "5bc00dced47cac95400b23a87f46cb5cafb40f7a0cda0f357a391292690850ad",
+          "frames": 222,
+          "partition": "test",
+          "collection": "general",
+          "bytes": 53208703
+        },
+        {
+          "source": "training_data_nvt/nvt-T0.8-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt/nvt-T0.8-0.5sigma.extxyz",
+          "sha256": "3ccceb47519ebaebee6f4fe7c9d951639fe91b750bf44523217cd0d17f389232",
+          "frames": 222,
+          "partition": "development",
+          "collection": "general",
+          "bytes": 52805309
+        },
+        {
+          "source": "training_data_nvt/nvt-T0.9-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt/nvt-T0.9-0.5sigma.extxyz",
+          "sha256": "0293f345c881e05c62b62862834c2aba91da0c3520c33dbb8e3fe09f035581b0",
+          "frames": 222,
+          "partition": "development",
+          "collection": "general",
+          "bytes": 53030418
+        },
+        {
+          "source": "training_data_nvt/nvt-T1-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt/nvt-T1-0.5sigma.extxyz",
+          "sha256": "2e99cc2a0f0223134bfb6ee3c29c59d67a192b63628ef9968e9db0e2d96d8ba3",
+          "frames": 222,
+          "partition": "development",
+          "collection": "general",
+          "bytes": 52646921
+        },
+        {
+          "source": "training_data_nvt/nvt-T1.1-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt/nvt-T1.1-0.5sigma.extxyz",
+          "sha256": "9d25ca1ab2bd65d385db4512a238b9c45f7400ac82fe544fd7bf75e7636f796b",
+          "frames": 222,
+          "partition": "test",
+          "collection": "general",
+          "bytes": 52840625
+        },
+        {
+          "source": "training_data_nvt/nvt-T1.2-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt/nvt-T1.2-0.5sigma.extxyz",
+          "sha256": "74c62f46db27e1704bb0cfc5408cfaa55cb29f1113d8ecca9bf7143267c54dfd",
+          "frames": 222,
+          "partition": "development",
+          "collection": "general",
+          "bytes": 52936930
+        },
+        {
+          "source": "training_data_nvt/nvt-T1.3-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt/nvt-T1.3-0.5sigma.extxyz",
+          "sha256": "d7600f7b5c827ffdd7416aaf5a4a6fffb48ca3267aaa4c93965156eb2806f90a",
+          "frames": 222,
+          "partition": "development",
+          "collection": "general",
+          "bytes": 52586925
+        },
+        {
+          "source": "training_data_nvt/nvt-T1.4-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt/nvt-T1.4-0.5sigma.extxyz",
+          "sha256": "23dfa2c5000522e9266c77c1e2d8f1a25081201b2418c618f0d1a5624b11ad75",
+          "frames": 222,
+          "partition": "development",
+          "collection": "general",
+          "bytes": 52539180
+        },
+        {
+          "source": "training_data_nvt/nvt-T1.5-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt/nvt-T1.5-0.5sigma.extxyz",
+          "sha256": "62843d2c80cf8d8622343f9846f0113b7e06e891147090169a180c2e5e66c8ac",
+          "frames": 222,
+          "partition": "test",
+          "collection": "general",
+          "bytes": 53034030
+        },
+        {
+          "source": "training_data_nvt/nvt-T1.6-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt/nvt-T1.6-0.5sigma.extxyz",
+          "sha256": "60b18e5fbab375deeac824631047605a7c5453a61e2abca35cf0ced9bf94d317",
+          "frames": 222,
+          "partition": "development",
+          "collection": "general",
+          "bytes": 52723151
+        },
+        {
+          "source": "training_data_nvt/nvt-T1.7-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt/nvt-T1.7-0.5sigma.extxyz",
+          "sha256": "ecac54e79e126b3d4f7e3966e4f78208693bbd7c4a309737047eaa43c4806aa8",
+          "frames": 222,
+          "partition": "development",
+          "collection": "general",
+          "bytes": 52868865
+        },
+        {
+          "source": "training_data_nvt/nvt-T1.8-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt/nvt-T1.8-0.5sigma.extxyz",
+          "sha256": "040bd43fcc17fef1ef52b32b614227dcf8eb754198dc89dd185a2dae3fb4ba34",
+          "frames": 222,
+          "partition": "development",
+          "collection": "general",
+          "bytes": 52595077
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T0.7-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T0.7-1D-0.5sigma.extxyz",
+          "sha256": "25f9a042d45d1d813c20f02aeff132d22e3058420951bc7ea52f4a5d342e6009",
+          "frames": 72,
+          "partition": "test",
+          "collection": "dimensional",
+          "bytes": 19913888
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T0.7-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T0.7-2D-0.5sigma.extxyz",
+          "sha256": "2303e19adb4ce4a03100a66888371c1bc7a25e4e993ca0242ef4db332b52ed20",
+          "frames": 72,
+          "partition": "test",
+          "collection": "dimensional",
+          "bytes": 18728504
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T0.8-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T0.8-1D-0.5sigma.extxyz",
+          "sha256": "d6d448cb987c93c8a285a7751409ed635c77809e4a0f1be62086ff5297b16aa4",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 19859616
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T0.8-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T0.8-2D-0.5sigma.extxyz",
+          "sha256": "81e114b8b8cf3951808fc9c720f32d04a68287e5c36bc4f8ad9a04af9a33149e",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 18748568
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T0.9-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T0.9-1D-0.5sigma.extxyz",
+          "sha256": "299f6a0b4e809afcf1a7bc82873475e8f933613b2ea82ecfb6da0e9edc20d127",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 19825056
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T0.9-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T0.9-2D-0.5sigma.extxyz",
+          "sha256": "486e4ca9bfc316142776e847294d6db1c412c9b561c66610ebeabfff596dff41",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 18633288
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1-1D-0.5sigma.extxyz",
+          "sha256": "088b4ecc2251ccd98cd72f248f8f9ca8ab7919893d8726eff72a48e83c0fd5fb",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 19802384
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1-2D-0.5sigma.extxyz",
+          "sha256": "9e595975147f516cbd2f7a6cd0b90ddaa6a97dd4b297029ab51d724327a10345",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 18626536
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1.1-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1.1-1D-0.5sigma.extxyz",
+          "sha256": "ed3dc73a635e53ef1a03cc753307fd02f53d2a70af3e8a5734f67b43fd571942",
+          "frames": 72,
+          "partition": "test",
+          "collection": "dimensional",
+          "bytes": 19771296
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1.1-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1.1-2D-0.5sigma.extxyz",
+          "sha256": "6347f67430889b896418ddba5fae98488cff21962db1d7d2efbf44ed3d306e8e",
+          "frames": 72,
+          "partition": "test",
+          "collection": "dimensional",
+          "bytes": 18617528
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1.2-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1.2-1D-0.5sigma.extxyz",
+          "sha256": "780800379d451f83490a0e4efed324f4d6165bcf5714b3e5b3ac6084e9d2a76b",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 19786912
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1.2-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1.2-2D-0.5sigma.extxyz",
+          "sha256": "e056c70d0b9a3a5c507dca6a90035c7683a226340008ec54f469dc9fd2241107",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 18619768
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1.3-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1.3-1D-0.5sigma.extxyz",
+          "sha256": "0f570cee9da494759422ff37fc1c9b61dd3239def8a07666079a606057b24685",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 19749792
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1.3-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1.3-2D-0.5sigma.extxyz",
+          "sha256": "87839d0f21129e8b3227a94d0ac0994375bcc9cbd8808d33472a3a722c7f4167",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 18593096
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1.4-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1.4-1D-0.5sigma.extxyz",
+          "sha256": "96eacd208e3092d05a9b40d264d205de75376f0fcde54c1cd6f82cf8b1f6bde5",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 19687328
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1.4-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1.4-2D-0.5sigma.extxyz",
+          "sha256": "7e7901d8fb921871ca7c8c1ce1fdb47f9fe7d3341c3d7f511af5760fa9f7e971",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 18528952
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1.5-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1.5-1D-0.5sigma.extxyz",
+          "sha256": "24d5a404806f3de6b6774f20e29fdfd3593182e1874ccfa19962bd7e697f974a",
+          "frames": 72,
+          "partition": "test",
+          "collection": "dimensional",
+          "bytes": 19723168
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1.5-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1.5-2D-0.5sigma.extxyz",
+          "sha256": "838d1ac340b1b0b889a7ef29042885fb93481e77381b05233096136d50184774",
+          "frames": 72,
+          "partition": "test",
+          "collection": "dimensional",
+          "bytes": 18615688
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1.6-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1.6-1D-0.5sigma.extxyz",
+          "sha256": "53449489a394a40521e731da3fc54a5ac8d6d7b4b9ee3db443e3f786a3f2e714",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 19714464
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1.6-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1.6-2D-0.5sigma.extxyz",
+          "sha256": "247635ae7710f29fffa50526ad1ffdf975d1e68546166d6c235bd95e67c9c069",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 18562504
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1.7-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1.7-1D-0.5sigma.extxyz",
+          "sha256": "75da1bbbd0fe8405c1565479971900ff7e45b6807814ebb82641a1da033da287",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 19703968
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1.7-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1.7-2D-0.5sigma.extxyz",
+          "sha256": "3a30d93ae084b76d0238f40c3f45f9626db44440bc984864d7e3bbeb4a98438d",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 18490584
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1.8-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1.8-1D-0.5sigma.extxyz",
+          "sha256": "a5176bb7fde4721db587dfd1996dc6794034088c258743ab1b66156dba5cac2d",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 19699104
+        },
+        {
+          "source": "training_data_nvt_1D2D/nvt-T1.8-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_1D2D/nvt-T1.8-2D-0.5sigma.extxyz",
+          "sha256": "252c5a1c5f8353e7b88f99ebb182c8f1ba8276811aff313925d2be55ce214bfb",
+          "frames": 72,
+          "partition": "development",
+          "collection": "dimensional",
+          "bytes": 18530744
+        },
+        {
+          "source": "training_data_nvt_mixed/nvt-T0.7-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed/nvt-T0.7-mixed-0.5sigma.extxyz",
+          "sha256": "89245e2ae5e35be7f72c9c06aa997b37c0db6fdfd12e8309a95d8378fdb27a94",
+          "frames": 144,
+          "partition": "test",
+          "collection": "mixed",
+          "bytes": 35139244
+        },
+        {
+          "source": "training_data_nvt_mixed/nvt-T0.8-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed/nvt-T0.8-mixed-0.5sigma.extxyz",
+          "sha256": "04acc38b6211e7dcca2f46a75419b0a2b1fcb7777d677aae49cd17841b29204e",
+          "frames": 144,
+          "partition": "development",
+          "collection": "mixed",
+          "bytes": 35023054
+        },
+        {
+          "source": "training_data_nvt_mixed/nvt-T0.9-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed/nvt-T0.9-mixed-0.5sigma.extxyz",
+          "sha256": "3ea20a87404f916ceb9316a84ff0520f635b22ab6f688b722b283cdf06dc3955",
+          "frames": 144,
+          "partition": "development",
+          "collection": "mixed",
+          "bytes": 34975576
+        },
+        {
+          "source": "training_data_nvt_mixed/nvt-T1-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed/nvt-T1-mixed-0.5sigma.extxyz",
+          "sha256": "58c0880f4cfc5f9a88201c2c4643d3470dd8a2f4ebd954dbbfaea80e849163b7",
+          "frames": 144,
+          "partition": "development",
+          "collection": "mixed",
+          "bytes": 34885797
+        },
+        {
+          "source": "training_data_nvt_mixed/nvt-T1.1-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed/nvt-T1.1-mixed-0.5sigma.extxyz",
+          "sha256": "35033487a3d5a3a82dd464b999d4f775f4e83b2cbc9d68e5d9fd3d5d9bf8717d",
+          "frames": 144,
+          "partition": "test",
+          "collection": "mixed",
+          "bytes": 34815003
+        },
+        {
+          "source": "training_data_nvt_mixed/nvt-T1.2-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed/nvt-T1.2-mixed-0.5sigma.extxyz",
+          "sha256": "6c966d4a90439d0529f2fb90753afd4e09f2e5e848be72cc30f71dcfe4cb3d51",
+          "frames": 144,
+          "partition": "development",
+          "collection": "mixed",
+          "bytes": 34804492
+        },
+        {
+          "source": "training_data_nvt_mixed/nvt-T1.3-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed/nvt-T1.3-mixed-0.5sigma.extxyz",
+          "sha256": "cdad6c088432ede1841a94a146639f28fbd8c6dd16cdc9d4f808d307770dc16c",
+          "frames": 144,
+          "partition": "development",
+          "collection": "mixed",
+          "bytes": 34734991
+        },
+        {
+          "source": "training_data_nvt_mixed/nvt-T1.4-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed/nvt-T1.4-mixed-0.5sigma.extxyz",
+          "sha256": "b2f4e59ff11c81dbdb48457143556e31f84ee4bbb56a229a929f86834bc7e66a",
+          "frames": 144,
+          "partition": "development",
+          "collection": "mixed",
+          "bytes": 34703482
+        },
+        {
+          "source": "training_data_nvt_mixed/nvt-T1.5-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed/nvt-T1.5-mixed-0.5sigma.extxyz",
+          "sha256": "3fcd57596da628163a68ade0724fd29de0e3cf4a6b65307099a9627ef90cc252",
+          "frames": 144,
+          "partition": "test",
+          "collection": "mixed",
+          "bytes": 34677267
+        },
+        {
+          "source": "training_data_nvt_mixed/nvt-T1.6-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed/nvt-T1.6-mixed-0.5sigma.extxyz",
+          "sha256": "afaeec1ed68d56797a216fd58cb23278646aeec7e59a085c6ea3af4d1f55627e",
+          "frames": 144,
+          "partition": "development",
+          "collection": "mixed",
+          "bytes": 34692573
+        },
+        {
+          "source": "training_data_nvt_mixed/nvt-T1.7-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed/nvt-T1.7-mixed-0.5sigma.extxyz",
+          "sha256": "92a904e63f4da219bc29e718e9a7fd558cbd7d6d87f85930dc6765cbf28eaa49",
+          "frames": 144,
+          "partition": "development",
+          "collection": "mixed",
+          "bytes": 34609462
+        },
+        {
+          "source": "training_data_nvt_mixed/nvt-T1.8-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed/nvt-T1.8-mixed-0.5sigma.extxyz",
+          "sha256": "fcd53c40775602d9e3cc4cd0da1f2d6964b9dc0f7bff93f2fe6cd161102bfdb4",
+          "frames": 144,
+          "partition": "development",
+          "collection": "mixed",
+          "bytes": 34642253
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.625-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.625-1D-0.5sigma.extxyz",
+          "sha256": "a1185ddfc40bc2c197cbc464604b573fe0f819c4c16d53fce34553fd2141462d",
+          "frames": 80,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 22150968
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.625-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.625-2D-0.5sigma.extxyz",
+          "sha256": "cf39d82a8019c7a7fda6cfb6b70cdf883ec2ba1fe8ae6443c9281bf1cdfa7ad7",
+          "frames": 80,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 20950776
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.625-3D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.625-3D-0.5sigma.extxyz",
+          "sha256": "a5db9fd2135a841c815208b2a82809fde1c531ca07fb174addd17dc1a7d2b011",
+          "frames": 111,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 26572055
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.625-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.625-mixed-0.5sigma.extxyz",
+          "sha256": "038aa5df5240afb0f0fa3499bfcc399286280c584cb54bcf0d67d3d35d6af17d",
+          "frames": 147,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 35947049
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.65-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.65-1D-0.5sigma.extxyz",
+          "sha256": "58d5452e30ceccdc283b5801fa49f7c93ace132a0126c16977865f3e2cea3037",
+          "frames": 80,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 22127336
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.65-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.65-2D-0.5sigma.extxyz",
+          "sha256": "b26226130da69e6b65c3abeb3a1912bd02d2e4f018dcb38931a2e1a81539a5a0",
+          "frames": 80,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 20888776
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.65-3D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.65-3D-0.5sigma.extxyz",
+          "sha256": "4ecab291c33377035e58961ec162b21f41ce649bd1dca08eb79f0525fe0e2214",
+          "frames": 111,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 26577328
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.65-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.65-mixed-0.5sigma.extxyz",
+          "sha256": "2c224cfa3815b0e617b2ab37113c28fac1b4bd57916f749a3ec8e64bb9a3a660",
+          "frames": 151,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 37000890
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.675-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.675-1D-0.5sigma.extxyz",
+          "sha256": "c70265e5643e0094bf4297cba4f99babe6cdd02812a3e1b8213d89c3c1a39915",
+          "frames": 79,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 21884695
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.675-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.675-2D-0.5sigma.extxyz",
+          "sha256": "a451eba230c7f5f967691ded692f6f9fe341fac7dfc33cd93fbdc3c4fd069bff",
+          "frames": 79,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 20594006
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.675-3D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.675-3D-0.5sigma.extxyz",
+          "sha256": "142bcc767283825eba64cc1f870a9e0fb923959aa13da9b450a57e6866c18f33",
+          "frames": 111,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 26629045
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.675-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.675-mixed-0.5sigma.extxyz",
+          "sha256": "b234f4be1b3fc7a277ea6abcfde22b5b0f0e6e2568cf63484d66797f57b92570",
+          "frames": 148,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 36229846
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.7-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.7-1D-0.5sigma.extxyz",
+          "sha256": "bbd3161ad66bc7674e15da3ec004126512a208a8bdd0dd4f0c5507f297fff27f",
+          "frames": 8,
+          "partition": "test",
+          "collection": "extended",
+          "bytes": 2214136
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.7-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.7-2D-0.5sigma.extxyz",
+          "sha256": "6b4284e212da3fbe811ed58d908ae40e6676d962d4ea7708c25bc8b477845959",
+          "frames": 8,
+          "partition": "test",
+          "collection": "extended",
+          "bytes": 2156032
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.7-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.7-mixed-0.5sigma.extxyz",
+          "sha256": "0e4618fc668dbd9078a8bde57f7278398b2436ba5cdc4bf46555d2219a3898d4",
+          "frames": 7,
+          "partition": "test",
+          "collection": "extended",
+          "bytes": 1770583
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.725-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.725-1D-0.5sigma.extxyz",
+          "sha256": "34c4c54f51e47dcaf067316da8b3672a349d5346b743d7513fd23385b40cc9ad",
+          "frames": 80,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 22143800
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.725-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.725-2D-0.5sigma.extxyz",
+          "sha256": "ffa99d80e010f1c4aff2778842ef07b9d602a5000afc2376f700e16af0ccd04e",
+          "frames": 80,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 20870200
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.725-3D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.725-3D-0.5sigma.extxyz",
+          "sha256": "f67a2412b0b7b0c205878c87ded5b17109e0bb5a90e07d09d07f3a03fcb4c4b8",
+          "frames": 111,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 26506687
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.725-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.725-mixed-0.5sigma.extxyz",
+          "sha256": "52b57aab2b9c195f6e15290a3a60f5e3d71855710f08a1a08d39264fee93961d",
+          "frames": 150,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 36650906
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.75-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.75-1D-0.5sigma.extxyz",
+          "sha256": "c82dbfdd3618a329f61248c8b0387212cd0fa4e13b7186216a794892f0474ce2",
+          "frames": 79,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 21841352
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.75-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.75-2D-0.5sigma.extxyz",
+          "sha256": "bdc0a589aad5b1230507ea242dfb780e79c6672df7b92158448cd172e7379c4e",
+          "frames": 80,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 20877624
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.75-3D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.75-3D-0.5sigma.extxyz",
+          "sha256": "2ddcc3504c47852fbc6db4b14b56ff91652cb1bbfcad0480195067d947fcecc8",
+          "frames": 111,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 26540751
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.75-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.75-mixed-0.5sigma.extxyz",
+          "sha256": "5b241f7faacd51d8f535ecd4ce1149a19f9292c633e9f99458dcec065725d829",
+          "frames": 152,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 37111072
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.775-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.775-1D-0.5sigma.extxyz",
+          "sha256": "10d41b36ecac997c9e1059fc15da9085784d004466e2d74b59bc1381a53baeb4",
+          "frames": 80,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 22048824
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.775-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.775-2D-0.5sigma.extxyz",
+          "sha256": "0dc69130a87f096742cf9938798edb4f3cc26e585cb199bf6c30938e9cabff81",
+          "frames": 78,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 20328228
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.775-3D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.775-3D-0.5sigma.extxyz",
+          "sha256": "27db6f9f4f8a88b9016da29350ec0a32be99b13414e87ae929a2e8d068c2f90a",
+          "frames": 111,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 26519465
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.775-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.775-mixed-0.5sigma.extxyz",
+          "sha256": "99a826eb94bd99b581e47f0b838017b094516df50a939e6d471854b60f05970f",
+          "frames": 147,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 35846465
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.8-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.8-1D-0.5sigma.extxyz",
+          "sha256": "022df573c84b0218475d90c2811d139f205b4e8e94dae4caf7dc6835c4e0b540",
+          "frames": 8,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 2208504
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.8-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.8-2D-0.5sigma.extxyz",
+          "sha256": "b130f688dd0537a194978c00c44b569312da641c15e816b913ebd3b9c065366c",
+          "frames": 8,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 2166400
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.8-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.8-mixed-0.5sigma.extxyz",
+          "sha256": "fb3c813205a72cddc0344c3711ff0f3f0885aed7973a2670b245031e531baae4",
+          "frames": 3,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 761435
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.85-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.85-1D-0.5sigma.extxyz",
+          "sha256": "1bfb8d69e518246016e33ccde873cf565ff9addcd07f1f5a9c93bc6c21fdec3a",
+          "frames": 80,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 22069224
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.85-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.85-2D-0.5sigma.extxyz",
+          "sha256": "6a691224e6427e54d4b1148d005674609ac15eebd694f54c53b2f7e32b4cc3b2",
+          "frames": 78,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 20357926
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.85-3D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.85-3D-0.5sigma.extxyz",
+          "sha256": "ff9dd5fd05bd827a6a443dc761e65cb043ab8b109d1bea7ebe36dc25da5c2c94",
+          "frames": 111,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 26625541
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.85-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.85-mixed-0.5sigma.extxyz",
+          "sha256": "8b89e1f15408b75ccb6fdbec7533dbe7debd032a23959afad0e6814aed02531b",
+          "frames": 145,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 35254100
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.9-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.9-1D-0.5sigma.extxyz",
+          "sha256": "191568ed56f85e99b0764789bf0d92eb9b04b498259a742fec04dd858550fc4e",
+          "frames": 8,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 2210040
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.9-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.9-2D-0.5sigma.extxyz",
+          "sha256": "be6125c69091167904537257ebe8ec72bb3c2a60788affa764e032b1e561ddad",
+          "frames": 8,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 2164800
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.9-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.9-mixed-0.5sigma.extxyz",
+          "sha256": "0a583e96c70e8580b6e6b08b9acf5fc63b43c7dbfb43fce90f21d4e03d526f5b",
+          "frames": 4,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 1011047
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.95-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.95-1D-0.5sigma.extxyz",
+          "sha256": "c681cc11f57559097bb7245fd019d96250ade8d674bd35e9cbdfbf76cee8dd3e",
+          "frames": 80,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 22038248
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.95-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.95-2D-0.5sigma.extxyz",
+          "sha256": "9837d7700d98afae1beb0d38d51c1a9aeb1621aa3d90ffd83fd4995ab84471c2",
+          "frames": 79,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 20558807
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.95-3D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.95-3D-0.5sigma.extxyz",
+          "sha256": "ca275aac3482df23f68170d1e8be3bb09798a3717bb14e935d4e3396d7af5761",
+          "frames": 111,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 26521084
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T0.95-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T0.95-mixed-0.5sigma.extxyz",
+          "sha256": "b9935d82ec23538ea3ef06d2cb347ceb65bb9b55dc69abec037ee51abb2c7ad6",
+          "frames": 150,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 36406330
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1-1D-0.5sigma.extxyz",
+          "sha256": "97b8bbd8646d1fbe86c56389f04ea643c2557ad50e8a7c2ddaaebdf0f9ff0627",
+          "frames": 8,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 2206952
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1-2D-0.5sigma.extxyz",
+          "sha256": "6305dff92189c437e3b31b43d13c60ae32eca263f5787f19a9549edc8dab30e3",
+          "frames": 6,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 1613444
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1-mixed-0.5sigma.extxyz",
+          "sha256": "d167e96ba24cc79d6d8c7bcccf82445a16d200a862cb395840eef268a93ef892",
+          "frames": 4,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 1012631
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.05-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.05-1D-0.5sigma.extxyz",
+          "sha256": "727c57589ad3c1b416ac5b210459e5ab2cfaff7cf426227a833f182324cfb6f0",
+          "frames": 80,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 22029800
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.05-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.05-2D-0.5sigma.extxyz",
+          "sha256": "16c8bbe0af11d58c98720673808ea3fb9f6557bbaab653a092188835cd2bcbad",
+          "frames": 79,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 20514055
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.05-3D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.05-3D-0.5sigma.extxyz",
+          "sha256": "b7865814501ce1f10de286e9869b8baf6b3784299eee2cdffd9ec63ff9b63a2f",
+          "frames": 111,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 26527679
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.05-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.05-mixed-0.5sigma.extxyz",
+          "sha256": "f60b3626c0a21a82a134fbe0ef96f2290f4174ad8436e9aab9893398e280a4ac",
+          "frames": 148,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 35885608
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.1-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.1-1D-0.5sigma.extxyz",
+          "sha256": "d19f97b3aa1e52e8086d7e7ddaacff8eb79c6ec613859d398812ee4d7ce78adf",
+          "frames": 8,
+          "partition": "test",
+          "collection": "extended",
+          "bytes": 2199288
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.1-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.1-2D-0.5sigma.extxyz",
+          "sha256": "35c2ec11b506ba9d0b2a1ac901b606bcb3c38cc217e04b7e5c6d1f3cf79fd837",
+          "frames": 8,
+          "partition": "test",
+          "collection": "extended",
+          "bytes": 2147920
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.1-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.1-mixed-0.5sigma.extxyz",
+          "sha256": "dfda33c134d8a12fdc0022fba3767fb11d92a0f60d80f466baf9ff76d20782a0",
+          "frames": 3,
+          "partition": "test",
+          "collection": "extended",
+          "bytes": 760080
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.15-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.15-1D-0.5sigma.extxyz",
+          "sha256": "bc363bbbd8df196facc6586ed127efac01f802b4540860d9e6a11724c60a7edb",
+          "frames": 80,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 21941992
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.15-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.15-2D-0.5sigma.extxyz",
+          "sha256": "a95afa9069f575c994377e00387fbcfb824a0ebac68cb1dc1e4fee146a4ee5e6",
+          "frames": 78,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 20192294
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.15-3D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.15-3D-0.5sigma.extxyz",
+          "sha256": "cd018028a1b7264a9019b6865a2bbcd06b503aaf766addd9c18abf3fb39bb79c",
+          "frames": 111,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 26363969
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.15-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.15-mixed-0.5sigma.extxyz",
+          "sha256": "2bdcf1cdea31d378b30d56bafc20e1808f8ded7ac09f0e48562488c3ed2efd93",
+          "frames": 146,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 35294956
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.2-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.2-1D-0.5sigma.extxyz",
+          "sha256": "1c00227c57d265c3c0eef3b5c15cdacb29bf781fb7a04016d97628002c8b2b22",
+          "frames": 8,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 2199800
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.2-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.2-2D-0.5sigma.extxyz",
+          "sha256": "86e41cfdb66c4a55628f40e85f8e05f6b27593736ec13a863de3d634f49bb90d",
+          "frames": 5,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 1349008
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.2-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.2-mixed-0.5sigma.extxyz",
+          "sha256": "3f9c9ea647799a5b882ea2f30fb562c3a760779394e4a1e40024d65e483b750d",
+          "frames": 5,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 1264029
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.25-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.25-1D-0.5sigma.extxyz",
+          "sha256": "cf68da940176bdbaa74d18e6c52639c6c92117f40527ce9364de8b59c55f3b68",
+          "frames": 80,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 21937640
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.25-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.25-2D-0.5sigma.extxyz",
+          "sha256": "61dd7944d7fbb427a9002c876e29abeae1bb9dfb8fd59867c978b1e5e4e15e7d",
+          "frames": 80,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 20729432
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.25-3D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.25-3D-0.5sigma.extxyz",
+          "sha256": "e109a98525f36f2ebeba738330e13d047ef843e2d63c343eaef38c112624c1f6",
+          "frames": 111,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 26443060
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.25-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.25-mixed-0.5sigma.extxyz",
+          "sha256": "522ec33470a2ce83a4e0fc8c678ed3f4e69a368984adb509927e753114ee40f5",
+          "frames": 147,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 35517920
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.3-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.3-1D-0.5sigma.extxyz",
+          "sha256": "85865b678ee4436ade6f3c367d74d38645108053d43706b9473b8202659dad41",
+          "frames": 8,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 2221560
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.3-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.3-2D-0.5sigma.extxyz",
+          "sha256": "e95183f37a8f02bb41f306500fc3839203be3da15c8f9a774929769154e6e6e0",
+          "frames": 7,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 1874704
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.3-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.3-mixed-0.5sigma.extxyz",
+          "sha256": "64222b0ff7ea4be9abf66b468cf5e65d3b405b8eaf128aaaeaf15b69cc76d1fb",
+          "frames": 4,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 1009973
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.4-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.4-1D-0.5sigma.extxyz",
+          "sha256": "e295d7446f3a636e3083a93fb305d00d74680dc70bd8dca1df4a4915fea25017",
+          "frames": 8,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 2213112
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.4-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.4-2D-0.5sigma.extxyz",
+          "sha256": "5f72ffd86330c407fa2dc371139a5706565bd03f0accd39fdf1471d0c1016319",
+          "frames": 8,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 2155936
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.4-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.4-mixed-0.5sigma.extxyz",
+          "sha256": "af72275d349c811de4b82350ab8fce8f976ee2ed631ac5bd5feef2a523213833",
+          "frames": 6,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 1513731
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.5-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.5-1D-0.5sigma.extxyz",
+          "sha256": "73cbf6064a697b8f9378b2923229f6ba392019a3a44c0e1deeb8706b4c3c2979",
+          "frames": 8,
+          "partition": "test",
+          "collection": "extended",
+          "bytes": 2209528
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.5-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.5-2D-0.5sigma.extxyz",
+          "sha256": "6bc0d9dcb09a81f738aa136f197a3bd9ab0363dd755aafa74015dfebaabdacf8",
+          "frames": 7,
+          "partition": "test",
+          "collection": "extended",
+          "bytes": 1880256
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.5-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.5-mixed-0.5sigma.extxyz",
+          "sha256": "29f1bea4878469ecd5307796684610803a7bf39a60b0b0fda15c3919d2353e67",
+          "frames": 5,
+          "partition": "test",
+          "collection": "extended",
+          "bytes": 1259973
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.6-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.6-1D-0.5sigma.extxyz",
+          "sha256": "5fa9763d9c8643837d77f1ad01a55ddf911cf9b7b7d527476f4152f1b6b8093e",
+          "frames": 8,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 2196984
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.6-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.6-2D-0.5sigma.extxyz",
+          "sha256": "ba21c9deb4e4b9ddb1f259593f5a0df3edb40502fec455a558a5637c0a1932b7",
+          "frames": 8,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 2148176
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.6-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.6-mixed-0.5sigma.extxyz",
+          "sha256": "e8c2507c91e3d8e565b027b3321f1d5de40873e0c5d26ae82fae6e60771972a5",
+          "frames": 4,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 1008516
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.7-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.7-1D-0.5sigma.extxyz",
+          "sha256": "ce445a8fb269de557b66033efa7390fc378fdc0295c0fae3c2fdae6bdf2a9add",
+          "frames": 8,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 2197240
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.7-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.7-2D-0.5sigma.extxyz",
+          "sha256": "fef8abcaf1705b6876d5b19e700177b8ff0b6fdd5c3946068acaedbe8434c6f6",
+          "frames": 6,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 1598496
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.7-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.7-mixed-0.5sigma.extxyz",
+          "sha256": "5d91e3d6f472cc94e968c8a5a182efcea922cc0919fbae1a94a7b75066cbed8b",
+          "frames": 3,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 759616
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.8-1D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.8-1D-0.5sigma.extxyz",
+          "sha256": "801c3c39b7b222e0b2bd5bf2f914c8cdaa45c5f0ed311ea72196fb931d41bd5b",
+          "frames": 8,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 2191096
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.8-2D-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.8-2D-0.5sigma.extxyz",
+          "sha256": "42b3973fd11f53328ff7633d7cf6aae929d6c51b1b35a9ebb3fcb351afac455b",
+          "frames": 8,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 2153456
+        },
+        {
+          "source": "training_data_nvt_extended/nvt-T1.8-mixed-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_extended/nvt-T1.8-mixed-0.5sigma.extxyz",
+          "sha256": "7b28ecaa98192a456868e4ca5de4d09eaa7abe42967963821d7e5c9f97b9454c",
+          "frames": 5,
+          "partition": "development",
+          "collection": "extended",
+          "bytes": 1265246
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.625-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.625-mixed-2x-0.5sigma.extxyz",
+          "sha256": "b642c5779bcb5fc35df10b7f932e5f35b6e5873aaa5c66ac1c825f032138e309",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19457915
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.625-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.625-mixed-3x-0.5sigma.extxyz",
+          "sha256": "6ead02c6292b8e1ca23c759159d4dcc1ea93b9293fbe1939117e21611dc7e200",
+          "frames": 75,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 17936542
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.65-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.65-mixed-2x-0.5sigma.extxyz",
+          "sha256": "0a7d189d0dd3b6ec2a52fc69c0bcce01215fe7a7a97484f3669d1c8ce6880619",
+          "frames": 79,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19199144
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.65-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.65-mixed-3x-0.5sigma.extxyz",
+          "sha256": "09239ed59b977a6538d4e95c3254096c4330057f409ec241b9e745d9fb9dba03",
+          "frames": 74,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 17717394
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.675-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.675-mixed-2x-0.5sigma.extxyz",
+          "sha256": "548046af0b07ad227fcc8e2126860da8f4041854d96fda365c956f731ce1ea49",
+          "frames": 79,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19223065
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.675-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.675-mixed-3x-0.5sigma.extxyz",
+          "sha256": "fb1f67eeaffcaf75a2248fd22b4d98d0c8a834f57cd2fa67be1e1bf86c693e76",
+          "frames": 74,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 17764241
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.7-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.7-mixed-2x-0.5sigma.extxyz",
+          "sha256": "cb01d51b4132f60fe295274f333b3d0e251329891154ee3138cbc9a1845e108a",
+          "frames": 80,
+          "partition": "test",
+          "collection": "mixed_more",
+          "bytes": 19463630
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.7-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.7-mixed-3x-0.5sigma.extxyz",
+          "sha256": "a05ef5f991593fc5d3f7725d18e1f6787f29de32e2c1c6709e613cd3184b83d0",
+          "frames": 71,
+          "partition": "test",
+          "collection": "mixed_more",
+          "bytes": 17011292
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.725-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.725-mixed-2x-0.5sigma.extxyz",
+          "sha256": "73ec81970f7815f673dca9bf4fbf04bdbdbe0d7dd37961d87dabbb64a8d206b2",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19440988
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.725-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.725-mixed-3x-0.5sigma.extxyz",
+          "sha256": "47e56b6ed14c1072e9418ae5bcbd56974046a754aeffa59f5f397fadb89711a3",
+          "frames": 76,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 18221279
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.75-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.75-mixed-2x-0.5sigma.extxyz",
+          "sha256": "1fd714e4d8d95d691976af0e18be7ea8bd35bc53999d87c9d0f7b1e7d3ef16dc",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19442754
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.75-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.75-mixed-3x-0.5sigma.extxyz",
+          "sha256": "03e1ca960e6305346fe9b141cb1c4d5858268968bd6001b2e34a17100d6e8cce",
+          "frames": 74,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 17750270
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.775-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.775-mixed-2x-0.5sigma.extxyz",
+          "sha256": "062eb8aabb6953bdc5330916a2eebd55ff27bbd2181db8c55e0bcec36be5bc07",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19408996
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.775-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.775-mixed-3x-0.5sigma.extxyz",
+          "sha256": "8b778cf752fb6e36e230de8d9d3b11f94f94d95030d36ed76c4f9216c4fbcc09",
+          "frames": 77,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 18484652
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.8-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.8-mixed-2x-0.5sigma.extxyz",
+          "sha256": "cb028d9bb4e12d7160e737170e14a134de454332cb517588e071e2ea9349ea8c",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19432269
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.8-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.8-mixed-3x-0.5sigma.extxyz",
+          "sha256": "8a3b598312a08e7020779bd0a87e6d736a939711c2b77ab61148dba534b0d1aa",
+          "frames": 76,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 18264501
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.85-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.85-mixed-2x-0.5sigma.extxyz",
+          "sha256": "eaa07b7f61d70876a341921c5dce3d911a41b20ec8797836088409c325187959",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19402240
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.85-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.85-mixed-3x-0.5sigma.extxyz",
+          "sha256": "e039afc4b75e8a089fba54ca53f8da820a876f46f3580dbda1ca3ed49afdaf9c",
+          "frames": 76,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 18258340
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.9-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.9-mixed-2x-0.5sigma.extxyz",
+          "sha256": "d041f09b1756835e48463fd3bf3fccae76f9991d01d6094baf322e3f055c23a7",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19383473
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.9-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.9-mixed-3x-0.5sigma.extxyz",
+          "sha256": "de8892848c727d2def621ebadce39d6eb4f1c27f86ea35de14b6fb47dbd1e761",
+          "frames": 77,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 18479677
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.95-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.95-mixed-2x-0.5sigma.extxyz",
+          "sha256": "89906f5c84dd727d856f4be1d27c3fca4026680d5e19683e86a919ce829e94fc",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19376494
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T0.95-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T0.95-mixed-3x-0.5sigma.extxyz",
+          "sha256": "0f70a01d6a4f957af800b306458425f4d2afa252d00ca0d8a95f016180b72c37",
+          "frames": 76,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 18237941
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1-mixed-2x-0.5sigma.extxyz",
+          "sha256": "41ad477ae696d27e6e6d8ec96143d79ee08ecb2eaf3579a8817f446fe687eddf",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19344395
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1-mixed-3x-0.5sigma.extxyz",
+          "sha256": "71bb66908a81a485e0528d04c7153acb1d74c20a1530b2cb70e4cddb3eafb6ac",
+          "frames": 75,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 17992946
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.05-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.05-mixed-2x-0.5sigma.extxyz",
+          "sha256": "ada90e2b07676c334cfbb129ff21c8d1110d15f75c60f1ff237dd3316441773e",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19318219
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.05-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.05-mixed-3x-0.5sigma.extxyz",
+          "sha256": "52c945e2cadbc2ba46ebf23f04aeaf7bbec6fd58c7e1c5e5866884c5aac7bb7a",
+          "frames": 77,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 18468708
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.1-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.1-mixed-2x-0.5sigma.extxyz",
+          "sha256": "cd3bab4a8c9a77d832503c3d0c570417a9ef143a00d00d41e268dbacbf8853e8",
+          "frames": 80,
+          "partition": "test",
+          "collection": "mixed_more",
+          "bytes": 19325900
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.1-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.1-mixed-3x-0.5sigma.extxyz",
+          "sha256": "05a0169b9cfd4a3d179aa6c7f636fe21ef16b06d9374c175ecb2814d52cd847e",
+          "frames": 75,
+          "partition": "test",
+          "collection": "mixed_more",
+          "bytes": 17970760
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.15-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.15-mixed-2x-0.5sigma.extxyz",
+          "sha256": "26ca5b7b6160408cbe17bcc42e46540fba178b16a7d16e29ea0bb61cd2391719",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19320465
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.15-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.15-mixed-3x-0.5sigma.extxyz",
+          "sha256": "3bb630ad85ab1f4ea60316c04b482744e6b65e8ccba970563d8f6cd4fa897ccf",
+          "frames": 75,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 17980286
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.2-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.2-mixed-2x-0.5sigma.extxyz",
+          "sha256": "b28725fe6cb2889894900fa968cb6605b21c920f6298993d5819a5ec136da6b4",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19283940
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.2-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.2-mixed-3x-0.5sigma.extxyz",
+          "sha256": "dfe2bda3a9b3effa81d162063ef778fe12d778061a66cfd42fb81a5827a3c2ae",
+          "frames": 76,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 18205072
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.25-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.25-mixed-2x-0.5sigma.extxyz",
+          "sha256": "c953c3fc2cc45806d68e8a114dd00b36677c16a5dc0bef7a7b7a19f8f4274763",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19301108
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.25-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.25-mixed-3x-0.5sigma.extxyz",
+          "sha256": "104f129cfdd2c9887ea8c34d85e4c49df7e32c943178a050170cc7d08dcdb29a",
+          "frames": 76,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 18184036
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.3-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.3-mixed-2x-0.5sigma.extxyz",
+          "sha256": "d4c0e508f70a980b5d089115caf40a54d0c20fc907f66fd29167ad9a7d22c4f9",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19261430
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.3-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.3-mixed-3x-0.5sigma.extxyz",
+          "sha256": "29ce1ac11ee2bab25e03d466538101b21c5d81d0626cd0a7a78b2d56814cea03",
+          "frames": 75,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 17949221
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.4-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.4-mixed-2x-0.5sigma.extxyz",
+          "sha256": "20ab1312dea2f31f7acfb3fa6035cb0a31d8543e8e3b6395db73a8e2eb06ab7d",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19275007
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.4-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.4-mixed-3x-0.5sigma.extxyz",
+          "sha256": "bdd62c628b557a78f74383c815dbe57dd3583e7ea9cfa1092fa708a66988396b",
+          "frames": 75,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 17945073
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.5-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.5-mixed-2x-0.5sigma.extxyz",
+          "sha256": "4cbc4b28fca2e5077b445fdc72aa287bc17ced29498d9dbf125097fda9eddc2f",
+          "frames": 80,
+          "partition": "test",
+          "collection": "mixed_more",
+          "bytes": 19239840
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.5-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.5-mixed-3x-0.5sigma.extxyz",
+          "sha256": "1f39e204225f3d70f7d3eb36c3d1202b943dffec24479bb3e629fda91d8dda89",
+          "frames": 77,
+          "partition": "test",
+          "collection": "mixed_more",
+          "bytes": 18399056
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.6-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.6-mixed-2x-0.5sigma.extxyz",
+          "sha256": "a53ead73a0675699e90a6c6800d7274283e1974523f8fd218564e8ac431972a3",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19216682
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.6-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.6-mixed-3x-0.5sigma.extxyz",
+          "sha256": "4bce257d6141cff968f0b21908b3fb22cac835c49ef237e1c4bb6898bf7993b7",
+          "frames": 76,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 18175512
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.7-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.7-mixed-2x-0.5sigma.extxyz",
+          "sha256": "7124e443a525ad449b1f84c1ec6f6454c5cf6006f9d8a9a64a83294e90683d9c",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19216833
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.7-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.7-mixed-3x-0.5sigma.extxyz",
+          "sha256": "f27bcab8954b79f131032c29aa9053e208d377306a5597942f2568754da0a132",
+          "frames": 76,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 18145387
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.8-mixed-2x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.8-mixed-2x-0.5sigma.extxyz",
+          "sha256": "1d05fd532c925708a6b43ff154e356cfe1f1bf1a77cc9d265e3f5757ec995f7b",
+          "frames": 80,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 19218984
+        },
+        {
+          "source": "training_data_nvt_mixed_more/nvt-T1.8-mixed-3x-0.5sigma.extxyz",
+          "member": "study/cDFT/training_data_nvt_mixed_more/nvt-T1.8-mixed-3x-0.5sigma.extxyz",
+          "sha256": "3f01c2227c8513a79eda2c075285bf06fa39d49e0713213e979531717df8c9be",
+          "frames": 75,
+          "partition": "development",
+          "collection": "mixed_more",
+          "bytes": 17920344
+        }
+      ],
+      "bytes": 1029689911,
+      "sha256": "0bcc9cd7183f8385b3a51155f167bb2d931b890bab38977b0b0336905780b02d"
+    }
+  ],
+  "source_files": 174,
+  "source_bytes": 3593389902,
+  "max_rss_platform_units": 31064064,
+  "operation": "Lossless ZIP compression only; source bytes and frame membership unchanged."
+}

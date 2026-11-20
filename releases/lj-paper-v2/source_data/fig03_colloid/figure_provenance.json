@@ -1,0 +1,439 @@
+{
+  "status": "versioned revised-paper candidate; historical/live assets unchanged",
+  "model_sha256": "6edbebb18192ca7f6a311a88c3236d61c3c5d285c739b9f533b4dc1b6e7137ca",
+  "evaluation_commit": "45d0b47b40b74f6a5e3190b5d81b4fb55bee0134",
+  "analysis_commit": "not a Git worktree; exact script hashes recorded",
+  "analysis_max_rss_bytes": 494370816,
+  "input_hashes": {
+    "NatComm-review/2026-11-19-c4-production-update/dimer/selection_snapshot.json": "4a42e3835c73fb6c8779cbee3afbc46b403682bcf6fd955d4642cd625286c02e",
+    "NatComm-review/2026-11-19-c4-production-update/dimer/collect_density.py": "0e62e46b333d5d3919b2347e71b526e36b21a16326d8a063c6cb94802d1d8728",
+    "NatComm-review/2026-11-19-c4-production-update/dimer/plot_dimer.py": "8dabb2b9f26baa23f117846f5c52bc9cf3c8781a6bf4098f83c78516426aee7f",
+    "NatComm-review/2026-11-19-c4-production-update/dimer/test_dimer.py": "9f61bdee6a48b0dd18b6c01894cb6ce1f8c4abd11ef5eeb354e0d707c30558be",
+    "LJ-applications-soft/01-two-colloid-bridging/plot_colloid_schematic_and_potential.py": "b9374d7ae9d6b8cdf74a226df66b7d66e9df2248cf0b12553f624b200da33fdf",
+    "LJ-applications-soft/01-two-colloid-bridging/sharper-core-scan-six-models-2026-11-18/run.json": "086d5fef91729f39a9cf37803e65459599aa7a1c36310c41ba2b3f3c3d3181a8",
+    "LJ-applications-soft/01-two-colloid-bridging/sharper-core-scan-six-models-2026-11-18/endpoints.csv": "93282cc6f8e91dcea1777ccdc44b33aeb187974c118480a60c3284a15f6a604d",
+    "LJ-applications-soft/01-two-colloid-bridging/sharper-core-scan-six-models-2026-11-18/validation.json": "4839340f4f2c9c7719488d25f5ad3f525f03d44a951c8244ae0e52541f43ec75",
+    "LJ-applications-soft/01-two-colloid-bridging/sharper-core-md-2026-11-17-v2/force_analysis/md_force_summary.csv": "214d665197432f4336a4df1a7e8b7bf5d8cb5c24aa1d733e5197fc69eba8ff86",
+    "LJ-applications-soft/01-two-colloid-bridging/sharper-core-md-2026-11-17-v2/force_analysis/provenance.json": "97f3758d948f0757a153e2a48b6702c93e82f8f5b8d73b771316450762cc394c",
+    "LJ-applications-soft/01-two-colloid-bridging/sharper-core-md-2026-11-17-v2/force_collection_manifest.json": "8cfcee81b7c3c1e994c23eee6259473239e9efe455d5e2e1aaff22e70d3cc2fe",
+    "NatComm-review/2026-11-19-c4-production-update/dimer/density/provenance.json": "1e1b9f900da41ac3f5fe8dbe0a710649a5a0681413bb051af875128248617837"
+  },
+  "output_hashes": {
+    "two_colloid_C4_wc025_paired_grids.png": "07241f3003f42e030d9216bc6197a8ae5c1d3aa881123a9851a796e704c1f688",
+    "two_colloid_C4_wc025_paired_grids.pdf": "3e11138941dc8f83ee0cf436b845e49e98e71122b0e05258ddb698b1ad5c5d91",
+    "two_colloid_C4_wc025_paired_grids.svg": "13d9bf0563e4567191bcd545b7142dc3049f1fec66c8da84146a50314ec688f5",
+    "force_energy.csv": "61e87031c7283f22dba3dbfe2a76281885cc222755021b6500a72f6533d6b63d",
+    "metrics.csv": "4c2a9182a55104e56890f22e114730286fed81f152cfc3138419648a4468f31d",
+    "MD_integrated_A_covariance_T0.9.npz": "750aa0d41e8914214d7f2cb4373a93706888279993128b2d6ffd0680fbbd457d",
+    "MD_integrated_A_covariance_T1.2.npz": "f7be3c94d55d645b2dba7e4d234a0341452c12c14fc7079b8551fbbdbc87f570"
+  },
+  "metrics": [
+    {
+      "T": 1.2,
+      "N": 4600,
+      "variant": "native",
+      "h": 0.5,
+      "n": 10,
+      "force_rmse": 0.15889639927765958,
+      "force_mae": 0.1356700808249056,
+      "max_force_error": 0.26660085376640374,
+      "gridded_MD_vs_direct_rmse": 0.35187798181154084,
+      "cDFT_vs_gridded_MD_rmse": 0.4907474918956961,
+      "scalar_A_at_4p5": 23.85915156766714,
+      "sparse_force_integral_at_4p5": 23.814506902538046,
+      "max_residual": 9.607581814297106e-05,
+      "max_rms_residual": 9.07284348047155e-06,
+      "strict_uncapped": 10,
+      "all_outcomes_included": true
+    },
+    {
+      "T": 1.2,
+      "N": 4600,
+      "variant": "fine_center",
+      "h": 0.25,
+      "n": 10,
+      "force_rmse": 0.16713781131394656,
+      "force_mae": 0.14028669623679538,
+      "max_force_error": 0.30923684806153995,
+      "gridded_MD_vs_direct_rmse": 0.09331249373068011,
+      "cDFT_vs_gridded_MD_rmse": 0.25269707789390233,
+      "scalar_A_at_4p5": 23.87099132707226,
+      "sparse_force_integral_at_4p5": 23.79666752567066,
+      "max_residual": 9.798702925589708e-05,
+      "max_rms_residual": 5.652944357308971e-06,
+      "strict_uncapped": 10,
+      "all_outcomes_included": true
+    },
+    {
+      "T": 0.9,
+      "N": 600,
+      "variant": "native",
+      "h": 0.5,
+      "n": 12,
+      "force_rmse": 0.16351571834368214,
+      "force_mae": 0.11355794281621805,
+      "max_force_error": 0.4451100872072331,
+      "gridded_MD_vs_direct_rmse": 0.784185687813031,
+      "cDFT_vs_gridded_MD_rmse": 0.7678556112103724,
+      "scalar_A_at_4p5": -18.27099385934298,
+      "sparse_force_integral_at_4p5": -18.17936549970178,
+      "max_residual": 9.774392510841778e-05,
+      "max_rms_residual": 9.49272635375115e-06,
+      "strict_uncapped": 12,
+      "all_outcomes_included": true
+    },
+    {
+      "T": 0.9,
+      "N": 600,
+      "variant": "fine_center",
+      "h": 0.25,
+      "n": 12,
+      "force_rmse": 0.146504490063998,
+      "force_mae": 0.10939052517047469,
+      "max_force_error": 0.34300909311336536,
+      "gridded_MD_vs_direct_rmse": 0.19564130538010313,
+      "cDFT_vs_gridded_MD_rmse": 0.2515516897378269,
+      "scalar_A_at_4p5": -18.491943725508918,
+      "sparse_force_integral_at_4p5": -18.41412645149709,
+      "max_residual": 9.84122758760364e-05,
+      "max_rms_residual": 9.741835128519778e-06,
+      "strict_uncapped": 12,
+      "all_outcomes_included": true
+    }
+  ],
+  "density_full_volume_metrics": [
+    {
+      "T": 1.2,
+      "N": 4600,
+      "D": 5.0,
+      "MD_replicas": [
+        "w0.25-T1.2-N4600-D5.0-R01"
+      ],
+      "MD_quadrature": [
+        {
+          "run_id": "w0.25-T1.2-N4600-D5.0-R01",
+          "fine": 6.389142037734383,
+          "coarse": 5.887604974811688
+        }
+      ],
+      "native": {
+        "native_grid": {
+          "rmse": 0.00967725453202265,
+          "mae": 0.0074844825560810855,
+          "r2": 0.9869591959429234
+        },
+        "common_coarse": {
+          "rmse": 0.00967725453202265,
+          "mae": 0.0074844825560810855,
+          "r2": 0.9869591959429234
+        },
+        "residual_max": 2.9404826473289347e-05,
+        "residual_rms": 3.0529158420702217e-06,
+        "mass_error": 0.0
+      },
+      "fine_center": {
+        "native_grid": {
+          "rmse": 0.018741676136958558,
+          "mae": 0.014808851389049724,
+          "r2": 0.9542792050882543
+        },
+        "common_coarse": {
+          "rmse": 0.009014594309327483,
+          "mae": 0.007098325033493283,
+          "r2": 0.9886840136570989
+        },
+        "residual_max": 2.4521786199827034e-05,
+        "residual_rms": 1.52967190263575e-06,
+        "mass_error": 0.0
+      }
+    },
+    {
+      "T": 1.2,
+      "N": 4600,
+      "D": 6.5,
+      "MD_replicas": [
+        "w0.25-T1.2-N4600-D6.5-R01"
+      ],
+      "MD_quadrature": [
+        {
+          "run_id": "w0.25-T1.2-N4600-D6.5-R01",
+          "fine": 10.230114521078587,
+          "coarse": 10.165995969319212
+        }
+      ],
+      "native": {
+        "native_grid": {
+          "rmse": 0.009834391583632522,
+          "mae": 0.007557675174278526,
+          "r2": 0.986672677708069
+        },
+        "common_coarse": {
+          "rmse": 0.009834391583632522,
+          "mae": 0.007557675174278526,
+          "r2": 0.986672677708069
+        },
+        "residual_max": 9.607581814297106e-05,
+        "residual_rms": 8.426867578119303e-06,
+        "mass_error": 9.094947017729282e-13
+      },
+      "fine_center": {
+        "native_grid": {
+          "rmse": 0.018784442721607664,
+          "mae": 0.014839310514361754,
+          "r2": 0.954623645311789
+        },
+        "common_coarse": {
+          "rmse": 0.00904089114916884,
+          "mae": 0.007133355143406654,
+          "r2": 0.9887365771848439
+        },
+        "residual_max": 5.814289244998605e-05,
+        "residual_rms": 3.582286051798275e-06,
+        "mass_error": 1.8189894035458565e-12
+      }
+    },
+    {
+      "T": 1.2,
+      "N": 4600,
+      "D": 9.0,
+      "MD_replicas": [
+        "w0.25-T1.2-N4600-D9.0-R01"
+      ],
+      "MD_quadrature": [
+        {
+          "run_id": "w0.25-T1.2-N4600-D9.0-R01",
+          "fine": -0.3510557306133454,
+          "coarse": -0.3352204729612769
+        }
+      ],
+      "native": {
+        "native_grid": {
+          "rmse": 0.009767664077499587,
+          "mae": 0.007561984869514925,
+          "r2": 0.9869911520609642
+        },
+        "common_coarse": {
+          "rmse": 0.009767664077499587,
+          "mae": 0.007561984869514925,
+          "r2": 0.9869911520609642
+        },
+        "residual_max": 9.458026680686515e-05,
+        "residual_rms": 2.0079078363612345e-06,
+        "mass_error": 0.0
+      },
+      "fine_center": {
+        "native_grid": {
+          "rmse": 0.01874984862574901,
+          "mae": 0.014821767862414324,
+          "r2": 0.9551739728550789
+        },
+        "common_coarse": {
+          "rmse": 0.009021653314849004,
+          "mae": 0.00712760556183794,
+          "r2": 0.9889023844755175
+        },
+        "residual_max": 9.798702925589708e-05,
+        "residual_rms": 1.8267476339907263e-06,
+        "mass_error": 1.8189894035458565e-12
+      }
+    },
+    {
+      "T": 0.9,
+      "N": 600,
+      "D": 5.0,
+      "MD_replicas": [
+        "w0.25-T0.9-N600-D5.0-R01",
+        "w0.25-T0.9-N600-D5.0-R02",
+        "w0.25-T0.9-N600-D5.0-R03"
+      ],
+      "MD_quadrature": [
+        {
+          "run_id": "w0.25-T0.9-N600-D5.0-R01",
+          "fine": -1.4520885059153406,
+          "coarse": -1.2871754854091277
+        },
+        {
+          "run_id": "w0.25-T0.9-N600-D5.0-R02",
+          "fine": -1.4662603518884856,
+          "coarse": -1.2860495149054674
+        },
+        {
+          "run_id": "w0.25-T0.9-N600-D5.0-R03",
+          "fine": -1.4423449585093704,
+          "coarse": -1.2754473652814187
+        }
+      ],
+      "native": {
+        "native_grid": {
+          "rmse": 0.005985816768798668,
+          "mae": 0.002858001475411458,
+          "r2": 0.996973430138818
+        },
+        "common_coarse": {
+          "rmse": 0.005985816768798668,
+          "mae": 0.002858001475411458,
+          "r2": 0.996973430138818
+        },
+        "residual_max": 1.587482282872088e-05,
+        "residual_rms": 3.0633665860234907e-06,
+        "mass_error": 0.0
+      },
+      "fine_center": {
+        "native_grid": {
+          "rmse": 0.006647152221730134,
+          "mae": 0.0037711077595269523,
+          "r2": 0.9963504402499196
+        },
+        "common_coarse": {
+          "rmse": 0.005284550772716056,
+          "mae": 0.002771930596683388,
+          "r2": 0.997641043048146
+        },
+        "residual_max": 5.55572134102178e-05,
+        "residual_rms": 9.741835128519778e-06,
+        "mass_error": 2.2737367544323206e-13
+      }
+    },
+    {
+      "T": 0.9,
+      "N": 600,
+      "D": 7.0,
+      "MD_replicas": [
+        "w0.25-T0.9-N600-D7.0-R01",
+        "w0.25-T0.9-N600-D7.0-R02",
+        "w0.25-T0.9-N600-D7.0-R03"
+      ],
+      "MD_quadrature": [
+        {
+          "run_id": "w0.25-T0.9-N600-D7.0-R01",
+          "fine": -2.771012926938079,
+          "coarse": -1.8631025293853938
+        },
+        {
+          "run_id": "w0.25-T0.9-N600-D7.0-R02",
+          "fine": -2.7749200364399425,
+          "coarse": -1.8258639908815433
+        },
+        {
+          "run_id": "w0.25-T0.9-N600-D7.0-R03",
+          "fine": -2.762384845066938,
+          "coarse": -1.8455578184873078
+        }
+      ],
+      "native": {
+        "native_grid": {
+          "rmse": 0.006264033470875112,
+          "mae": 0.0030455995440139124,
+          "r2": 0.9965499814296968
+        },
+        "common_coarse": {
+          "rmse": 0.006264033470875112,
+          "mae": 0.0030455995440139124,
+          "r2": 0.9965499814296968
+        },
+        "residual_max": 3.166018217637401e-05,
+        "residual_rms": 7.624453745090532e-06,
+        "mass_error": 0.0
+      },
+      "fine_center": {
+        "native_grid": {
+          "rmse": 0.006719894298996619,
+          "mae": 0.003886721403069846,
+          "r2": 0.996117732260399
+        },
+        "common_coarse": {
+          "rmse": 0.005383776763832593,
+          "mae": 0.002919867359202579,
+          "r2": 0.9974514839035342
+        },
+        "residual_max": 4.318443266981831e-05,
+        "residual_rms": 9.378765181197258e-06,
+        "mass_error": 0.0
+      }
+    },
+    {
+      "T": 0.9,
+      "N": 600,
+      "D": 8.5,
+      "MD_replicas": [
+        "w0.25-T0.9-N600-D8.5-R01",
+        "w0.25-T0.9-N600-D8.5-R02",
+        "w0.25-T0.9-N600-D8.5-R03"
+      ],
+      "MD_quadrature": [
+        {
+          "run_id": "w0.25-T0.9-N600-D8.5-R01",
+          "fine": -8.172569953714369,
+          "coarse": -7.518785930375288
+        },
+        {
+          "run_id": "w0.25-T0.9-N600-D8.5-R02",
+          "fine": -8.266640295690872,
+          "coarse": -7.5685209570454415
+        },
+        {
+          "run_id": "w0.25-T0.9-N600-D8.5-R03",
+          "fine": -8.182979642751802,
+          "coarse": -7.5543399140594465
+        }
+      ],
+      "native": {
+        "native_grid": {
+          "rmse": 0.005747210906454256,
+          "mae": 0.0029297447504668213,
+          "r2": 0.9968781119978927
+        },
+        "common_coarse": {
+          "rmse": 0.005747210906454256,
+          "mae": 0.0029297447504668213,
+          "r2": 0.9968781119978927
+        },
+        "residual_max": 7.990888374997951e-05,
+        "residual_rms": 8.867900349253584e-06,
+        "mass_error": 1.1368683772161603e-13
+      },
+      "fine_center": {
+        "native_grid": {
+          "rmse": 0.006505036080682669,
+          "mae": 0.0038410763901679493,
+          "r2": 0.9960774385871153
+        },
+        "common_coarse": {
+          "rmse": 0.0051723690242217474,
+          "mae": 0.0028487201074495283,
+          "r2": 0.9974713888222111
+        },
+        "residual_max": 9.68192144075175e-05,
+        "residual_rms": 7.879988016534877e-06,
+        "mass_error": 0.0
+      }
+    }
+  ],
+  "presentation": {
+    "width_cm": 17.0,
+    "height_cm": 14.2,
+    "max_displayed_density": 0.8515333333333333,
+    "density_row_labels": "one shared set on the far left",
+    "density_group_wspace": 0.08,
+    "density_scale": [
+      0,
+      0.9
+    ],
+    "density_slab": "9.5 <= z < 10.5 sigma",
+    "density_crop": "x-center [-8,8], y-center [-5,5] sigma",
+    "smoothing": false,
+    "density_guides": "white center dots and shared fine-field slab V_ext/epsilon=4 contours",
+    "grids": "MD native h=.25; cDFT native h=.5 and corrected h=.25, labeled separately",
+    "lines": "straight joins of actual solved MD-anchor separations, not denser solves"
+  },
+  "limitations": [
+    "No global-minimum or branch-uniqueness proof",
+    "rho<=2 constraint inactive at all 44 endpoints",
+    "D10 is a finite periodic reference, not infinite separation",
+    "D<5.2 overlaps nominal soft cores",
+    "high-T D8 MD half-drift=0.239, z=4.093 retained",
+    "MD SEM excludes equilibration/timestep/systematic quadrature error",
+    "PMF method envelope is sensitivity, not a confidence interval",
+    "Fine signed center correction is inside the scalar functional; not a positive quadrature rule"
+  ]
+}
